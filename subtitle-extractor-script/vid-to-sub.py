@@ -5,9 +5,56 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from pytube import YouTube
-
+import datetime
+import csv
+import os
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
+
+
+def parse_subtitles(srt,ad_times):
+
+    #convert all times to datetime objects
+    for i in range(len(ad_times)):
+        ad_times[i] = (datetime.datetime.strptime(ad_times[i][0],'%H:%M:%S'),datetime.datetime.strptime(ad_times[i][1],'%H:%M:%S'))
+        
+    lines = srt.splitlines()
+    data = []
+    tag = 'NA' #tag NA - Not Ad , A - Ad
+    begin  = None
+    end = None
+    for i in range(len(lines)):
+        if (i+1)%4 == 2:
+            #timestamp detail
+            begin,end = lines[i].split('-->')
+            begin = datetime.datetime.strptime(begin.split(',')[0].strip(),'%H:%M:%S')
+            end = datetime.datetime.strptime(end.split(',')[0].strip(),'%H:%M:%S')
+
+            fl = 0
+            for interval in ad_times:
+                if (interval[0] >= begin and interval[0] < end) or (interval[1] > begin and interval[1] <= end) or (begin >= interval[0] and end <= interval[1]):
+                    fl = 1
+                    tag = 'A'
+                    break
+            if fl == 0:
+                tag = 'NA'
+                
+        
+        if (i+1)%4 == 3:
+            data.append((begin.strftime('%H:%M:%S'),end.strftime('%H:%M:%S'),lines[i],tag))
+
+    return data
+        
+def create_csv_dataset(filename,data):
+    if not os.path.exists('Datasets'):
+        os.makedirs('Datasets')
+
+    with open('Datasets/'+filename,'w') as out:
+        csv_out = csv.writer(out,delimiter='|')
+        csv_out.writerow(['sub_begin_time','sub_end_time','text','class'])
+        for row in data:
+            csv_out.writerow(row)
+
 
 
 def check_creds():
@@ -53,13 +100,19 @@ def extract_subs_from_sheets(SAMPLE_SPREADSHEET_ID,SAMPLE_RANGE_NAME,creds):
     else:
         print('link, start','end')
         for row in values:
+            url = row[0]
+            start_times = row[1].split(',')
+            end_times = row[2].split(',')
+            ad_times = [(start_times[i],end_times[i]) for i in range(len(start_times))]
             # Print columns A and E, which correspond to indices 0 and 4.
             print('%s, %s, %s' % (row[0], row[1],row[2]))
-        # source = YouTube('https://www.youtube.com/watch?v=jHUewEWi9SE')
-
-        # en_caption = source.captions.get_by_language_code('en')
-        # en_caption_convert_to_srt = (en_caption.generate_srt_captions())
-        # print(en_caption_convert_to_srt)
+            source = YouTube(url)
+            en_caption = source.captions.get_by_language_code('en')
+            srt = (en_caption.generate_srt_captions())
+            dataset = parse_subtitles(srt,ad_times)
+            create_csv_dataset(url.split('//')[1].split('/')[-1]+'.csv',dataset)
+            
+            
 
 if __name__ == '__main__':
     creds = check_creds()

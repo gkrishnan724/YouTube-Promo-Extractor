@@ -1,0 +1,565 @@
+sub_begin_time|sub_end_time|text|class
+00:00:00|00:00:08|[Music]|A
+00:00:06|00:00:10|this video is sponsored by dev Mountain|A
+00:00:08|00:00:13|if you're interested in learning web|A
+00:00:10|00:00:14|development iOS or UX design dev|A
+00:00:13|00:00:16|Mountain is a 12-week design and|A
+00:00:14|00:00:18|development boot camp intended to get|A
+00:00:16|00:00:21|you a full-time position in the industry|A
+00:00:18|00:00:22|to learn more visit dev mountain comm or|A
+00:00:21|00:00:24|click the link in the description below|A
+00:00:22|00:00:25|hey what's going on guys so in this|NA
+00:00:24|00:00:28|video we're gonna create three different|NA
+00:00:25|00:00:31|CSS loaders using a little bit of|NA
+00:00:28|00:00:33|animation and these three were inspired|NA
+00:00:31|00:00:35|by a couple different code pens and I'll|NA
+00:00:33|00:00:37|put those links in the description but|NA
+00:00:35|00:00:39|basically I have the first one here if I|NA
+00:00:37|00:00:42|reload it's gonna be these three hours|NA
+00:00:39|00:00:45|I'm sorry these two circles that kind of|NA
+00:00:42|00:00:47|revolve and change sizes and runs for|NA
+00:00:45|00:00:48|about four seconds and then the main|NA
+00:00:47|00:00:50|content comes in|NA
+00:00:48|00:00:52|now this little landing page here we're|NA
+00:00:50|00:00:54|not going to do this till the very end|NA
+00:00:52|00:00:57|the main point of this is creating the|NA
+00:00:54|00:00:59|loaders but I did want to have it you|NA
+00:00:57|00:01:01|know give the effect that the page was|NA
+00:00:59|00:01:02|actually loading so we'll add a little|NA
+00:01:01|00:01:05|bit of JavaScript at the end to do that|NA
+00:01:02|00:01:08|so the second one is going to be the|NA
+00:01:05|00:01:10|text loading with three dots that come|NA
+00:01:08|00:01:12|in one by one okay so that's gonna be|NA
+00:01:10|00:01:15|the second one and then the last one is|NA
+00:01:12|00:01:18|going to be these three circles that|NA
+00:01:15|00:01:20|just kind of bounce so that'll be the|NA
+00:01:18|00:01:22|third one alright and they're all the|NA
+00:01:20|00:01:24|same color scheme what we're gonna do is|NA
+00:01:22|00:01:26|just have separate CSS files for each|NA
+00:01:24|00:01:29|loader and you can use these when you're|NA
+00:01:26|00:01:31|fetching data from an API for instance|NA
+00:01:29|00:01:33|something that you know that takes a|NA
+00:01:31|00:01:35|little bit of time or you could just add|NA
+00:01:33|00:01:37|it like we're doing here and just have a|NA
+00:01:35|00:01:39|little effect for your website even|NA
+00:01:37|00:01:41|though you don't need it it's just a|NA
+00:01:39|00:01:43|nice little effect for for your users|NA
+00:01:41|00:01:44|all right so let's jump in and get|NA
+00:01:43|00:01:46|started all right so we're gonna get|NA
+00:01:44|00:01:48|started here I just want to go over the|NA
+00:01:46|00:01:51|structure real quick I don't have any|NA
+00:01:48|00:01:53|code written at all I just created the|NA
+00:01:51|00:01:57|files so we have an index.html we have|NA
+00:01:53|00:02:00|inside our CSS folder a style dot CSS|NA
+00:01:57|00:02:02|and then loader one two and three dot|NA
+00:02:00|00:02:05|CSS so we can separate the styling for|NA
+00:02:02|00:02:08|each loader and we can see one at a time|NA
+00:02:05|00:02:10|and then I just have a main J s inside|NA
+00:02:08|00:02:11|of a j/s folder and that's where|NA
+00:02:10|00:02:14|we're gonna add the set timeout so we|NA
+00:02:11|00:02:16|can bring in the content okay so let's|NA
+00:02:14|00:02:19|start off with our HTML I'm gonna just|NA
+00:02:16|00:02:24|put in a boilerplate here and let's|NA
+00:02:19|00:02:28|change the title to CSS loaders and then|NA
+00:02:24|00:02:32|I'm gonna bring in let's bring in our|NA
+00:02:28|00:02:35|main stylesheet so CSS slash style.css|NA
+00:02:32|00:02:36|and then let's also bring in loader 1|NA
+00:02:35|00:02:40|since that's what we're working with|NA
+00:02:36|00:02:42|first and then in the HTML for load of 1|NA
+00:02:40|00:02:45|we need to have a div with the class of|NA
+00:02:42|00:02:47|loader they're actually all gonna have a|NA
+00:02:45|00:02:50|class of loader but for this one we're|NA
+00:02:47|00:02:52|also gonna have two divs inside with the|NA
+00:02:50|00:02:55|class of circle because if you remember|NA
+00:02:52|00:02:57|they're the two circles that basically|NA
+00:02:55|00:03:01|rotate and change sizes as they rotate|NA
+00:02:57|00:03:03|they scale up so let's save that we're|NA
+00:03:01|00:03:06|not gonna add the like the paragraph and|NA
+00:03:03|00:03:09|the heading and stuff until until last|NA
+00:03:06|00:03:13|so now let's open this I'm gonna run it|NA
+00:03:09|00:03:15|with live server and obviously we don't|NA
+00:03:13|00:03:17|have anything here it's just blank but|NA
+00:03:15|00:03:20|let's open up our style CSS and let's|NA
+00:03:17|00:03:23|add some of these core stylings here now|NA
+00:03:20|00:03:24|I'm gonna paste these in just because I|NA
+00:03:23|00:03:25|don't want to take the time to type all|NA
+00:03:24|00:03:27|this out especially where it doesn't|NA
+00:03:25|00:03:30|have anything to do with the actual|NA
+00:03:27|00:03:33|loaders so first is the fonts I'm using|NA
+00:03:30|00:03:35|the lato font as well as this z cool|NA
+00:03:33|00:03:38|quality I don't really know how to say|NA
+00:03:35|00:03:40|that but this will this font here is for|NA
+00:03:38|00:03:43|the second loader which is the text with|NA
+00:03:40|00:03:45|the ellipses that's what this font is|NA
+00:03:43|00:03:49|alright and then I'm just gonna throw in|NA
+00:03:45|00:03:51|a reset here so border box and then|NA
+00:03:49|00:03:53|we're just taking the margin and padding|NA
+00:03:51|00:03:57|off of everything and then the body|NA
+00:03:53|00:03:59|where we implement the font size the|NA
+00:03:57|00:04:02|line Heights the background I'm using|NA
+00:03:59|00:04:04|linear gradient so we get a gradient|NA
+00:04:02|00:04:06|effect and then we're setting the entire|NA
+00:04:04|00:04:09|body to flex and we're using Flex|NA
+00:04:06|00:04:12|Direction column so that they stack on|NA
+00:04:09|00:04:13|top instead of in a row and then we're|NA
+00:04:12|00:04:16|just aligning everything to the center|NA
+00:04:13|00:04:18|both horizontally and vertically and|NA
+00:04:16|00:04:21|we're taking up the entire height of the|NA
+00:04:18|00:04:23|browser of the window our viewport I|NA
+00:04:21|00:04:25|should say all right so let's save that|NA
+00:04:23|00:04:28|you can see the the gradient very|NA
+00:04:25|00:04:30|lightly very light gradient and then|NA
+00:04:28|00:04:33|we're gonna now jump into loader one CSS|NA
+00:04:30|00:04:35|and get started with the first loader|NA
+00:04:33|00:04:37|now I'm gonna write this in a way that I|NA
+00:04:35|00:04:40|can explain it best rather than just|NA
+00:04:37|00:04:43|doing it linear so let's start off with|NA
+00:04:40|00:04:44|our loader which is the wrapper remember|NA
+00:04:43|00:04:46|we have loader and then we have to|NA
+00:04:44|00:04:50|circle divs so the height of the entire|NA
+00:04:46|00:04:53|thing is going to be 50 pixels all right|NA
+00:04:50|00:04:58|and then we remember we have our circles|NA
+00:04:53|00:05:00|and we're gonna set the background color|NA
+00:04:58|00:05:02|to purple or you could use whatever you|NA
+00:05:00|00:05:08|would like and then I'm gonna set a|NA
+00:05:02|00:05:11|height of 40 pixels and a width also of|NA
+00:05:08|00:05:13|40 pixels and if I save that we just get|NA
+00:05:11|00:05:14|two purple squares which obviously isn't|NA
+00:05:13|00:05:18|what we want let's turn them into|NA
+00:05:14|00:05:21|circles by adding a border radius of 50|NA
+00:05:18|00:05:23|percent okay now I want the second|NA
+00:05:21|00:05:25|circle to be a different color so I'm|NA
+00:05:23|00:05:27|gonna just go ahead and say circle and|NA
+00:05:25|00:05:29|I'm gonna use the pseudo select select|NA
+00:05:27|00:05:32|our end child and let's pass in two we|NA
+00:05:29|00:05:37|want the second one and we're gonna set|NA
+00:05:32|00:05:42|the background color and we're gonna set|NA
+00:05:37|00:05:45|that to pale violet red and save and now|NA
+00:05:42|00:05:47|we have two different color circles so|NA
+00:05:45|00:05:48|as far as the animation there's two|NA
+00:05:47|00:05:51|separate animations one is going to be|NA
+00:05:48|00:05:53|the rotation of the loader itself and|NA
+00:05:51|00:05:56|then the circles are gonna scale|NA
+00:05:53|00:05:58|basically go up and down in size so|NA
+00:05:56|00:06:01|let's start with the first rotation our|NA
+00:05:58|00:06:03|first animation so we'll say animation|NA
+00:06:01|00:06:06|rotate and we're just calling it rotate|NA
+00:06:03|00:06:08|here three seconds long it's going to be|NA
+00:06:06|00:06:12|in a linear fashion and infinite because|NA
+00:06:08|00:06:14|we wanted to keep going now down here|NA
+00:06:12|00:06:20|we're going to create our keyframe for|NA
+00:06:14|00:06:24|that animation so keyframes rotates and|NA
+00:06:20|00:06:27|let's say two and we want it to rotate|NA
+00:06:24|00:06:30|360 degrees so we're gonna use transform|NA
+00:06:27|00:06:31|here use the transform property and then|NA
+00:06:30|00:06:36|rotate|NA
+00:06:31|00:06:38|and let's say 360 deg okay so I save|NA
+00:06:36|00:06:41|that it's gonna start to rotate now I|NA
+00:06:38|00:06:43|want to have a different effect as far|NA
+00:06:41|00:06:45|as the transform origin as far as like|NA
+00:06:43|00:06:46|the position so I'm gonna add up here|NA
+00:06:45|00:06:52|and loader|NA
+00:06:46|00:06:56|transform - origin and let's say bottom|NA
+00:06:52|00:07:00|center and save so now it rotates in a|NA
+00:06:56|00:07:02|different way now the rotate is is just|NA
+00:07:00|00:07:05|one of the animations so the circle is|NA
+00:07:02|00:07:09|also going to have inanimate little and|NA
+00:07:05|00:07:13|animation and we're gonna call this grow|NA
+00:07:09|00:07:19|and it's going to be 1.5 seconds for the|NA
+00:07:13|00:07:21|duration linear and infinite okay so|NA
+00:07:19|00:07:26|let's go down here and let's create the|NA
+00:07:21|00:07:33|keyframe for that so grow and we want to|NA
+00:07:26|00:07:35|say it at 50% we want to transform and|NA
+00:07:33|00:07:37|we're gonna use scale here scale just|NA
+00:07:35|00:07:41|brings it up and down in size and we're|NA
+00:07:37|00:07:44|gonna do scale one now this isn't going|NA
+00:07:41|00:07:47|to do anything if I save it because it's|NA
+00:07:44|00:07:49|scaled at 1 by default so it's not|NA
+00:07:47|00:07:51|actually doing anything so what we'll do|NA
+00:07:49|00:07:56|is we'll set the default scale of circle|NA
+00:07:51|00:07:58|up here let's say transform scale and|NA
+00:07:56|00:08:02|we'll set it to 0 which is basically|NA
+00:07:58|00:08:09|invisible so we'll save that whoops I|NA
+00:08:02|00:08:13|forgot transform scale wait a minute oh|NA
+00:08:09|00:08:13|I spelled transform huh|NA
+00:08:14|00:08:20|same thing goes though it wouldn't work|NA
+00:08:16|00:08:22|until I set the initial scale to zero so|NA
+00:08:20|00:08:25|now it starts at zero and then every 1.5|NA
+00:08:22|00:08:28|seconds it scales to basically full-size|NA
+00:08:25|00:08:30|normal size all right now there's a|NA
+00:08:28|00:08:35|couple things we want to do in terms of|NA
+00:08:30|00:08:40|the placement I'm gonna add a margin to|NA
+00:08:35|00:08:41|circle of negative 10 pixels okay you|NA
+00:08:40|00:08:44|can see it kind of brought them closer|NA
+00:08:41|00:08:46|and I'm gonna add a delay because right|NA
+00:08:44|00:08:48|now they're the growing and shrinking at|NA
+00:08:46|00:08:51|the same time which I don't want so the|NA
+00:08:48|00:08:57|second circle I'm gonna add an animation|NA
+00:08:51|00:09:01|delay and I'm gonna add I'm gonna say|NA
+00:08:57|00:09:04|0.75 seconds so now save and now you can|NA
+00:09:01|00:09:07|see that there's a delay alright and now|NA
+00:09:04|00:09:09|they're no longer touching so that that|NA
+00:09:07|00:09:12|looks good so that's that's pretty much|NA
+00:09:09|00:09:14|it as far as the animation one more|NA
+00:09:12|00:09:20|thing that I wanted to do is display|NA
+00:09:14|00:09:23|this as an inline inline block like that|NA
+00:09:20|00:09:27|because then it goes all the way around|NA
+00:09:23|00:09:32|like that okay so that's our first|NA
+00:09:27|00:09:34|animation our first CSS loader so let's|NA
+00:09:32|00:09:37|jump to the second one so what I'll do|NA
+00:09:34|00:09:40|is in index.html I'm gonna just comment|NA
+00:09:37|00:09:42|out actually first I'll copy this down|NA
+00:09:40|00:09:45|and then comment this out and we want to|NA
+00:09:42|00:09:49|load loader too and let's just put a|NA
+00:09:45|00:09:53|comment here that says loader 1 and then|NA
+00:09:49|00:09:55|I'm gonna just comment this out alright|NA
+00:09:53|00:09:59|so basically starting from scratch and|NA
+00:09:55|00:10:02|then we're gonna say loader 2 now loader|NA
+00:09:59|00:10:05|2 for the HTML is pretty simple we're|NA
+00:10:02|00:10:07|just gonna have another class of loader|NA
+00:10:05|00:10:09|and then we're just going to have the|NA
+00:10:07|00:10:11|text loading and you can put any text|NA
+00:10:09|00:10:13|you want I'm just using the text loading|NA
+00:10:11|00:10:16|so let's save that and we just see|NA
+00:10:13|00:10:22|loading so let's open up our loader to|NA
+00:10:16|00:10:25|CSS and let's add the class of loader|NA
+00:10:22|00:10:31|and I'm gonna like I said use the font|NA
+00:10:25|00:10:39|that font family what is it Z cool Z|NA
+00:10:31|00:10:44|cool and then it's K you a I capital L|NA
+00:10:39|00:10:45|II just weird and it's cursive okay so|NA
+00:10:44|00:10:47|that's the font family that we're going|NA
+00:10:45|00:10:52|to use I'm going to up the size a little|NA
+00:10:47|00:10:54|bit so font size let's do 40 pixels and|NA
+00:10:52|00:11:00|for the color I'm going to use that same|NA
+00:10:54|00:11:05|pale violet red okay so we get loading|NA
+00:11:00|00:11:07|now I want to add we're adding content|NA
+00:11:05|00:11:09|here we're gonna add the ellipses or|NA
+00:11:07|00:11:12|those those three dots right so we're|NA
+00:11:09|00:11:16|gonna use the pseudo selector after so|NA
+00:11:12|00:11:19|let's say dot loader double colon and|NA
+00:11:16|00:11:23|then after which allows us to basically|NA
+00:11:19|00:11:28|insert content vs CSS now for the|NA
+00:11:23|00:11:30|content we can use an ASCII code for the|NA
+00:11:28|00:11:36|ellipses character and that's going to|NA
+00:11:30|00:11:38|be / - OH - six okay so if I save that|NA
+00:11:36|00:11:40|it's gonna actually give us those three|NA
+00:11:38|00:11:43|ellipses now and obviously they're not|NA
+00:11:40|00:11:45|animating it just puts them there now|NA
+00:11:43|00:11:47|I'm gonna set the actually I'll do the|NA
+00:11:45|00:11:54|with last but I'm gonna do a|NA
+00:11:47|00:11:59|display:inline-block and then I'm going|NA
+00:11:54|00:12:00|to add an overflow of hidden or else|NA
+00:11:59|00:12:02|it's not gonna it's gonna basically just|NA
+00:12:00|00:12:05|keep its gonna show us the three at all|NA
+00:12:02|00:12:07|times so we want to do that now see how|NA
+00:12:05|00:12:10|they moved up we're gonna add a vertical|NA
+00:12:07|00:12:13|align property and set it to the bottom|NA
+00:12:10|00:12:16|so that will move it down it's actually|NA
+00:12:13|00:12:18|in the middle but that's fine and then|NA
+00:12:16|00:12:19|it's it's just the font if this was a|NA
+00:12:18|00:12:22|different font|NA
+00:12:19|00:12:24|I believe let me just get rid of that|NA
+00:12:22|00:12:27|yeah so it'll be at the bottom it's just|NA
+00:12:24|00:12:31|this font where it's doing that and then|NA
+00:12:27|00:12:36|for the animation we're gonna call this|NA
+00:12:31|00:12:40|dots and we want basically four steps|NA
+00:12:36|00:12:44|so we're gonna say steps and then pass|NA
+00:12:40|00:12:46|in four and then end and we want this to|NA
+00:12:44|00:12:48|last two seconds and we want it to keep|NA
+00:12:46|00:12:52|going so wanted to be infinite and then|NA
+00:12:48|00:12:58|all I'm gonna do here in the keyframe of|NA
+00:12:52|00:13:01|dots is change the width now the width|NA
+00:12:58|00:13:03|I'm gonna set to zero by default so|NA
+00:13:01|00:13:05|width is going to be zero pixels and|NA
+00:13:03|00:13:05|save and you'll see that now they're|NA
+00:13:05|00:13:08|gone|NA
+00:13:05|00:13:10|so in our animation here and our|NA
+00:13:08|00:13:19|keyframe all we're gonna do is set the|NA
+00:13:10|00:13:22|width to 1.25 m and I think yeah that|NA
+00:13:19|00:13:25|should be good so let's save that and|NA
+00:13:22|00:13:30|there we go so we just get each dot|NA
+00:13:25|00:13:31|showing through each iteration and the|NA
+00:13:30|00:13:34|reason for that is we're increasing the|NA
+00:13:31|00:13:38|width so if I change this to like I|NA
+00:13:34|00:13:41|don't know 3 0.25 m you can see that|NA
+00:13:38|00:13:44|it's much wider so it shows all three|NA
+00:13:41|00:13:46|dots within the first animation or the|NA
+00:13:44|00:13:50|first iteration so we want to keep that|NA
+00:13:46|00:13:53|around 1.25 m if you want to use pixels|NA
+00:13:50|00:13:58|you could do like 45 pixels I believe|NA
+00:13:53|00:14:02|yeah that's fine all right and basically|NA
+00:13:58|00:14:04|M units it's just relative to the parent|NA
+00:14:02|00:14:09|font size we have a size of 40 pixels|NA
+00:14:04|00:14:11|here so 1.25 is gonna be 40 times 1.25|NA
+00:14:09|00:14:14|okay but if you want to use pixels you|NA
+00:14:11|00:14:16|can so this is a pretty easy one pretty|NA
+00:14:14|00:14:19|simple so now we're going to move on to|NA
+00:14:16|00:14:23|the third one I'm gonna go ahead and|NA
+00:14:19|00:14:26|copy that down and comment that out and|NA
+00:14:23|00:14:31|let's do loader three and then let's|NA
+00:14:26|00:14:36|comment out the HTML here okay and then|NA
+00:14:31|00:14:39|put a comment will say loader three now|NA
+00:14:36|00:14:43|the HTML for load of three is gonna be|NA
+00:14:39|00:14:45|another class of loader and inside here|NA
+00:14:43|00:14:48|we're gonna have three spans just three|NA
+00:14:45|00:14:50|empty spans like that okay that's all we|NA
+00:14:48|00:14:53|need for the HTML so let's save that|NA
+00:14:50|00:14:56|and let's going to loader 3 CSS and|NA
+00:14:53|00:15:00|remember this is like the the bouncing|NA
+00:14:56|00:15:05|dots so we have a class of loader and|NA
+00:15:00|00:15:07|we're gonna display flex basically each|NA
+00:15:05|00:15:10|span is going to represent one of the|NA
+00:15:07|00:15:12|dots and we want them to be displayed in|NA
+00:15:10|00:15:14|a row going across so we're gonna|NA
+00:15:12|00:15:17|display them as flex and then let's|NA
+00:15:14|00:15:23|justify the content to the center and|NA
+00:15:17|00:15:27|let's align the items to the center okay|NA
+00:15:23|00:15:30|now let's take the first dot which we|NA
+00:15:27|00:15:32|can get with loader I'm sorry not the|NA
+00:15:30|00:15:35|first dot all of them because we're just|NA
+00:15:32|00:15:37|gonna say all the spans but I do want to|NA
+00:15:35|00:15:40|be able to target the second and third|NA
+00:15:37|00:15:47|so we'll use enth child again so we'll|NA
+00:15:40|00:15:52|say loader span and let's say and child|NA
+00:15:47|00:15:54|2 and let's copy that down and we will|NA
+00:15:52|00:16:01|also want to be able to get the third|NA
+00:15:54|00:16:09|one alright so for all the spans here|NA
+00:16:01|00:16:12|let's do a display inline - block I want|NA
+00:16:09|00:16:17|to be able to add a width and height the|NA
+00:16:12|00:16:22|background let's do the background color|NA
+00:16:17|00:16:26|I'll do purple now for the width and the|NA
+00:16:22|00:16:28|height we're gonna want to start at just|NA
+00:16:26|00:16:31|zero because we remember what we're|NA
+00:16:28|00:16:34|doing here is changing the size we could|NA
+00:16:31|00:16:38|use scale but I'm gonna just show you a|NA
+00:16:34|00:16:40|different way using with oh I'm sorry|NA
+00:16:38|00:16:42|width and height it's gonna start at 0|NA
+00:16:40|00:16:44|and then it's going to grow with the|NA
+00:16:42|00:16:45|animation but if I set it at 0 now we|NA
+00:16:44|00:16:49|won't be able to see them so I'm just|NA
+00:16:45|00:16:51|gonna set it to 16 pixels height and|NA
+00:16:49|00:16:54|width for now just so we can actually|NA
+00:16:51|00:16:57|see what we're doing so we have three|NA
+00:16:54|00:17:02|squares which are all purple let's make|NA
+00:16:57|00:17:04|them into circles so border radius 50%|NA
+00:17:02|00:17:07|so now we have three circle|NA
+00:17:04|00:17:09|let's add some margin on the left and|NA
+00:17:07|00:17:12|right so we'll say zero and then let's|NA
+00:17:09|00:17:17|do eight pixels separate them out a|NA
+00:17:12|00:17:20|little bit and let's go to the second|NA
+00:17:17|00:17:26|one and I'm going to change the|NA
+00:17:20|00:17:32|background color to pale what is it pale|NA
+00:17:26|00:17:34|violet red and the third one actually|NA
+00:17:32|00:17:36|the third one we'll just keep purple but|NA
+00:17:34|00:17:38|we do need we're gonna have to you put a|NA
+00:17:36|00:17:41|delay in both of these so we're gonna|NA
+00:17:38|00:17:44|leave this anyway for now all right so|NA
+00:17:41|00:17:49|now we have our three dots now for the|NA
+00:17:44|00:17:53|animation let's go on to the span here|NA
+00:17:49|00:17:57|and let's say animation and we'll call|NA
+00:17:53|00:18:02|this bounce do it 0.6 second duration|NA
+00:17:57|00:18:04|infinite and alternate now alternate is|NA
+00:18:02|00:18:07|the direction the animation direction|NA
+00:18:04|00:18:09|property and and what what alternate|NA
+00:18:07|00:18:12|does is it makes it go forwards and then|NA
+00:18:09|00:18:16|backwards so it just kind of changes the|NA
+00:18:12|00:18:19|the direction of the animation so let's|NA
+00:18:16|00:18:30|add this down here so we'll say|NA
+00:18:19|00:18:32|keyframes bounce and let's say 2 now the|NA
+00:18:30|00:18:34|width we're gonna it like I said it's|NA
+00:18:32|00:18:36|gonna start at 0 pixels and then we're|NA
+00:18:34|00:18:39|gonna set the height and the width 216|NA
+00:18:36|00:18:42|pixels during the animation or at the|NA
+00:18:39|00:18:45|end of the animation and then we want to|NA
+00:18:42|00:18:54|move them so we're gonna do a transform|NA
+00:18:45|00:19:00|and let's use translate 3d oops 3d and|NA
+00:18:54|00:19:02|this takes in I think it's X no Y X Z I|NA
+00:19:00|00:19:05|believe so we're gonna do 0 and then|NA
+00:19:02|00:19:10|negative 16 which is just gonna move the|NA
+00:19:05|00:19:12|dot a little bit and then 0 and the|NA
+00:19:10|00:19:15|initial translate 3d let's just copy|NA
+00:19:12|00:19:19|this and go to|NA
+00:19:15|00:19:22|our span here and just set this to zero|NA
+00:19:19|00:19:25|by default all right so let's save that|NA
+00:19:22|00:19:29|so now you can see that we're getting|NA
+00:19:25|00:19:30|that bounce animation basically it's|NA
+00:19:29|00:19:34|just changing it it's on the y-axis|NA
+00:19:30|00:19:36|actually this is X Y Z so it's changing|NA
+00:19:34|00:19:39|it negative 16 which means it's bringing|NA
+00:19:36|00:19:41|it up for the animation now we don't|NA
+00:19:39|00:19:43|want them all going at the same rate|NA
+00:19:41|00:19:45|right that looks kind of weird I mean I|NA
+00:19:43|00:19:47|guess you could keep it like that but|NA
+00:19:45|00:19:50|what I'll do is add a delay for the|NA
+00:19:47|00:19:56|second and third so let's say animation|NA
+00:19:50|00:20:00|- delay and we'll do a 0.2 second delay|NA
+00:19:56|00:20:03|and then for the third one just copy|NA
+00:20:00|00:20:07|that we're gonna do a 0.4 second delay|NA
+00:20:03|00:20:08|so let's save it and now we get that|NA
+00:20:07|00:20:12|bouncing effect and they're not all|NA
+00:20:08|00:20:13|bouncing at the same exact time now as|NA
+00:20:12|00:20:15|for the width and the height let's go|NA
+00:20:13|00:20:21|and set the original width and height to|NA
+00:20:15|00:20:22|zero and save and now we get that effect|NA
+00:20:21|00:20:25|because what's happening is it's|NA
+00:20:22|00:20:27|starting at zero and then the animation|NA
+00:20:25|00:20:30|animation is growing the width and the|NA
+00:20:27|00:20:33|height to 16 pixels per iteration and|NA
+00:20:30|00:20:37|also again moving it up using translate|NA
+00:20:33|00:20:39|3d alright so those are the three|NA
+00:20:37|00:20:42|loaders that's I mean that's it for that|NA
+00:20:39|00:20:44|part of this video now I want to make it|NA
+00:20:42|00:20:46|so that we can give it the effect where|NA
+00:20:44|00:20:49|the loader shows and then it loads in|NA
+00:20:46|00:20:51|some content so I'm gonna go to my|NA
+00:20:49|00:20:54|index.html and just for now I'm gonna|NA
+00:20:51|00:20:56|comment out all the loaders and let's|NA
+00:20:54|00:21:00|add our content will actually comment|NA
+00:20:56|00:21:03|this out as well as comment that out and|NA
+00:21:00|00:21:05|then down here we're gonna add our|NA
+00:21:03|00:21:08|content which isn't much it's we're just|NA
+00:21:05|00:21:11|going to have a section a section with|NA
+00:21:08|00:21:16|the class of main and let's put an h1|NA
+00:21:11|00:21:20|and we'll say welcome to my site|NA
+00:21:16|00:21:25|paragraph I'm gonna do lorem I think I|NA
+00:21:20|00:21:27|did lorem 10 or maybe lorem 20|NA
+00:21:25|00:21:31|and then under that we're gonna have an|NA
+00:21:27|00:21:32|a tag with the class of BTN which isn't|NA
+00:21:31|00:21:37|gonna go anywhere|NA
+00:21:32|00:21:39|and we'll just say read more okay and|NA
+00:21:37|00:21:42|then let's include our javascript file|NA
+00:21:39|00:21:46|while we're at it so script source it's|NA
+00:21:42|00:21:49|gonna be J s main dot J s okay so now|NA
+00:21:46|00:21:52|let's add some some styling for this|NA
+00:21:49|00:21:54|we're gonna go into style.css and i'm|NA
+00:21:52|00:21:55|just gonna paste this stuff in because|NA
+00:21:54|00:21:57|again it doesn't have anything to do|NA
+00:21:55|00:22:01|with the loaders themselves well you can|NA
+00:21:57|00:22:02|just copy this so our main class let's|NA
+00:22:01|00:22:05|go ahead and save that|NA
+00:22:02|00:22:07|well actually we want to we don't want|NA
+00:22:05|00:22:10|to do this just yet so we have a|NA
+00:22:07|00:22:13|text-align:center width is 90% I'm|NA
+00:22:10|00:22:16|putting a transition because what what's|NA
+00:22:13|00:22:18|gonna happen is in the JavaScript we're|NA
+00:22:16|00:22:20|gonna we're gonna originally set the|NA
+00:22:18|00:22:22|opacity to zero and display:none but|NA
+00:22:20|00:22:24|then the JavaScript we're gonna change|NA
+00:22:22|00:22:27|that after a certain amount of time|NA
+00:22:24|00:22:29|after the loader is done and I wanted to|NA
+00:22:27|00:22:32|smoothly fade in so I'm adding a|NA
+00:22:29|00:22:36|transition on the the main content here|NA
+00:22:32|00:22:38|for the opacity okay so now let's do the|NA
+00:22:36|00:22:42|h1 and paragraph I'm just gonna change|NA
+00:22:38|00:22:44|the size of those a little bit okay|NA
+00:22:42|00:22:47|and I made it smaller than I did|NA
+00:22:44|00:22:51|originally just because this is so small|NA
+00:22:47|00:22:53|this screen so let's also add in the|NA
+00:22:51|00:22:57|button stuff and then that should be it|NA
+00:22:53|00:22:58|for them the main base content here okay|NA
+00:22:57|00:23:02|so now I have a nice little button|NA
+00:22:58|00:23:05|alright so style.css we can go ahead and|NA
+00:23:02|00:23:07|close that up and let's start off with|NA
+00:23:05|00:23:10|loader one I mean it's gonna be the same|NA
+00:23:07|00:23:12|thing as far as the JavaScript goes|NA
+00:23:10|00:23:14|because we use the class loader for all|NA
+00:23:12|00:23:16|of these it's just a matter of what we|NA
+00:23:14|00:23:21|have commented out so let's use loader|NA
+00:23:16|00:23:23|one okay now if I do that it's gonna|NA
+00:23:21|00:23:26|show both at the same time so let's head|NA
+00:23:23|00:23:29|into our JavaScript here and I'm gonna|NA
+00:23:26|00:23:31|grab on to two things the loader and the|NA
+00:23:29|00:23:35|main content so let's do document dot|NA
+00:23:31|00:23:36|query selector and we want to grab the|NA
+00:23:35|00:23:40|class|NA
+00:23:36|00:23:47|loader and then we also want to grab the|NA
+00:23:40|00:23:50|class of Maine and what I'm gonna do is|NA
+00:23:47|00:23:52|just have a function called a knit and|NA
+00:23:50|00:23:53|then I'm gonna run that function there's|NA
+00:23:52|00:23:55|a million ways you could do this|NA
+00:23:53|00:23:59|I just this I'm just doing this really|NA
+00:23:55|00:24:00|quick so let's do a set timeout and if|NA
+00:23:59|00:24:02|you're not familiar with set timeout it|NA
+00:24:00|00:24:04|takes in a function so we'll put in an|NA
+00:24:02|00:24:07|arrow function and then it takes a|NA
+00:24:04|00:24:10|second parameter of the number of|NA
+00:24:07|00:24:13|seconds or milliseconds that you want to|NA
+00:24:10|00:24:15|wait to fire off whatever you put inside|NA
+00:24:13|00:24:17|of it and we're gonna say 4,000 which is|NA
+00:24:15|00:24:20|4 seconds and of course you could put|NA
+00:24:17|00:24:23|whatever you want now in the set timeout|NA
+00:24:20|00:24:26|actually I'm gonna go back to the CSS|NA
+00:24:23|00:24:29|for a minute the stat main style CSS and|NA
+00:24:26|00:24:31|I'm gonna uncomment this because we|NA
+00:24:29|00:24:34|don't want to show the content at first|NA
+00:24:31|00:24:36|we're gonna set opacity to zero which|NA
+00:24:34|00:24:38|makes it invisible and display:none|NA
+00:24:36|00:24:41|actually just completely gets rid of it|NA
+00:24:38|00:24:43|from the Dom so let's save and now we no|NA
+00:24:41|00:24:48|longer see it okay so now in our|NA
+00:24:43|00:24:54|JavaScript here we're gonna say we want|NA
+00:24:48|00:25:00|the loader style dot opacity oops|NA
+00:24:54|00:25:03|the hell style dot opacity to be zero so|NA
+00:25:00|00:25:05|basically we want it to fade out and|NA
+00:25:03|00:25:07|then we also want it to just go away|NA
+00:25:05|00:25:11|completely so we're gonna set the|NA
+00:25:07|00:25:15|display property with style dot display|NA
+00:25:11|00:25:18|and we want to set that to none|NA
+00:25:15|00:25:22|okay and then we want to bring in the|NA
+00:25:18|00:25:27|the main part okay though the text so|NA
+00:25:22|00:25:29|let's say main dot style dot display|NA
+00:25:27|00:25:31|equals and we'll set that to block|NA
+00:25:29|00:25:35|because remember it's it's it's|NA
+00:25:31|00:25:40|originally set to none so if I go ahead|NA
+00:25:35|00:25:43|and I save this let's wait for seconds|NA
+00:25:40|00:25:45|okay so what's going on here is it's|NA
+00:25:43|00:25:47|getting set to block meaning it's it's|NA
+00:25:45|00:25:49|actually there however it's still|NA
+00:25:47|00:25:52|invisible because opacity is|NA
+00:25:49|00:25:54|set to zero so we need to change the|NA
+00:25:52|00:25:57|opacity to 1 now I want to give it a|NA
+00:25:54|00:26:01|fading effect and if I just set it to if|NA
+00:25:57|00:26:04|I set opacity to 1 here actually I'll|NA
+00:26:01|00:26:12|just show you so I'll say main dot style|NA
+00:26:04|00:26:14|dot opacity equals 1 and we'll save and|NA
+00:26:12|00:26:16|you can see it just pops in and that's|NA
+00:26:14|00:26:19|fine if that's what you want that's|NA
+00:26:16|00:26:20|that's absolutely fine I just want to|NA
+00:26:19|00:26:24|give you the option of having it fade in|NA
+00:26:20|00:26:29|so what I would do here is just do a set|NA
+00:26:24|00:26:35|timeout and pass in an arrow function|NA
+00:26:29|00:26:38|and let's move this about the semicolon|NA
+00:26:35|00:26:41|but we'll just take that and put that|NA
+00:26:38|00:26:45|right here and then let's put a time of|NA
+00:26:41|00:26:46|50 milliseconds so very quickly so it|NA
+00:26:45|00:26:50|gives us a little time before it brings|NA
+00:26:46|00:26:53|it in and then it sets the opacity okay|NA
+00:26:50|00:26:56|so we'll save that after 4 seconds it|NA
+00:26:53|00:26:59|comes in okay it sets the block and then|NA
+00:26:56|00:27:03|after 50 milliseconds it fades in and|NA
+00:26:59|00:27:07|the reason it's fading in is because in|NA
+00:27:03|00:27:10|our style CSS we have a transition right|NA
+00:27:07|00:27:12|here and if you want it to fade in|NA
+00:27:10|00:27:15|quicker you could change this to like 1|NA
+00:27:12|00:27:18|second so if we reload it should fade in|NA
+00:27:15|00:27:20|in one second rather than two like that|NA
+00:27:18|00:27:22|okay and then you can mess around with|NA
+00:27:20|00:27:25|it so that's pretty much it now if we|NA
+00:27:22|00:27:28|want a different loader I can just go to|NA
+00:27:25|00:27:34|my HTML let's comment out loader 1|NA
+00:27:28|00:27:36|uncomment - same thing down here comment|NA
+00:27:34|00:27:40|that let's save and there we go now we|NA
+00:27:36|00:27:43|have that loader okay if we want to use|NA
+00:27:40|00:27:43|3|NA
+00:27:47|00:27:54|let's try that and now we have the three|NA
+00:27:50|00:27:57|bouncing dots and it brings in our|NA
+00:27:54|00:27:59|content alright guys so that's gonna be|NA
+00:27:57|00:28:01|it hopefully you enjoyed this and|NA
+00:27:59|00:28:02|hopefully it gives you some ideas I mean|NA
+00:28:01|00:28:04|you don't have to use these exact|NA
+00:28:02|00:28:07|loaders just you know create your own|NA
+00:28:04|00:28:10|keyframes you can see how how simple it|NA
+00:28:07|00:28:13|is this is not much code at all or much|NA
+00:28:10|00:28:14|CSS so that's it thanks for watching if|NA
+00:28:13|00:28:18|you like this please leave a like and|NA
+00:28:14|00:28:18|I'll see you next time|NA

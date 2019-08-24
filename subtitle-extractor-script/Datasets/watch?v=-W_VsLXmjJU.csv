@@ -1,0 +1,370 @@
+sub_begin_time|sub_end_time|text|class
+00:00:00|00:00:03|hey tech light here and welcome back to|NA
+00:00:02|00:00:05|another episode today we are going to|NA
+00:00:03|00:00:08|talk about the top signs of an|NA
+00:00:05|00:00:10|inexperienced programmer it is coffee|NA
+00:00:08|00:00:12|time we are having a coca-cola a lot of|NA
+00:00:10|00:00:16|people like to hate on coca-cola but|NA
+00:00:12|00:00:19|it's not so bad nothing wrong with that|NA
+00:00:16|00:00:22|this video is sponsored by coca-cola for|NA
+00:00:19|00:00:24|fun times have a coca-cola is what I|NA
+00:00:22|00:00:27|would not say because I'm not sponsored|A
+00:00:24|00:00:31|by coca-cola this video by the way is|A
+00:00:27|00:00:32|sponsored by audible.com slash tech lead|A
+00:00:31|00:00:35|check them out for your free audio book|A
+00:00:32|00:00:37|I use all the time I've been listening|A
+00:00:35|00:00:39|to audio books on my commute saving a|A
+00:00:37|00:00:41|lot of time currently I'm listening to 0|A
+00:00:39|00:00:43|to 1 by Peter Thiel that's great book|A
+00:00:41|00:00:45|lots of lessons from experienced people|A
+00:00:43|00:00:46|they've got tons of audiobooks available|A
+00:00:45|00:00:48|whatever you're interested in reading|A
+00:00:46|00:00:51|remember that audible is actually owned|A
+00:00:48|00:00:52|by Amazon so their selection is massive|A
+00:00:51|00:00:54|check them out get your free audiobook|A
+00:00:52|00:00:56|of the boat ride home slash tech elite|NA
+00:00:54|00:00:58|you know it's a funny thing that all new|NA
+00:00:56|00:01:00|engineers exhibit certain traits and|NA
+00:00:58|00:01:02|just by looking at the way they act the|NA
+00:01:00|00:01:04|patterns that they go about in their|NA
+00:01:02|00:01:05|daily routines the code that they output|NA
+00:01:04|00:01:07|you can pretty much tell who's an|NA
+00:01:05|00:01:09|experienced engineer and who's new and|NA
+00:01:07|00:01:11|these new engineers all go through the|NA
+00:01:09|00:01:13|same things and it takes them sometimes|NA
+00:01:11|00:01:16|months sometimes years to outgrow their|NA
+00:01:13|00:01:18|behaviors to turn pro so to speak every|NA
+00:01:16|00:01:19|new engineer has to go through this|NA
+00:01:18|00:01:21|training and every single company and|NA
+00:01:19|00:01:23|it's just tiresome these same lessons|NA
+00:01:21|00:01:25|need to be repeated over and over again|NA
+00:01:23|00:01:27|I thought I would just give you guys the|NA
+00:01:25|00:01:29|basic tip such that when you get started|NA
+00:01:27|00:01:30|or if you're already working then you're|NA
+00:01:29|00:01:32|going to be well on your way and people|NA
+00:01:30|00:01:34|aren't going to have to give to you the|NA
+00:01:32|00:01:36|same lessons over and over again you|NA
+00:01:34|00:01:37|know it's funny that when you start|NA
+00:01:36|00:01:40|working at say a company like Google|NA
+00:01:37|00:01:42|they like to haze you in your first code|NA
+00:01:40|00:01:44|reviews they will leave you hundreds if|NA
+00:01:42|00:01:46|not millions of comments in your first|NA
+00:01:44|00:01:48|div output that you're trying to commit|NA
+00:01:46|00:01:50|and people just say hey this is wrong|NA
+00:01:48|00:01:52|this line of code wrong this line of|NA
+00:01:50|00:01:53|code bad there would be so many pedantic|NA
+00:01:52|00:01:56|comments that many people just end up|NA
+00:01:53|00:01:57|quitting the next day and that's the|NA
+00:01:56|00:01:59|funny thing a lot of people don't know|NA
+00:01:57|00:02:01|is that of the people who get in to say|NA
+00:01:59|00:02:02|Google as an engineer about half quit|NA
+00:02:01|00:02:05|before they even submit their first line|NA
+00:02:02|00:02:07|of code so let's get into it the first|NA
+00:02:05|00:02:10|tip and this has been repeated over and|NA
+00:02:07|00:02:12|over again is keep your dev sizes small|NA
+00:02:10|00:02:13|keep your commit small chances are when|NA
+00:02:12|00:02:15|you first start you're going to|NA
+00:02:13|00:02:17|a starter project that's going to|NA
+00:02:15|00:02:19|require a sizeable chunk of code to|NA
+00:02:17|00:02:21|complete some feature and the key to|NA
+00:02:19|00:02:22|know here is this isn't so much about|NA
+00:02:21|00:02:24|completely in the future it's probably a|NA
+00:02:22|00:02:26|useless feature that nobody even cares|NA
+00:02:24|00:02:28|about what people really want to see you|NA
+00:02:26|00:02:31|do is start learning the coding practice|NA
+00:02:28|00:02:32|is the development process in which you|NA
+00:02:31|00:02:34|get a code submitted and this really|NA
+00:02:32|00:02:35|involves the process in which you break|NA
+00:02:34|00:02:37|down the project into bite-sized chunks|NA
+00:02:35|00:02:40|and you submit targeted small pieces of|NA
+00:02:37|00:02:42|code one at a time instead of submitting|NA
+00:02:40|00:02:44|the whole thing and chances are when you|NA
+00:02:42|00:02:46|submit this whole piece of code for a|NA
+00:02:44|00:02:48|code review and it's thousands of lines|NA
+00:02:46|00:02:50|of code people are just going to look at|NA
+00:02:48|00:02:51|it and say hey yeah this one line here|NA
+00:02:50|00:02:53|this one way that you did this was|NA
+00:02:51|00:02:54|entirely wrong and the whole thing needs|NA
+00:02:53|00:02:56|to be redone when you get started|NA
+00:02:54|00:02:57|there's a high chance you're going to|NA
+00:02:56|00:02:59|fundamentally get some pattern some|NA
+00:02:57|00:03:01|design or architecture of your program|NA
+00:02:59|00:03:03|wrong it's going to change the whole way|NA
+00:03:01|00:03:04|that the thing is going to be written so|NA
+00:03:03|00:03:06|if you submit small-sized ifs|NA
+00:03:04|00:03:07|incrementally people can help make sure|NA
+00:03:06|00:03:09|that you're on the right track you're|NA
+00:03:07|00:03:11|not wasting too much time and it also|NA
+00:03:09|00:03:12|makes it easier to land your diffs|NA
+00:03:11|00:03:14|because it's simply easier to get|NA
+00:03:12|00:03:17|approval on small size chunks of code|NA
+00:03:14|00:03:19|are very targeted instead of a whole|NA
+00:03:17|00:03:21|menagerie of random divs many times I|NA
+00:03:19|00:03:22|will actually write my code in an editor|NA
+00:03:21|00:03:24|that shows line by line tips of what|NA
+00:03:22|00:03:27|changes are making like Visual Studio|NA
+00:03:24|00:03:28|code or Adam will show this and this|NA
+00:03:27|00:03:30|helps ensure that you're not just|NA
+00:03:28|00:03:32|changing random lines of text that don't|NA
+00:03:30|00:03:33|need to be changed almost every company|NA
+00:03:32|00:03:36|I go through they beat this one lesson|NA
+00:03:33|00:03:38|about having small tips over and over to|NA
+00:03:36|00:03:39|new engineers if you go into the company|NA
+00:03:38|00:03:40|already knowing this you're going to be|NA
+00:03:39|00:03:42|set|NA
+00:03:40|00:03:44|now the second sign of a new and|NA
+00:03:42|00:03:46|experienced developer is just crazy|NA
+00:03:44|00:03:48|tangled code crazy logic all over the|NA
+00:03:46|00:03:50|place huge functions tons of if|NA
+00:03:48|00:03:52|statements all over the place random|NA
+00:03:50|00:03:54|helper methods everywhere premature|NA
+00:03:52|00:03:56|optimization over engineered garbage|NA
+00:03:54|00:03:58|code and so country - what you might|NA
+00:03:56|00:04:00|imagine bad code is not simply code that|NA
+00:03:58|00:04:02|has a ton of bugs doesn't compile|NA
+00:04:00|00:04:03|doesn't work a decent engineer will at|NA
+00:04:02|00:04:06|least be able to get their code to|NA
+00:04:03|00:04:09|compile to work and is even going to run|NA
+00:04:06|00:04:11|and function okay but the way the logic|NA
+00:04:09|00:04:12|is set up the way the code is written is|NA
+00:04:11|00:04:14|going to look completely horrible it's|NA
+00:04:12|00:04:17|gonna look like garbage code tangled|NA
+00:04:14|00:04:18|totally messy complex stuff and it's|NA
+00:04:17|00:04:20|pretty much going to be a complete pain|NA
+00:04:18|00:04:22|to read many times I would just get a|NA
+00:04:20|00:04:23|headache after reading some beginners|NA
+00:04:22|00:04:25|code and then I have to get up and get a|NA
+00:04:23|00:04:27|coffee break my recommendation here is|NA
+00:04:25|00:04:29|write at design talk|NA
+00:04:27|00:04:30|right a document that describes what|NA
+00:04:29|00:04:32|you're going to build what the future|NA
+00:04:30|00:04:34|requirements are how you're going to set|NA
+00:04:32|00:04:35|things up which functions you're going|NA
+00:04:34|00:04:37|to need which classes what data|NA
+00:04:35|00:04:39|structures you might need and then just|NA
+00:04:37|00:04:41|go build those out and that should help|NA
+00:04:39|00:04:42|you organize your ideas is very obvious|NA
+00:04:41|00:04:44|actually when I see code that was|NA
+00:04:42|00:04:46|written without design dog because|NA
+00:04:44|00:04:49|there's just repeated duplicate code|NA
+00:04:46|00:04:51|logic if statements all over the place|NA
+00:04:49|00:04:53|it somehow manages to work I mean the|NA
+00:04:51|00:04:55|code is going to work fine but it's just|NA
+00:04:53|00:04:56|going to look like pretty crazy code I'm|NA
+00:04:55|00:04:58|probably going to go ahead and approve|NA
+00:04:56|00:05:00|your code anyway but I know it's going|NA
+00:04:58|00:05:01|to cause you a lot of hell later on as|NA
+00:05:00|00:05:02|you're going to become the one|NA
+00:05:01|00:05:04|maintaining this code throughout your|NA
+00:05:02|00:05:06|career and it's just going to slow you|NA
+00:05:04|00:05:07|down through the rest of your job over|NA
+00:05:06|00:05:09|the months as you're going to have to|NA
+00:05:07|00:05:10|start adding features to this code|NA
+00:05:09|00:05:11|you're going to have to start reading it|NA
+00:05:10|00:05:13|and there's just going to be bugs|NA
+00:05:11|00:05:15|introduced every single time you tried|NA
+00:05:13|00:05:16|to modify the code you're going to have|NA
+00:05:15|00:05:18|to make changes in the whole bunch of|NA
+00:05:16|00:05:20|different areas the logic is going to be|NA
+00:05:18|00:05:22|pretty loopy right design dog save|NA
+00:05:20|00:05:25|yourself sometimes gonna make you look a|NA
+00:05:22|00:05:27|little bit better too the third trait of|NA
+00:05:25|00:05:29|a new and experienced developer is low|NA
+00:05:27|00:05:31|effectiveness now don't get me wrong|NA
+00:05:29|00:05:32|everyone's working hard everyone's|NA
+00:05:31|00:05:33|trying to prove themselves they know|NA
+00:05:32|00:05:35|they're new they're trying to do things|NA
+00:05:33|00:05:38|but they're just not effective and they|NA
+00:05:35|00:05:40|end up wasting tons of time I know guy|NA
+00:05:38|00:05:42|who was working on this feature for|NA
+00:05:40|00:05:44|months and it was a pretty complicated|NA
+00:05:42|00:05:46|UI in fact the UI was essentially|NA
+00:05:44|00:05:48|impossible to do you know the UI|NA
+00:05:46|00:05:49|designers just came up with it and he|NA
+00:05:48|00:05:52|started trying to work on it and coming|NA
+00:05:49|00:05:53|up with totally convoluted code none of|NA
+00:05:52|00:05:56|it was really done well it was very|NA
+00:05:53|00:05:58|hacky stuff and I think he just wasn't|NA
+00:05:56|00:05:59|having his eye on the goal he was just|NA
+00:05:58|00:06:02|obsessed with maybe doing a bunch of|NA
+00:05:59|00:06:04|groundwork this project never launched|NA
+00:06:02|00:06:06|by the way and later on I came up with a|NA
+00:06:04|00:06:08|better solution for it I pushed back on|NA
+00:06:06|00:06:10|the UI designers loop and said hey if we|NA
+00:06:08|00:06:11|do it this way it's going to be much|NA
+00:06:10|00:06:13|easier to implement it's going to look|NA
+00:06:11|00:06:15|good too and so I would say don't just|NA
+00:06:13|00:06:17|code for coding sake look at the forest|NA
+00:06:15|00:06:18|not the trees keep your eye on the|NA
+00:06:17|00:06:20|vision the goal that you're trying to|NA
+00:06:18|00:06:22|make happen and make sure that your code|NA
+00:06:20|00:06:23|at least ships and if you don't foresee|NA
+00:06:22|00:06:25|your code ship and try to clear the|NA
+00:06:23|00:06:27|roadblocks for that make sure that you|NA
+00:06:25|00:06:29|can get your impact in where you can you|NA
+00:06:27|00:06:31|also want to keep an eye on your APM|NA
+00:06:29|00:06:33|actions per minute I don't love|NA
+00:06:31|00:06:35|engineers they go in and they spend the|NA
+00:06:33|00:06:37|whole day surfing reddit checking|NA
+00:06:35|00:06:40|Facebook social media blogs Twitter|NA
+00:06:37|00:06:40|surfing news and I look at these new|NA
+00:06:40|00:06:42|engineers|NA
+00:06:40|00:06:43|half the time they're watching a YouTube|NA
+00:06:42|00:06:45|video of someone playing the game maybe|NA
+00:06:43|00:06:47|they're the one playing the game maybe|NA
+00:06:45|00:06:48|they're even broadcasting that game and|NA
+00:06:47|00:06:50|that's all great people can work like|NA
+00:06:48|00:06:52|that think of work on their own time if|NA
+00:06:50|00:06:54|they like and I used to sort of do this|NA
+00:06:52|00:06:55|- I was going to work and I would have|NA
+00:06:54|00:06:57|one window maybe I'll do some online|NA
+00:06:55|00:06:59|shopping whatever it is I want to do but|NA
+00:06:57|00:07:00|the thing is when you play a game like|NA
+00:06:59|00:07:02|Starcraft you notice that whoever has|NA
+00:07:00|00:07:04|the highest APM usually wins the match|NA
+00:07:02|00:07:05|in the Starcraft game not always but|NA
+00:07:04|00:07:07|usually it really goes a long way so|NA
+00:07:05|00:07:09|that's really the same thing for|NA
+00:07:07|00:07:11|developers as well if you're spending|NA
+00:07:09|00:07:13|any available time you have on the job|NA
+00:07:11|00:07:15|for instance just imagine how much more|NA
+00:07:13|00:07:17|productive you might be able to be you|NA
+00:07:15|00:07:19|know you could get probably a lot more|NA
+00:07:17|00:07:21|code submitted read a lot Co learn about|NA
+00:07:19|00:07:22|the codebase come up with ideas you|NA
+00:07:21|00:07:24|could get a whole bunch done and I would|NA
+00:07:22|00:07:25|say that one flaw of new engineers is|NA
+00:07:24|00:07:28|sometimes I'll take a look at that code|NA
+00:07:25|00:07:30|output after a whole week and they may|NA
+00:07:28|00:07:31|have submitted like one or two pieces of|NA
+00:07:30|00:07:34|code the whole week and just a reminder|NA
+00:07:31|00:07:36|how is it possible that somebody could|NA
+00:07:34|00:07:38|spend five days I had a job and some a|NA
+00:07:36|00:07:39|only two pieces of code or even one|NA
+00:07:38|00:07:42|piece of code or none in the whole week|NA
+00:07:39|00:07:43|and then I remember oh yeah that's right|NA
+00:07:42|00:07:45|they were probably playing games that|NA
+00:07:43|00:07:47|whole time maybe they were doing online|NA
+00:07:45|00:07:49|shopping who knows and it's kind of no|NA
+00:07:47|00:07:51|wonder that for a lot of these people|NA
+00:07:49|00:07:53|their productivity is just very low my|NA
+00:07:51|00:07:54|recommendation is tried to get at least|NA
+00:07:53|00:07:56|one piece of code so made that per day|NA
+00:07:54|00:07:58|that'll keep you on track make that just|NA
+00:07:56|00:08:00|a personal go for yourself that'll keep|NA
+00:07:58|00:08:01|you going the fourth son of an|NA
+00:08:00|00:08:03|experienced engineer is they usually|NA
+00:08:01|00:08:05|have a lot of pride a lot of ego a lot|NA
+00:08:03|00:08:07|of arrogance and this is something that|NA
+00:08:05|00:08:08|you see other lot of computer science|NA
+00:08:07|00:08:10|students coming out of college for|NA
+00:08:08|00:08:12|instance their arrogance is just|NA
+00:08:10|00:08:14|incredible the worst is when I'm|NA
+00:08:12|00:08:15|reviewing a new engineers code and I|NA
+00:08:14|00:08:18|decide to leave like say a hundred|NA
+00:08:15|00:08:19|comments and then the engineer comes by|NA
+00:08:18|00:08:21|my desk and personally asks me about|NA
+00:08:19|00:08:23|each comment and tries to justify why|NA
+00:08:21|00:08:25|he's right about each one and then I|NA
+00:08:23|00:08:27|have to get in a little argument about|NA
+00:08:25|00:08:28|each one with him and he's trying to|NA
+00:08:27|00:08:30|defend himself and laughing at other|NA
+00:08:28|00:08:31|people who may be more stupid than him|NA
+00:08:30|00:08:34|trying to sound cool trying to sound|NA
+00:08:31|00:08:35|smart it's like look I don't care if you|NA
+00:08:34|00:08:37|think you're cool I don't care if you|NA
+00:08:35|00:08:38|think I think you're cool if you want me|NA
+00:08:37|00:08:40|to say you're cool fine you're cool I'm|NA
+00:08:38|00:08:43|cool we're all cool everybody's cool I'm|NA
+00:08:40|00:08:45|just cooler than you okay so the thing|NA
+00:08:43|00:08:47|about arrogance is it has a lot of other|NA
+00:08:45|00:08:49|effects as well for example it causes|NA
+00:08:47|00:08:51|engineers to over engineer their code to|NA
+00:08:49|00:08:53|make it look really smart and clever|NA
+00:08:51|00:08:54|keep it simple also I would recommend|NA
+00:08:53|00:08:56|that you swallow|NA
+00:08:54|00:08:57|your pride and go as for questions as|NA
+00:08:56|00:08:59|for help when you need it it can save|NA
+00:08:57|00:09:01|you a ton of time this kind of goes back|NA
+00:08:59|00:09:03|to being ineffective love new engineers|NA
+00:09:01|00:09:04|just want to tackle everything on their|NA
+00:09:03|00:09:06|own they spend a lot of time doing|NA
+00:09:04|00:09:07|things on their own a week or two later|NA
+00:09:06|00:09:09|they surface again with a bunch of|NA
+00:09:07|00:09:10|garbage code that they've written and I|NA
+00:09:09|00:09:12|have to say this whole thing was wrong|NA
+00:09:10|00:09:13|this whole thing was just no good I wish|NA
+00:09:12|00:09:15|they would just asked an experienced|NA
+00:09:13|00:09:17|developer like myself what I would've|NA
+00:09:15|00:09:19|approved and that could have saved|NA
+00:09:17|00:09:21|everyone a lot of time my last time|NA
+00:09:19|00:09:23|final tip the sign of an inexperienced|NA
+00:09:21|00:09:25|engineer is somebody who does not|NA
+00:09:23|00:09:28|identify and respect the tech lead|NA
+00:09:25|00:09:29|that's me make sure that you know who|NA
+00:09:28|00:09:31|the tech lead is I'm not talking about|NA
+00:09:29|00:09:33|your manager I'm not talking about your|NA
+00:09:31|00:09:35|boss you may already have a tech lead at|NA
+00:09:33|00:09:36|your company that may not be the tech|NA
+00:09:35|00:09:41|lead that person could be X Microsoft|NA
+00:09:36|00:09:42|for example I am X Google ok X could go|NA
+00:09:41|00:09:44|tech lead you want to make sure you know|NA
+00:09:42|00:09:45|who the tech lead is now I have a story|NA
+00:09:44|00:09:47|for you one time there was this engineer|NA
+00:09:45|00:09:49|he did not respect the tech lead he|NA
+00:09:47|00:09:51|dared not to and let me just tell you|NA
+00:09:49|00:09:52|what happened to him because this is|NA
+00:09:51|00:09:54|going to be a good lesson for all of you|NA
+00:09:52|00:09:57|he started proposing tons of random code|NA
+00:09:54|00:10:00|for his project no design doc huge tips|NA
+00:09:57|00:10:02|very complicated logic and I pushed back|NA
+00:10:00|00:10:04|on and said yeah this isn't going to|NA
+00:10:02|00:10:06|work he did not respect my comments and|NA
+00:10:04|00:10:08|kept pushing forward with his code he|NA
+00:10:06|00:10:10|kept proposing tons of code disappeared|NA
+00:10:08|00:10:12|came back two weeks later with a bunch|NA
+00:10:10|00:10:14|more additional code didn't listen to a|NA
+00:10:12|00:10:16|single comment that I suggested for him|NA
+00:10:14|00:10:17|and I blocked every single code that he|NA
+00:10:16|00:10:19|tried to put in that's right I would|NA
+00:10:17|00:10:20|block his code I would just spend all my|NA
+00:10:19|00:10:22|time writing millions of comments and he|NA
+00:10:20|00:10:24|would have to write millions of replies|NA
+00:10:22|00:10:26|back eventually we started just writing|NA
+00:10:24|00:10:28|essays on these tips we stopped coding|NA
+00:10:26|00:10:30|really his effectiveness his code output|NA
+00:10:28|00:10:33|dropped to zero you know what happened|NA
+00:10:30|00:10:34|to him he got fired that's right so|NA
+00:10:33|00:10:37|that's one lesson for you if you don't|NA
+00:10:34|00:10:39|respect the tech lead I would recommend|NA
+00:10:37|00:10:41|if I are you to actually be nice to the|NA
+00:10:39|00:10:42|tech lead do whatever you can for him|NA
+00:10:41|00:10:44|you know bring him lunch bring him tea|NA
+00:10:42|00:10:46|one little trick you can do is instead|NA
+00:10:44|00:10:47|of having you submit code come up with a|NA
+00:10:46|00:10:49|diff|NA
+00:10:47|00:10:50|mail it to the tech lead and then the|NA
+00:10:49|00:10:53|tech lead to a patch your dip in and|NA
+00:10:50|00:10:54|then submit that for you and that way|NA
+00:10:53|00:10:55|the tech lead will get credit for the|NA
+00:10:54|00:10:56|dips|NA
+00:10:55|00:10:58|it just helps increase the number of|NA
+00:10:56|00:11:01|dips that the tech leader is putting out|NA
+00:10:58|00:11:03|what you can also do is when you write|NA
+00:11:01|00:11:04|design documents but the tech Lee's name|NA
+00:11:03|00:11:07|on it even if I have no part in the|NA
+00:11:04|00:11:08|design dock or presentation or email or|NA
+00:11:07|00:11:10|post or whatever it is that your|NA
+00:11:08|00:11:12|writing just put my name there in the|NA
+00:11:10|00:11:13|authors to credit this line that would|NA
+00:11:12|00:11:14|be great I would appreciate that that|NA
+00:11:13|00:11:16|helps me get a little bit more credit a|NA
+00:11:14|00:11:19|little bit more awareness for people|NA
+00:11:16|00:11:21|like me who are here to take credit for|NA
+00:11:19|00:11:23|your work buying me stuff give me things|NA
+00:11:21|00:11:25|give me money any of that I'll take it|NA
+00:11:23|00:11:27|respect the tech lead they'll do it for|NA
+00:11:25|00:11:29|me feel free to share your table signs|NA
+00:11:27|00:11:31|of junior engineers in the comments|NA
+00:11:29|00:11:34|below if you liked the video give a like|NA
+00:11:31|00:11:34|and subscribe I'll see you next time bye|NA

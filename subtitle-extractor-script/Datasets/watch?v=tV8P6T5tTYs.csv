@@ -1,0 +1,462 @@
+sub_begin_time|sub_end_time|text|class
+00:00:01|00:00:10|I'll do the trick|NA
+00:00:03|00:00:12|get him drinking that a couple of months|NA
+00:00:10|00:00:15|back nvidia published the data from a|NA
+00:00:12|00:00:17|study showing that gamers running on|NA
+00:00:15|00:00:20|high refresh rate monitors with faster|NA
+00:00:17|00:00:22|pcs were fragging more noobs than their|NA
+00:00:20|00:00:24|pleb counterparts who were running low|NA
+00:00:22|00:00:27|refresh rate monitors and slower|NA
+00:00:24|00:00:29|computers of course their conclusion was|NA
+00:00:27|00:00:31|everyone should buy better gear to make|NA
+00:00:29|00:00:33|them a better gamer the problem with|NA
+00:00:31|00:00:35|their study is that while they did find|NA
+00:00:33|00:00:37|a correlation between people with better|NA
+00:00:35|00:00:41|equipment and people with more skills a|NA
+00:00:37|00:00:44|correlation does not mean causation so a|NA
+00:00:41|00:00:47|lot of arguments get made about the|NA
+00:00:44|00:00:51|subject of high fps and high refresh|NA
+00:00:47|00:00:53|rate gaming and how many FPS is enough|NA
+00:00:51|00:00:55|before the I can't see a difference but|NA
+00:00:53|00:00:58|one of the key components of a faster|NA
+00:00:55|00:01:01|refresh rate display is not in fact the|NA
+00:00:58|00:01:03|smoothness of the animation and it is|NA
+00:01:01|00:01:05|smoother please don't be ignorant but|NA
+00:01:03|00:01:08|rather the frequency with which your eye|NA
+00:01:05|00:01:10|receives updated information about the|NA
+00:01:08|00:01:13|whereabouts and activities of your|NA
+00:01:10|00:01:17|enemies so today's video is all about|NA
+00:01:13|00:01:20|determining quantitatively how much|NA
+00:01:17|00:01:22|faster a gamer with a 240 Hertz display|NA
+00:01:20|00:01:27|will react versus a gamer with a more|NA
+00:01:22|00:01:30|traditional 60 Hertz display and we|NA
+00:01:27|00:01:33|invited a special guest gavin free of|NA
+00:01:30|00:01:36|slo-mo guys and roosterteeth fame is|NA
+00:01:33|00:01:38|gonna help us operate this thing to do|NA
+00:01:36|00:01:40|it I don't know how to operate this|NA
+00:01:38|00:01:42|thing thank goodness he's here I can you|NA
+00:01:40|00:01:44|back speaking of thank goodness thank|A
+00:01:42|00:01:46|goodness for our sponsor Moss has|A
+00:01:44|00:01:48|updated their packs once again and|A
+00:01:46|00:01:50|they're combining the best features from|A
+00:01:48|00:01:52|their Grande and their black pack into|A
+00:01:50|00:01:54|their new moss pack v4 check it out|A
+00:01:52|00:01:56|today at the link in the video|A
+00:01:54|00:01:56|description|NA
+00:02:03|00:02:10|first we want to know if our 240 Hertz|NA
+00:02:07|00:02:13|gamer sees the enemy sooner that is to|NA
+00:02:10|00:02:15|say we want to know if the up to 12|NA
+00:02:13|00:02:19|milliseconds of extra information|NA
+00:02:15|00:02:22|actually helps him or her react faster|NA
+00:02:19|00:02:24|we also want to know on average if the|NA
+00:02:22|00:02:27|smoother animations and the more|NA
+00:02:24|00:02:29|frequent updates allow our gamer test|NA
+00:02:27|00:02:32|subject here to kill the enemy sooner or|NA
+00:02:29|00:02:35|more reliably so here's our test rig on|NA
+00:02:32|00:02:38|the right hand side we've got our enemy|NA
+00:02:35|00:02:40|or our target which is running a cs go|NA
+00:02:38|00:02:43|server on our high-speed local area|NA
+00:02:40|00:02:46|network every test needs to be run|NA
+00:02:43|00:02:49|exactly the same way so what we'll do is|NA
+00:02:46|00:02:51|position this computer's character in|NA
+00:02:49|00:02:54|this corner right here so it's in|NA
+00:02:51|00:02:56|exactly the same spot then we'll use|NA
+00:02:54|00:02:58|this readout in the top left to make|NA
+00:02:56|00:03:02|sure that our weapon is pointed at the|NA
+00:02:58|00:03:04|exact same pixel then what we do is we|NA
+00:03:02|00:03:07|take these two contacts and touch them|NA
+00:03:04|00:03:10|together which lights up an LED on our|NA
+00:03:07|00:03:12|makeymakey right here that is going to|NA
+00:03:10|00:03:15|synchronize with our high-speed camera|NA
+00:03:12|00:03:18|when exactly our target begins moving|NA
+00:03:15|00:03:21|without making any noise that will alert|NA
+00:03:18|00:03:23|our test subject so we're going to be|NA
+00:03:21|00:03:26|using the same monitor from Acer for|NA
+00:03:23|00:03:28|both our 60 Hertz and our 240 Hertz|NA
+00:03:26|00:03:31|tests since the only variable that we're|NA
+00:03:28|00:03:33|trying to isolate is the refresh rate|NA
+00:03:31|00:03:35|each of our test subjects gets to|NA
+00:03:33|00:03:37|practice runs at 60 Hertz to ensure that|NA
+00:03:35|00:03:40|they're familiar with the test then|NA
+00:03:37|00:03:44|we'll follow with three runs at 60 three|NA
+00:03:40|00:03:47|runs at 240 and then four runs two at 60|NA
+00:03:44|00:03:49|and two at 240 where the test subject|NA
+00:03:47|00:03:52|isn't told the monitor refresh rate each|NA
+00:03:49|00:03:54|time so the way that this works is once|NA
+00:03:52|00:03:58|again I'm pointing at exactly the same|NA
+00:03:54|00:03:59|spot exact pixel and then Ed without me|NA
+00:03:58|00:04:02|being able to see what he's doing|NA
+00:03:59|00:04:04|starts running at some point now let's|NA
+00:04:02|00:04:07|talk about our timing mechanism so it's|NA
+00:04:04|00:04:10|probably a little overkill but this here|NA
+00:04:07|00:04:13|is a what is this walk us through this|NA
+00:04:10|00:04:14|is the fencin flex 4k it's what I've|NA
+00:04:13|00:04:16|used for a long time on my channels|NA
+00:04:14|00:04:17|about a five-year old camera this|NA
+00:04:16|00:04:19|point there's not really any storage|NA
+00:04:17|00:04:21|media that can write so fast when you're|NA
+00:04:19|00:04:24|taking in that many images so it|NA
+00:04:21|00:04:26|requests when internal Ram buffer so|NA
+00:04:24|00:04:28|it's always recording five second buffer|NA
+00:04:26|00:04:30|and then all I do is just stop it and it|NA
+00:04:28|00:04:32|keeps the previous five seconds then we|NA
+00:04:30|00:04:36|record that onto this very fast flash|NA
+00:04:32|00:04:38|storage these are expensive sadly so the|NA
+00:04:36|00:04:40|way the camera works speed wise it has a|NA
+00:04:38|00:04:41|certain amount of throughput it can put|NA
+00:04:40|00:04:43|in and then you just find the|NA
+00:04:41|00:04:44|combination of resolution and speed that|NA
+00:04:43|00:04:47|you want so if you lower the resolution|NA
+00:04:44|00:04:49|the frame rate goes higher sure so what|NA
+00:04:47|00:04:51|are we going to be using well that's up|NA
+00:04:49|00:04:53|to you early I shoot everything at 4k|NA
+00:04:51|00:04:55|which will give us a max of a thousand|NA
+00:04:53|00:04:57|which would probably do pretty well in|NA
+00:04:55|00:05:00|these lighting conditions it's kind of|NA
+00:04:57|00:05:01|dark at 2000 and also we are relying on|NA
+00:05:00|00:05:03|the light coming from the monitors which|NA
+00:05:01|00:05:05|I was slightly concerned about but it|NA
+00:05:03|00:05:08|looks like it's not too dark okay that's|NA
+00:05:05|00:05:09|so much like we have right and then what|NA
+00:05:08|00:05:11|should or disappear is the frame because|NA
+00:05:09|00:05:13|huh this is like how a fly sees us like|NA
+00:05:11|00:05:15|that's what I always think of yeah it's|NA
+00:05:13|00:05:18|like we just look like that to fly it|NA
+00:05:15|00:05:21|just like casually fly off and flip us|NA
+00:05:18|00:05:23|off and we come nowhere close which I do|NA
+00:05:21|00:05:25|like a self slap or someone else gets|NA
+00:05:23|00:05:27|loved yet how do you want it you want to|NA
+00:05:25|00:05:33|slap me you know it has to be pretty|NA
+00:05:27|00:05:34|hard right you set up all this test just|NA
+00:05:33|00:05:35|so you could screw around with a|NA
+00:05:34|00:05:36|high-speed camera right now this is|NA
+00:05:35|00:05:37|irrelevant you just wanted the|NA
+00:05:36|00:05:39|high-speed camera to get slapped around|NA
+00:05:37|00:05:44|that's the whole reason you're here|NA
+00:05:39|00:05:44|that's why okay alright slap it|NA
+00:05:46|00:05:51|[Music]|NA
+00:05:55|00:06:02|my ears ringing oh you know I missed the|NA
+00:06:00|00:06:04|trick we do that again you did not you|NA
+00:06:02|00:06:09|let you it dragged some skin with that|NA
+00:06:04|00:06:10|one look at you know we can't we get two|NA
+00:06:09|00:06:13|new staff headshot it's like everyone's|NA
+00:06:10|00:06:14|face is tough what you messed up okay|NA
+00:06:13|00:06:16|practice run time you need to have like|NA
+00:06:14|00:06:18|both hands over there so I have no|NA
+00:06:16|00:06:20|movement indication as to when you're|NA
+00:06:18|00:06:22|when you're so you want me to trigger it|NA
+00:06:20|00:06:24|even if you miss I mean when you miss I|NA
+00:06:22|00:06:27|mean if you miss that moment when you|NA
+00:06:24|00:06:37|invite someone out and they like insult|NA
+00:06:27|00:06:39|you but bonding so it takes me a good|NA
+00:06:37|00:06:40|long while to actually even start|NA
+00:06:39|00:06:42|tracking the target that's what's gonna|NA
+00:06:40|00:06:44|be interesting about this test with the|NA
+00:06:42|00:06:47|additional frames that you'll get what|NA
+00:06:44|00:06:51|was I doing what was I aiming at the car|NA
+00:06:47|00:06:53|I think this video is really about|NA
+00:06:51|00:06:56|exposing flaws in counter strikes hit|NA
+00:06:53|00:06:58|detection what did you hit there because|NA
+00:06:56|00:07:00|I didn't see any impacts and it looked|NA
+00:06:58|00:07:02|like it was right on him in your defense|NA
+00:07:00|00:07:04|thank you so what we learned from our|NA
+00:07:02|00:07:06|first run is that the experiment looks|NA
+00:07:04|00:07:08|good but we're gonna do a remedial test|NA
+00:07:06|00:07:14|here with the walking speed of our|NA
+00:07:08|00:07:16|target slowed down from 322 to 20 but we|NA
+00:07:14|00:07:18|also want to try a remedial run here|NA
+00:07:16|00:07:21|with the walking speed of our target at|NA
+00:07:18|00:07:23|220|NA
+00:07:21|00:07:26|to see if that increases our subject|NA
+00:07:23|00:07:31|chances of killing the target so let's|NA
+00:07:26|00:07:34|try it one more time here okay that's|NA
+00:07:31|00:07:35|definitely easier one of the|NA
+00:07:34|00:07:38|measurements I'm really looking for here|NA
+00:07:35|00:07:40|is time to kill because you're still|NA
+00:07:38|00:07:43|gonna clearly be faster to kill the|NA
+00:07:40|00:07:46|target it's just a matter of like wow I|NA
+00:07:43|00:07:51|really left this to the last moment here|NA
+00:07:46|00:07:52|Oh what did I hit did you have a metal|NA
+00:07:51|00:07:56|skull what was that|NA
+00:07:52|00:07:58|I probably a helmet not a metal school I|NA
+00:07:56|00:07:59|think a thousand is doing it for you I|NA
+00:07:58|00:08:02|think so we're cuz that's one|NA
+00:07:59|00:08:03|millisecond there's nothing like anyone|NA
+00:08:02|00:08:05|even advertises as lower than one|NA
+00:08:03|00:08:08|millisecond and I think that's|NA
+00:08:05|00:08:11|considered well beyond the ability of a|NA
+00:08:08|00:08:14|human to perceive anyway it also makes|NA
+00:08:11|00:08:16|the math really easy yeah that's|NA
+00:08:14|00:08:18|actually the biggest factor thank you so|NA
+00:08:16|00:08:21|much again by the way for like being|NA
+00:08:18|00:08:23|here this is oh I loved it okay good cuz|NA
+00:08:21|00:08:26|your your insight here has actually been|NA
+00:08:23|00:08:27|instrumental already to us just kind of|NA
+00:08:26|00:08:28|understanding what we're doing yeah this|NA
+00:08:27|00:08:31|is this is super fun for me Rock Paper|NA
+00:08:28|00:08:33|Scissors for who has to go first do you|NA
+00:08:31|00:08:34|the kind of person you'd like to say it|NA
+00:08:33|00:08:37|as you do it when you just rock paper|NA
+00:08:34|00:08:40|and then you go right you go on paper no|NA
+00:08:37|00:08:40|no on scissors okay ah|NA
+00:08:41|00:08:48|[Music]|NA
+00:08:43|00:08:49|trusty wrong alright okay so I'm first|NA
+00:08:48|00:08:52|one thing that's really important is|NA
+00:08:49|00:08:54|that Edie is gonna mix up his timing for|NA
+00:08:52|00:08:56|when he starts the test so I can't|NA
+00:08:54|00:09:00|predict when the target is gonna start|NA
+00:08:56|00:09:04|moving okay I am officially ready me to|NA
+00:09:00|00:09:04|[Music]|NA
+00:09:06|00:09:14|shoot but not hit a|NA
+00:09:09|00:09:16|oh my god how did I miss that if it|NA
+00:09:14|00:09:26|makes you feel any better|NA
+00:09:16|00:09:27|this is 84 seconds of unison do you find|NA
+00:09:26|00:09:29|that when you're in deep concentration|NA
+00:09:27|00:09:31|and you're waiting for it to happen I'm|NA
+00:09:29|00:09:32|do you find that you should start|NA
+00:09:31|00:09:33|overthinking when it's gonna happen and|NA
+00:09:32|00:09:34|then you might miss it cause you're|NA
+00:09:33|00:09:41|thinking too much|NA
+00:09:34|00:09:43|absolutely oh shit did you just fall out|NA
+00:09:41|00:09:45|of the zone right there at the end I|NA
+00:09:43|00:09:47|don't know what happened to the eye that|NA
+00:09:45|00:09:50|seemed to be the longest it took you to|NA
+00:09:47|00:09:53|catch up with them interesting we are|NA
+00:09:50|00:09:53|now up to four hundred and sixty-six|NA
+00:09:53|00:09:56|gigs|NA
+00:09:53|00:09:57|Wow okay that's certainly like less than|NA
+00:09:56|00:10:00|twenty seconds|NA
+00:09:57|00:10:00|[Music]|NA
+00:10:06|00:10:18|gotcha okay Oh|NA
+00:10:11|00:10:33|headshot shoot hit him|NA
+00:10:18|00:10:36|[Music]|NA
+00:10:33|00:10:42|hey are you ready wait for it|NA
+00:10:36|00:10:48|now I'm ready you got a piece of them|NA
+00:10:42|00:10:50|[Music]|NA
+00:10:48|00:11:01|not bad|NA
+00:10:50|00:11:02|feel like I'm improving see I'm happy|NA
+00:11:01|00:11:09|with my reaction time|NA
+00:11:02|00:11:09|my aim is anus it was very tight anus|NA
+00:11:12|00:11:16|not bad|NA
+00:11:14|00:11:21|wait a minute what just happened I|NA
+00:11:16|00:11:26|pressed play and oh my god I am so sorry|NA
+00:11:21|00:11:28|my best attempt and he deleted it can I|NA
+00:11:26|00:11:41|feel like we should go until he gets a|NA
+00:11:28|00:11:42|really good one yeah the 60 just don't|NA
+00:11:41|00:11:44|do it for me|NA
+00:11:42|00:11:47|[Music]|NA
+00:11:44|00:11:50|Wow|NA
+00:11:47|00:11:53|good that's it more last minute no I|NA
+00:11:50|00:11:55|don't think so I even see the body oh|NA
+00:11:53|00:11:57|that was clean that might be my fastest|NA
+00:11:55|00:11:59|one yet yeah mate make sure you save|NA
+00:11:57|00:12:00|that one yeah yeah I got you fam we like|NA
+00:11:59|00:12:11|that one|NA
+00:12:00|00:12:11|I am ready as penis that count|NA
+00:12:11|00:12:16|[Music]|NA
+00:12:13|00:12:18|I'm just got wet I went way ahead of him|NA
+00:12:16|00:12:21|that time so your reaction was fast but|NA
+00:12:18|00:12:23|not accurate I was trying to go for like|NA
+00:12:21|00:12:28|a wicked snap shot that I don't have|NA
+00:12:23|00:12:30|that ability I'm literally the most|NA
+00:12:28|00:12:32|experienced I could possibly be and that|NA
+00:12:30|00:12:38|was my worst attempt this is so|NA
+00:12:32|00:12:39|interesting oh oh wait do you want to do|NA
+00:12:38|00:12:51|some practice runs or have you already|NA
+00:12:39|00:12:54|tried it a lot of times Wow mr.|NA
+00:12:51|00:12:58|confident over here I think that was|NA
+00:12:54|00:13:01|actually back and forth like I see at|NA
+00:12:58|00:13:03|least five tears when I play yeah I|NA
+00:13:01|00:13:05|think we can call out of wait so you|NA
+00:13:03|00:13:05|want me to not to save that one yeah I|NA
+00:13:05|00:13:11|don't bother|NA
+00:13:05|00:13:11|[Music]|NA
+00:13:20|00:13:23|[Music]|NA
+00:13:24|00:13:28|all right everyone go home guys that was|NA
+00:13:26|00:13:31|it already moving before he's even fully|NA
+00:13:28|00:13:34|come out that's by far the fastest|NA
+00:13:31|00:13:41|reaction we've seen boom headshot as the|NA
+00:13:34|00:13:43|kids say I suppose the kids 15 years Oh|NA
+00:13:41|00:13:45|boohoo|NA
+00:13:43|00:13:45|whatever|NA
+00:13:46|00:14:08|not bad did you hit me yeah felt like it|NA
+00:14:06|00:14:11|okay last chance|NA
+00:14:08|00:14:11|[Music]|NA
+00:14:11|00:14:21|wow I wasn't good what are you doing|NA
+00:14:18|00:14:24|that was a headlight so it has been|NA
+00:14:21|00:14:27|quite a few hours the time is now 1141|NA
+00:14:24|00:14:30|and we're all still at it especially edy|NA
+00:14:27|00:14:32|who has been painstakingly compiling the|NA
+00:14:30|00:14:37|data and is now sharing it with us so|NA
+00:14:32|00:14:41|your average for 60 Hertz is 257 yeah is|NA
+00:14:37|00:14:43|that in frames yes but that's 257|NA
+00:14:41|00:14:47|milliseconds effectively okay and then|NA
+00:14:43|00:14:49|194 for 240 Hertz so that doesn't even|NA
+00:14:47|00:14:51|make sense how you could be that much|NA
+00:14:49|00:14:53|faster because theoretically you should|NA
+00:14:51|00:14:59|only have that best a 12 millisecond|NA
+00:14:53|00:15:02|advantage interesting so I am the|NA
+00:14:59|00:15:05|slowest by a long shot|NA
+00:15:02|00:15:09|oh you're up in the 300 sometimes yeah|NA
+00:15:05|00:15:12|that's an eternity now could be that you|NA
+00:15:09|00:15:17|waited to see the person quite a bit|NA
+00:15:12|00:15:19|more and then I guess so now you were|NA
+00:15:17|00:15:21|the most consistent consistently average|NA
+00:15:19|00:15:23|I feel like whenever I saw anything I|NA
+00:15:21|00:15:25|would just kind of spasm my hand away|NA
+00:15:23|00:15:27|and try and just catch up with it later|NA
+00:15:25|00:15:30|but I think that's just down to me is|NA
+00:15:27|00:15:34|just not being very good maybe it was|NA
+00:15:30|00:15:34|more of a focus thing yeah|NA
+00:15:37|00:15:43|audience this was actually previously|NA
+00:15:39|00:15:48|passed 854 milliseconds and when you|NA
+00:15:43|00:15:50|consider that I had a 360 millisecond|NA
+00:15:48|00:15:53|reaction time it actually only took me|NA
+00:15:50|00:15:55|half a second to kill the target once I|NA
+00:15:53|00:16:01|started moving that's really good|NA
+00:15:55|00:16:05|actually not as good a second and a half|NA
+00:16:01|00:16:08|overall and kill wise you're the same|NA
+00:16:05|00:16:08|[Music]|NA
+00:16:12|00:16:17|look it is fake humility hey I feel like|NA
+00:16:16|00:16:19|there's so many more variables that|NA
+00:16:17|00:16:21|aren't measured here like how in the|NA
+00:16:19|00:16:27|zone we were like what the the other|NA
+00:16:21|00:16:29|person is psyching us out as I must this|NA
+00:16:27|00:16:31|is the pressure building up I feel like|NA
+00:16:29|00:16:34|on my last attempt I was always freaking|NA
+00:16:31|00:16:35|out way more than my previous ones yeah|NA
+00:16:34|00:16:39|actually that's another thing too like|NA
+00:16:35|00:16:39|if I missed one I was like tense on my|NA
+00:16:39|00:16:42|next one|NA
+00:16:39|00:16:45|I gotta make up for for a bad one if I|NA
+00:16:42|00:16:46|only concentrated on being ready for the|NA
+00:16:45|00:16:48|guys to come around the corner and I was|NA
+00:16:46|00:16:50|all I was thinking about I could only do|NA
+00:16:48|00:16:52|that for like four seconds until I was|NA
+00:16:50|00:16:55|thinking about doing that and it would|NA
+00:16:52|00:16:56|just wreck my concentration I mean|NA
+00:16:55|00:16:59|obviously we're watching this in slow|NA
+00:16:56|00:17:02|motion so it's very exaggerated but this|NA
+00:16:59|00:17:04|makes me wonder how I ever played|NA
+00:17:02|00:17:06|anything at 30 frames a second and I|NA
+00:17:04|00:17:08|regularly do like if I'm playing GTA 5|NA
+00:17:06|00:17:10|on xbox that's running 30 this may have|NA
+00:17:08|00:17:11|ruined me even more for refresh rates|NA
+00:17:10|00:17:14|and frame rates|NA
+00:17:11|00:17:15|alright so GAD flew home last night but|NA
+00:17:14|00:17:18|for giggles we spent some more time|NA
+00:17:15|00:17:22|analyzing the data and found some really|NA
+00:17:18|00:17:25|cool things one everyone's reaction|NA
+00:17:22|00:17:28|times were better at 240 Hertz and|NA
+00:17:25|00:17:31|strangely by more than just 12|NA
+00:17:28|00:17:33|milliseconds if I had to guess I'd say|NA
+00:17:31|00:17:35|part of this is because it's easier to|NA
+00:17:33|00:17:38|track where the target is headed and|NA
+00:17:35|00:17:42|then decide where to move the cursor|NA
+00:17:38|00:17:44|before you begin to move to every single|NA
+00:17:42|00:17:47|test subject was more likely to kill the|NA
+00:17:44|00:17:49|opponent at 240 Hertz in the limited|NA
+00:17:47|00:17:52|amount of time that they had and|NA
+00:17:49|00:17:55|three the way that high refresh rate|NA
+00:17:52|00:17:57|affects your gaming could end up being|NA
+00:17:55|00:18:00|heavily dependent on the way that you|NA
+00:17:57|00:18:04|aim so take a look at this map of all of|NA
+00:18:00|00:18:07|my shots my accuracy and my precision|NA
+00:18:04|00:18:10|were both actually very similar at 60|NA
+00:18:07|00:18:14|versus 240 Hertz so regardless of|NA
+00:18:10|00:18:16|refresh rate I'm taking my time tracking|NA
+00:18:14|00:18:18|the target and only pulling the trigger|NA
+00:18:16|00:18:21|when I think I've got a clean shot and|NA
+00:18:18|00:18:23|it's funny it's not something I've ever|NA
+00:18:21|00:18:25|thought about would it make sense now|NA
+00:18:23|00:18:26|that I'm looking at it because I'm|NA
+00:18:25|00:18:29|totally one of those jackasses that|NA
+00:18:26|00:18:31|grabs the sniper class so everyone else|NA
+00:18:29|00:18:34|has to play medic or whatever so for me|NA
+00:18:31|00:18:35|revealing my position is always a factor|NA
+00:18:34|00:18:38|in the back of my mind|NA
+00:18:35|00:18:39|don't pull the trigger unless I think|NA
+00:18:38|00:18:42|I'm gonna hit something all right now|NA
+00:18:39|00:18:45|let's look at Ed's 'el Ed's more of like|NA
+00:18:42|00:18:48|a flick shot kind of player so he tends|NA
+00:18:45|00:18:49|to react and shoot first and figure out|NA
+00:18:48|00:18:51|the other details later|NA
+00:18:49|00:18:54|now as the most skilled of our test|NA
+00:18:51|00:18:57|subjects she clearly benefited the most|NA
+00:18:54|00:18:59|from high refresh rate and said that it|NA
+00:18:57|00:19:03|helped him time the release of his shot|NA
+00:18:59|00:19:04|much better as he panned across his|NA
+00:19:03|00:19:07|target|NA
+00:19:04|00:19:09|finally there's gap in fairness to gap|NA
+00:19:07|00:19:12|no one really aims only with their mouse|NA
+00:19:09|00:19:13|like it's much easier to strength while|NA
+00:19:12|00:19:16|you're trying to line up a shot like|NA
+00:19:13|00:19:19|this but his results were still far and|NA
+00:19:16|00:19:24|away the worst at both refresh rates if|NA
+00:19:19|00:19:27|that said at 240 Hertz his precision was|NA
+00:19:24|00:19:30|much higher so if he was a little closer|NA
+00:19:27|00:19:31|to the target the improvement in his|NA
+00:19:30|00:19:33|consistency would have definitely|NA
+00:19:31|00:19:37|resulted in more kills|NA
+00:19:33|00:19:39|so in conclusion yes high refresh rate|NA
+00:19:37|00:19:41|gaming makes a difference it's the kind|NA
+00:19:39|00:19:44|of thing we've always felt but it was|NA
+00:19:41|00:19:46|never something that we've quantified|NA
+00:19:44|00:19:48|now I think there's still a lot more|NA
+00:19:46|00:19:50|work to do investigating this may be|NA
+00:19:48|00:19:53|part two could involve different mouse|NA
+00:19:50|00:19:55|sensitivity settings some professional|NA
+00:19:53|00:19:57|players I don't know hit us up in the|NA
+00:19:55|00:19:59|comments if you've got some ideas but|NA
+00:19:57|00:20:00|for now we feel like this is a pretty|NA
+00:19:59|00:20:02|good place to leave it|NA
+00:20:00|00:20:04|and we've definitely|NA
+00:20:02|00:20:06|something speaking of learning something|A
+00:20:04|00:20:09|I want to teach you about our sponsor|A
+00:20:06|00:20:11|ring wants you to know who is at your|A
+00:20:09|00:20:13|front door without ever getting off the|A
+00:20:11|00:20:15|couch their welcome kit includes the|A
+00:20:13|00:20:17|video doorbell to their spotlight cam|A
+00:20:15|00:20:20|battery and there's solar security sign|A
+00:20:17|00:20:22|and their video doorbell too has tons of|A
+00:20:20|00:20:26|great features it's got a motion sensor|A
+00:20:22|00:20:28|camera 1080p HD resolution with 160|A
+00:20:26|00:20:31|degrees of vision two-way audio and it's|A
+00:20:28|00:20:33|powered by a battery or eight to 24 volt|A
+00:20:31|00:20:36|AC doorbell wiring their spotlight|A
+00:20:33|00:20:39|camera has 1080p HD video two-way talk|A
+00:20:36|00:20:41|LED lights battery or solar power|A
+00:20:39|00:20:44|sources and a siren the audio is great|A
+00:20:41|00:20:46|as well and you can turn away unwelcome|A
+00:20:44|00:20:48|guests or tell them to come right in|A
+00:20:46|00:20:49|just because someone's an unwelcome|A
+00:20:48|00:20:50|guest doesn't mean that they can't come|A
+00:20:49|00:20:53|into your house like say for example|A
+00:20:50|00:20:54|your mother-in-law hey I've used that|A
+00:20:53|00:20:56|joke before but that's okay it's still|A
+00:20:54|00:20:58|funny my personal favorite is telling|A
+00:20:56|00:21:00|the Amazon driver not to run away after|A
+00:20:58|00:21:01|the second knock of the door like now I|A
+00:21:00|00:21:03|don't want the notice I want the actual|A
+00:21:01|00:21:04|product now so get some peace of mind|A
+00:21:03|00:21:06|with the ring welcome kit it's|A
+00:21:04|00:21:08|compatible with iOS Android Mac and|A
+00:21:06|00:21:10|Windows and you can buy it today at the|A
+00:21:08|00:21:11|link in the video description so thanks|NA
+00:21:10|00:21:14|for watching guys|NA
+00:21:11|00:21:15|massive shout out to GAF from slo-mo|NA
+00:21:14|00:21:18|guys for coming all the way out here|NA
+00:21:15|00:21:20|make sure that if you somehow haven't|NA
+00:21:18|00:21:21|heard of the slow mo guys you check out|NA
+00:21:20|00:21:23|the link to his channel in the video|NA
+00:21:21|00:21:25|description if you guys like the video|NA
+00:21:23|00:21:26|you can hit that button you can get|NA
+00:21:25|00:21:28|subscribed and maybe consider checking|NA
+00:21:26|00:21:29|out where to buy the stuff we featured|NA
+00:21:28|00:21:31|at the link below|NA
+00:21:29|00:21:33|maybe nothing specific let's put some|NA
+00:21:31|00:21:35|high refresh rate monitors that we like|NA
+00:21:33|00:21:37|down there also down there is our merch|NA
+00:21:35|00:21:39|store which has cool shirts like this|NA
+00:21:37|00:21:41|one and our community forum which you|NA
+00:21:39|00:21:41|should totally join|NA

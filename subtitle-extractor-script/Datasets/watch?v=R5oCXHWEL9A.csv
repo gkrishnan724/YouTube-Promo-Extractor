@@ -1,0 +1,158 @@
+sub_begin_time|sub_end_time|text|class
+00:00:00|00:00:03|[Music]|NA
+00:00:11|00:00:16|in our universe when you change from a|NA
+00:00:14|00:00:18|non-moving perspective to a moving one|NA
+00:00:16|00:00:20|or vice versa that change of perspective|NA
+00:00:18|00:00:21|is represented by what's called a|NA
+00:00:20|00:00:23|Lorentz transformation which is a kind|NA
+00:00:21|00:00:24|of squeezed stretch rotation of|NA
+00:00:23|00:00:26|space-time that I've mechanically|NA
+00:00:24|00:00:28|implemented with this space-time globe|NA
+00:00:26|00:00:30|Lorentz transformations keep the speed|NA
+00:00:28|00:00:32|of light the same for all perspectives|NA
+00:00:30|00:00:34|since that's the way our universe works|NA
+00:00:32|00:00:35|for example let's say I'm not moving|NA
+00:00:34|00:00:37|that is I'm at the same position at all|NA
+00:00:35|00:00:39|times and you're moving 1/3 the speed of|NA
+00:00:37|00:00:41|light to my right and you turn on a|NA
+00:00:39|00:00:43|flashlight then that light will move at|NA
+00:00:41|00:00:45|the speed of light C or about 300|NA
+00:00:43|00:00:47|million meters per second which is drawn|NA
+00:00:45|00:00:49|as a 45-degree line on this space-time|NA
+00:00:47|00:00:50|diagram and viewed from your perspective|NA
+00:00:49|00:00:51|you're not moving|NA
+00:00:50|00:00:54|aka you're at the same position at all|NA
+00:00:51|00:00:56|times but the light ray still travels at|NA
+00:00:54|00:00:58|the speed of light in fact viewed from|NA
+00:00:56|00:01:00|any moving perspective the light ray|NA
+00:00:58|00:01:02|always moves along a 45-degree line on a|NA
+00:01:00|00:01:04|spacetime diagram at least one with AK|NA
+00:01:02|00:01:07|sees scaled like this so light speed|NA
+00:01:04|00:01:09|plus your speed equals light speed it's|NA
+00:01:07|00:01:10|almost more like what happens when you|NA
+00:01:09|00:01:12|add something to infinity then adding|NA
+00:01:10|00:01:14|together two finite numbers but what|NA
+00:01:12|00:01:15|about speeds slower than light speed|NA
+00:01:14|00:01:17|what if you're traveling at sixty|NA
+00:01:15|00:01:19|percent the speed of light to the right|NA
+00:01:17|00:01:20|and you shoot a death pellet that is|NA
+00:01:19|00:01:22|itself going 60 percent the speed of|NA
+00:01:20|00:01:24|light to the right relative to you how|NA
+00:01:22|00:01:26|fast is it going from my perspective the|NA
+00:01:24|00:01:28|intuitive answer to this question is|NA
+00:01:26|00:01:29|that if the death pellet is going 180|NA
+00:01:28|00:01:32|million meters per second to the right|NA
+00:01:29|00:01:33|relative to you and you're going 180|NA
+00:01:32|00:01:35|million meters per second to the right|NA
+00:01:33|00:01:37|relative to me then the death pellet|NA
+00:01:35|00:01:38|must be going 360 million meters per|NA
+00:01:37|00:01:41|second to the right relative to me which|NA
+00:01:38|00:01:43|is faster than light and which is wrong|NA
+00:01:41|00:01:45|in our universe velocities don't simply|NA
+00:01:43|00:01:47|add up when you change perspective they|NA
+00:01:45|00:01:49|almost do for things moving much slower|NA
+00:01:47|00:01:51|than light which I'll explain in a bit|NA
+00:01:49|00:01:53|but in general that's not how our|NA
+00:01:51|00:01:55|universe behaves here is a spacetime|NA
+00:01:53|00:01:56|diagram from your perspective of you|NA
+00:01:55|00:01:58|shooting a death pellet to the right at|NA
+00:01:56|00:02:00|50 percent the speed of light that is|NA
+00:01:58|00:02:02|taking four seconds to go as far as|NA
+00:02:00|00:02:03|light would in two seconds and here's|NA
+00:02:02|00:02:05|what happens when we shift to my|NA
+00:02:03|00:02:06|perspective from which you are moving to|NA
+00:02:05|00:02:08|the right at 50 percent the speed of|NA
+00:02:06|00:02:10|light the death pellet is still moving|NA
+00:02:08|00:02:12|to the right relative to you and still|NA
+00:02:10|00:02:14|moving really darn fast but it's not|NA
+00:02:12|00:02:17|moving faster than light its world line|NA
+00:02:14|00:02:18|is not quite a 45-degree line and it|NA
+00:02:17|00:02:20|can't be which you can kind of get a|NA
+00:02:18|00:02:21|feeling for from how Lorentz|NA
+00:02:20|00:02:22|transformations work they're essentially|NA
+00:02:21|00:02:24|stretching|NA
+00:02:22|00:02:26|squeezing space-time and stretching out|NA
+00:02:24|00:02:27|a lion on a rubber sheet makes the lines|NA
+00:02:26|00:02:29|angle approach the direction of|NA
+00:02:27|00:02:30|stretching but never flip over to be|NA
+00:02:29|00:02:32|pointing the other way and while stuff|NA
+00:02:30|00:02:33|going sixty percent the speed of light|NA
+00:02:32|00:02:35|is kind of reaching the limits of what|NA
+00:02:33|00:02:36|the space-time globe can reasonably|NA
+00:02:35|00:02:38|display if you shoot a death pellet at|NA
+00:02:36|00:02:39|60 percent the speed of light and then|NA
+00:02:38|00:02:41|we shift to my perspective from which|NA
+00:02:39|00:02:43|you're going 60 percent the speed of|NA
+00:02:41|00:02:45|light the death pellet still isn't going|NA
+00:02:43|00:02:46|faster than light so even if we shot a|NA
+00:02:45|00:02:48|death pellet going 60 percent the speed|NA
+00:02:46|00:02:50|of light from a death pellet going 60|NA
+00:02:48|00:02:52|percent the speed of light from a death|NA
+00:02:50|00:02:53|pellet going 60 percent the speed of|NA
+00:02:52|00:02:56|light and so on the final speed would be|NA
+00:02:53|00:02:57|close to but not quite the speed of|NA
+00:02:56|00:03:00|light because of how relative velocities|NA
+00:02:57|00:03:01|combined in our universe this is one of|NA
+00:03:00|00:03:03|the consequences forced upon us by the|NA
+00:03:01|00:03:05|constancy of the speed of light in the|NA
+00:03:03|00:03:07|universe like ours where changes of|NA
+00:03:05|00:03:10|velocity don't change the speed of light|NA
+00:03:07|00:03:11|then changes of moving perspective can|NA
+00:03:10|00:03:13|never make other velocities changed from|NA
+00:03:11|00:03:15|a relative speed less than the speed of|NA
+00:03:13|00:03:17|light to a relative speed equal to or|NA
+00:03:15|00:03:19|greater than light if we have an object|NA
+00:03:17|00:03:21|moving at a speed V relative to your|NA
+00:03:19|00:03:23|perspective and you're moving relative|NA
+00:03:21|00:03:25|to me with speed U then the equation|NA
+00:03:23|00:03:27|that describes precisely what speed the|NA
+00:03:25|00:03:29|object is moving relative to my|NA
+00:03:27|00:03:31|perspective is V from my perspective|NA
+00:03:29|00:03:34|equals V from the moving perspective|NA
+00:03:31|00:03:36|plus u all over 1 plus V from the moving|NA
+00:03:34|00:03:38|perspective times u over C squared where|NA
+00:03:36|00:03:40|C is the speed of light you'll notice|NA
+00:03:38|00:03:41|that if you put the speed of light in as|NA
+00:03:40|00:03:43|one of the velocities the equation|NA
+00:03:41|00:03:45|always gives the speed of light back no|NA
+00:03:43|00:03:47|matter what the other velocity is which|NA
+00:03:45|00:03:49|of course jives with the whole constant|NA
+00:03:47|00:03:50|speed of light thing and you'll notice|NA
+00:03:49|00:03:52|that if both velocities are less than|NA
+00:03:50|00:03:54|the speed of light then the equation|NA
+00:03:52|00:03:55|always gives back an answer less than|NA
+00:03:54|00:03:57|the speed of light which is what we were|NA
+00:03:55|00:03:59|describing earlier about relative speeds|NA
+00:03:57|00:04:00|never adding up to a speed faster than|NA
+00:03:59|00:04:03|light and you'll notice that if both|NA
+00:04:00|00:04:05|velocities are a lot lot smaller than|NA
+00:04:03|00:04:06|the speed of light then the V times u|NA
+00:04:05|00:04:08|divided by C squared term in the bottom|NA
+00:04:06|00:04:11|is essentially zero and so the whole|NA
+00:04:08|00:04:13|thing is essentially V Plus u this is|NA
+00:04:11|00:04:16|the sense in which for slow speeds|NA
+00:04:13|00:04:18|velocities do simply add together but|NA
+00:04:16|00:04:22|not for speeds close to light speed our|NA
+00:04:18|00:04:22|universe is more subtle than that|NA
+00:04:22|00:04:27|for a deeper look into how to compare|A
+00:04:25|00:04:29|relativistic velocities I highly|A
+00:04:27|00:04:31|recommend heading over to brilliant orgs|A
+00:04:29|00:04:33|course on special relativity there you|A
+00:04:31|00:04:35|can explore custom scenarios that build|A
+00:04:33|00:04:36|off the topics in this video to get an|A
+00:04:35|00:04:38|intuitive understanding of the|A
+00:04:36|00:04:40|mathematics of relativistic velocity|A
+00:04:38|00:04:43|addition like how to warn earth of an|A
+00:04:40|00:04:44|incoming relativistic alien invasion the|A
+00:04:43|00:04:46|special relativity questions on|A
+00:04:44|00:04:47|brilliant org are specifically designed|A
+00:04:46|00:04:49|to help you take the next step on the|A
+00:04:47|00:04:51|topics I'm including in this series and|A
+00:04:49|00:04:52|you can get 20% off of a brilliant|A
+00:04:51|00:04:54|subscription by going to brilliant org|A
+00:04:52|00:04:56|slash minutephysics again that's|A
+00:04:54|00:04:58|brilliant org slash minutephysics which|A
+00:04:56|00:04:59|gets you 20% off premium access to all|A
+00:04:58|00:05:02|of brilliance courses and puzzles and|NA
+00:04:59|00:05:07|lets brilliant know you came from here|NA
+00:05:02|00:05:07|[Music]|NA

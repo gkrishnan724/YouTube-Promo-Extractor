@@ -1,0 +1,468 @@
+sub_begin_time|sub_end_time|text|class
+00:00:00|00:00:02|I want to tell you about a very famous|NA
+00:00:00|00:00:04|number that you've heard about before|NA
+00:00:02|00:00:06|but I'll tell you why it is what it is|NA
+00:00:04|00:00:07|and it's the golden ratio a lot of|NA
+00:00:06|00:00:08|people think the golden ratio is this|NA
+00:00:07|00:00:10|mystical thing it is but not for the|NA
+00:00:08|00:00:12|reasons they think but I want to do that|NA
+00:00:10|00:00:14|and I tell you why it's interesting when|NA
+00:00:12|00:00:15|I do that through a mechanism of flowers|NA
+00:00:14|00:00:16|and you may have heard a connection with|NA
+00:00:15|00:00:18|the coordination flowers before but I'll|NA
+00:00:16|00:00:19|show you why that connection is there|NA
+00:00:18|00:00:21|for the sake of this nobody I'll I'll be|NA
+00:00:19|00:00:23|the scribe but I'd like you to imagine|NA
+00:00:21|00:00:25|Brady that you are a flower your job as|NA
+00:00:23|00:00:26|a flower is to deal with your seeds it's|NA
+00:00:25|00:00:27|kind of the job of everything living|NA
+00:00:26|00:00:28|you're gonna grow some seeds and we're|NA
+00:00:27|00:00:29|gonna model this flower in a|NA
+00:00:28|00:00:31|mathematical way|NA
+00:00:29|00:00:32|this is not how flowers actually grow|NA
+00:00:31|00:00:34|but there are connections this is the|NA
+00:00:32|00:00:35|center when you grow a seed I'm gonna|NA
+00:00:34|00:00:37|represent that by putting a little blob|NA
+00:00:35|00:00:39|that's a seed that you've going from the|NA
+00:00:37|00:00:40|center of your flower and one option you|NA
+00:00:39|00:00:41|could have is is you've got it so where|NA
+00:00:40|00:00:44|to put your seeds and I'm gonna give you|NA
+00:00:41|00:00:46|the option of only how much do you turn|NA
+00:00:44|00:00:48|around before you grow your next seed so|NA
+00:00:46|00:00:51|you put a seed down and you could turn a|NA
+00:00:48|00:00:52|bit and put another seat down kind of|NA
+00:00:51|00:00:54|growing it if you don't turn at all|NA
+00:00:52|00:00:55|you're gonna grow seeds out like this|NA
+00:00:54|00:00:56|the first he goes there if you don't|NA
+00:00:55|00:00:58|turn the next he goes next to it then if|NA
+00:00:56|00:00:59|one goes next to it you're gonna grow|NA
+00:00:58|00:01:00|the seeds out there and you're gonna|NA
+00:00:59|00:01:02|push seeds out actually I'm adding them|NA
+00:01:00|00:01:03|on the end but it grow from there and|NA
+00:01:02|00:01:05|push this seeds out on the line this is|NA
+00:01:03|00:01:06|a really bad arrangement for a flower I|NA
+00:01:05|00:01:08|hope you agree and I hope you weren't|NA
+00:01:06|00:01:11|imagining this when you were thinking of|NA
+00:01:08|00:01:14|a flower yeah there's a whole bunch of|NA
+00:01:11|00:01:15|circle unused so the obvious thing if|NA
+00:01:14|00:01:17|I'm gonna do this model of like if a|NA
+00:01:15|00:01:18|flower could just grow by putting a seed|NA
+00:01:17|00:01:20|in and turning a bit what would happen|NA
+00:01:18|00:01:22|if you turn an amount of a turn so I'm|NA
+00:01:20|00:01:24|gonna talk about fractions of turns this|NA
+00:01:22|00:01:26|is a fraction return of zero if you do|NA
+00:01:24|00:01:27|no one here with an you turn half a turn|NA
+00:01:26|00:01:29|each time then if the first seed goes|NA
+00:01:27|00:01:31|here then I think if you turn half turn|NA
+00:01:29|00:01:33|the next one's gonna go there if you|NA
+00:01:31|00:01:34|don't half turn again keep UN same|NA
+00:01:33|00:01:37|direction it's gonna go there and there|NA
+00:01:34|00:01:39|and this is also not exciting being kind|NA
+00:01:37|00:01:41|of see why the decision of turning a|NA
+00:01:39|00:01:43|half has made two lines and maybe gonna|NA
+00:01:41|00:01:44|call these spokes because just to get|NA
+00:01:43|00:01:46|you in the mood Lister third you could|NA
+00:01:44|00:01:47|probably predict it pretty easily see|NA
+00:01:46|00:01:49|turn that third of a turn or roughly|NA
+00:01:47|00:01:51|there third of a turn roughly there and|NA
+00:01:49|00:01:54|you're gonna see these three spokes|NA
+00:01:51|00:01:55|sticking out pretty easily happy enough|NA
+00:01:54|00:01:56|with this I mean these none of these are|NA
+00:01:55|00:01:58|good flower designs but the consequences|NA
+00:01:56|00:02:01|of choosing a number is giving you some|NA
+00:01:58|00:02:04|patterns so if I jump say to a tenth of|NA
+00:02:01|00:02:07|a turn would you care to predict what|NA
+00:02:04|00:02:09|you'd see yeah and so I don't think the|NA
+00:02:07|00:02:11|the spoke behavior is very surprising|NA
+00:02:09|00:02:11|and it looks like the denominator of|NA
+00:02:11|00:02:13|this|NA
+00:02:11|00:02:14|fraction of attorneys controlling|NA
+00:02:13|00:02:16|everything now I think it's much less|NA
+00:02:14|00:02:19|obvious if I told you what would happen|NA
+00:02:16|00:02:20|three tenths so with three tenths if you|NA
+00:02:19|00:02:22|start here you have three tenths of a|NA
+00:02:20|00:02:24|turn you'd skip a couple of the branches|NA
+00:02:22|00:02:26|and then that another three tenths you'd|NA
+00:02:24|00:02:27|skip a couple you get on here three|NA
+00:02:26|00:02:29|tenths you'd skip a couple go here and|NA
+00:02:27|00:02:30|if you keep going around you'll end up|NA
+00:02:29|00:02:32|not repeating yourself for a bit until|NA
+00:02:30|00:02:33|all ten are done|NA
+00:02:32|00:02:34|you also get tens books so there's this|NA
+00:02:33|00:02:36|really nice thing in mathematics called|NA
+00:02:34|00:02:37|a conjecture we pretty much have one|NA
+00:02:36|00:02:39|here looks like it's the denominator of|NA
+00:02:37|00:02:41|the fraction is controlling number|NA
+00:02:39|00:02:42|spokes so here's a quick computer model|NA
+00:02:41|00:02:44|of what we've been talking about and we|NA
+00:02:42|00:02:45|can check that with other tests before I|NA
+00:02:44|00:02:48|have 11 you may want to predict what|NA
+00:02:45|00:02:49|happens you're correct there 11 spokes|NA
+00:02:48|00:02:52|if you type in some other numbers there|NA
+00:02:49|00:02:54|are some surprises so I do 11 out of 23|NA
+00:02:52|00:02:55|you do get 23 spokes but there's some|NA
+00:02:54|00:02:57|interesting behavior happening in the|NA
+00:02:55|00:02:58|middle and that's actually it looks like|NA
+00:02:57|00:02:59|this kind of two spokes but they're kind|NA
+00:02:58|00:03:01|of twisted and that's because this|NA
+00:02:59|00:03:03|number is quite close to one over two|NA
+00:03:01|00:03:05|and it looks like what numbers you're|NA
+00:03:03|00:03:07|close to also affect what happens one|NA
+00:03:05|00:03:09|surprise that you should watch out for I|NA
+00:03:07|00:03:11|mean if I do seven tenths you know about|NA
+00:03:09|00:03:12|tenths you get ten of them but then|NA
+00:03:11|00:03:14|occasionally you catch yourself I you do|NA
+00:03:12|00:03:16|four tenths same thing are ten spokes|NA
+00:03:14|00:03:18|but there aren't is two-fifths and|NA
+00:03:16|00:03:19|flowers can cancel fractions or all I|NA
+00:03:18|00:03:21|can't actually and was it happening is|NA
+00:03:19|00:03:23|that four tenths is better described by|NA
+00:03:21|00:03:25|two fifths so you've seen lots of bad|NA
+00:03:23|00:03:27|flowers this is pretty but it's not what|NA
+00:03:25|00:03:29|flowers - what's interesting is if you|NA
+00:03:27|00:03:31|change this number very very slowly and|NA
+00:03:29|00:03:32|you realize that a tiny change gives you|NA
+00:03:31|00:03:34|very different behavior so this number|NA
+00:03:32|00:03:37|is changing ridiculously slowly but even|NA
+00:03:34|00:03:39|a small jump he's giving us spirally|NA
+00:03:37|00:03:43|shapes and very quickly they stop|NA
+00:03:39|00:03:45|looking like suppose that the number is|NA
+00:03:43|00:03:48|the fraction of a turn before I grow you|NA
+00:03:45|00:03:51|see so this number that's here is is|NA
+00:03:48|00:03:52|0.40 one of a turn when I go you see|NA
+00:03:51|00:03:53|them that's already enough to stop it|NA
+00:03:52|00:03:54|going in lines and they're starting to|NA
+00:03:53|00:03:57|bunch together and this is already|NA
+00:03:54|00:03:59|looking better a prettier thing for a|NA
+00:03:57|00:04:00|flower it's also nicely hypnotic if you|NA
+00:03:59|00:04:02|need to hypnotize people you start|NA
+00:04:00|00:04:04|seeing things kind of turning one way|NA
+00:04:02|00:04:06|but also maybe turning the other way you|NA
+00:04:04|00:04:10|see spokes arriving and disappearing and|NA
+00:04:06|00:04:12|this is already a better flower I'm|NA
+00:04:10|00:04:13|using it much more efficiently now I'm|NA
+00:04:12|00:04:15|not saying flowers are thinking about|NA
+00:04:13|00:04:16|this there's some how they do this|NA
+00:04:15|00:04:18|efficiently and we've got now an obvious|NA
+00:04:16|00:04:20|question is is there a fraction of a|NA
+00:04:18|00:04:21|turn that is an efficient one what's|NA
+00:04:20|00:04:23|really lovely about this is you can see|NA
+00:04:21|00:04:24|rational numbers arriving you can see|NA
+00:04:23|00:04:26|that I'm not out of fur|NA
+00:04:24|00:04:27|but already the number three is|NA
+00:04:26|00:04:29|dominating everything it's like hunting|NA
+00:04:27|00:04:30|for big game you can hear these animals|NA
+00:04:29|00:04:32|coming in the undergrowth you see it|NA
+00:04:30|00:04:34|this third is about to arrive or at|NA
+00:04:32|00:04:36|0.329 now and as soon as we hit exactly|NA
+00:04:34|00:04:37|a third we're gonna get those three|NA
+00:04:36|00:04:39|spokes and it's really nice to see it|NA
+00:04:37|00:04:40|arrive and then disappear so it's about|NA
+00:04:39|00:04:42|to get there as soon as we hit point two|NA
+00:04:40|00:04:43|three three three three two exactly as|NA
+00:04:42|00:04:46|long as the cows on forever you will see|NA
+00:04:43|00:04:48|our three spokes and then it's gone|NA
+00:04:46|00:04:50|we're in two other numbers if you put a|NA
+00:04:48|00:04:52|number in for a fraction of a turn and|NA
+00:04:50|00:04:53|it is a fraction ie hasn't denominated|NA
+00:04:52|00:04:55|it's gonna give you spokes and so maybe|NA
+00:04:53|00:04:58|we're into familiar territory from many|NA
+00:04:55|00:04:59|other discussions about numbers maybe|NA
+00:04:58|00:05:00|you could suggest a number greater you|NA
+00:04:59|00:05:04|could type in that wouldn't give me|NA
+00:05:00|00:05:06|spokes which is the square root of two|NA
+00:05:04|00:05:09|what do you think you're gonna see kind|NA
+00:05:06|00:05:11|of spirally spirals oh it looks less|NA
+00:05:09|00:05:13|like it's got spokes but you can't kind|NA
+00:05:11|00:05:14|of count them and it turns out that this|NA
+00:05:13|00:05:16|is definitely an irrational number I'm|NA
+00:05:14|00:05:17|approximating an irrational number on|NA
+00:05:16|00:05:19|computer but this arrangement looks much|NA
+00:05:17|00:05:21|better so it sounds like you've you've|NA
+00:05:19|00:05:22|hit upon the idea of maybe flowers need|NA
+00:05:21|00:05:24|to turn it irrational amount of a turn|NA
+00:05:22|00:05:26|but there are the irrational numbers I'm|NA
+00:05:24|00:05:27|gonna type in 1 over PI because PI's a|NA
+00:05:26|00:05:29|lot of people's favorite here of|NA
+00:05:27|00:05:30|rational number this surprised me think|NA
+00:05:29|00:05:32|about what you might see we know it|NA
+00:05:30|00:05:34|can't produce spokes because pi is|NA
+00:05:32|00:05:35|irrational now they're not quite spokes|NA
+00:05:34|00:05:37|but they're slightly curved spokes and|NA
+00:05:35|00:05:39|there are in fact 22 of them just to|NA
+00:05:37|00:05:42|save you counting I don't know if 22|NA
+00:05:39|00:05:43|rings of Bell to do with PI but if the|NA
+00:05:42|00:05:45|older generation needs to get toward|NA
+00:05:43|00:05:48|their pi was pretty much exactly the|NA
+00:05:45|00:05:50|ratio 22 over 7 it's not quite but it's|NA
+00:05:48|00:05:51|unreasonably good and you can see on|NA
+00:05:50|00:05:53|this diagram that is unreasonably good|NA
+00:05:51|00:05:54|because this is irrational but it's|NA
+00:05:53|00:05:56|really well approximated by something|NA
+00:05:54|00:05:57|through the number 22 in fact what I|NA
+00:05:56|00:05:59|love about this diagram is you can see|NA
+00:05:57|00:06:01|another approximation of Pi buried in|NA
+00:05:59|00:06:03|the middle there aren't 22 spokes in the|NA
+00:06:01|00:06:04|middle there are 3-3 is a very|NA
+00:06:03|00:06:06|well-known approximation for pi in fact|NA
+00:06:04|00:06:09|if I carried this diagram on really big|NA
+00:06:06|00:06:11|you see lots of rational approximations|NA
+00:06:09|00:06:13|for pi in the arrangements of seeds in a|NA
+00:06:11|00:06:14|flower or a mathematical flower but what|NA
+00:06:13|00:06:15|it also tells you is that pi is not very|NA
+00:06:14|00:06:17|irrational|NA
+00:06:15|00:06:19|it looks like root 2 is more irrational|NA
+00:06:17|00:06:21|so actually the obvious question which|NA
+00:06:19|00:06:22|is turned up in lots of situations and|NA
+00:06:21|00:06:24|maybe in other videos from me is that is|NA
+00:06:22|00:06:26|there one that's the most irrational and|NA
+00:06:24|00:06:28|there is and I'll show it to you and|NA
+00:06:26|00:06:30|then I'll show you why so here it is if|NA
+00:06:28|00:06:32|I jump to this square root of 5 minus 1|NA
+00:06:30|00:06:34|over 2 in this this is the golden ratio|NA
+00:06:32|00:06:35|of a turn and what's lovely about is you|NA
+00:06:34|00:06:37|can see spokes but you can see they're|NA
+00:06:35|00:06:38|going in both directions they're kind of|NA
+00:06:37|00:06:39|crossing over both ways and you could|NA
+00:06:38|00:06:41|try and count them and if you do you get|NA
+00:06:39|00:06:43|Fibonacci numbers and if you go and look|NA
+00:06:41|00:06:45|in the real world this is the bit a lot|NA
+00:06:43|00:06:46|of people claim is that this is what|NA
+00:06:45|00:06:48|sunflowers do so if I hide the seeds|NA
+00:06:46|00:06:49|there that's the arrangement of seeds in|NA
+00:06:48|00:06:50|the head of a sunflower|NA
+00:06:49|00:06:52|that's not generated by a computer this|NA
+00:06:50|00:06:53|is a flower doing something to be|NA
+00:06:52|00:06:55|efficient and if I put the seeds back|NA
+00:06:53|00:06:57|and hide it the the correlation between|NA
+00:06:55|00:06:58|those placements is is almost|NA
+00:06:57|00:06:59|frightening and what's lovely bad is|NA
+00:06:58|00:07:01|that no other number works so if I start|NA
+00:06:59|00:07:03|this animating again not the spokes are|NA
+00:07:01|00:07:04|obvious and this kind of unravels and|NA
+00:07:03|00:07:06|already you can see these spokes|NA
+00:07:04|00:07:07|unraveling and they're obvious spokes we|NA
+00:07:06|00:07:09|could count the spokes and figure out|NA
+00:07:07|00:07:10|what rational number was near so the|NA
+00:07:09|00:07:12|golden ratio looks like it's the best|NA
+00:07:10|00:07:13|one but I want to show you on paper why|NA
+00:07:12|00:07:15|is the best one and I'm gonna do that by|NA
+00:07:13|00:07:17|starting with pi because it's a good|NA
+00:07:15|00:07:19|place to start but pi is an irrational|NA
+00:07:17|00:07:21|number that apparently is not very|NA
+00:07:19|00:07:23|irrational and we kind of already know|NA
+00:07:21|00:07:25|that it's approximated well by a|NA
+00:07:23|00:07:26|rational number but let me show you how|NA
+00:07:25|00:07:28|you can sort of quantify that so I'm|NA
+00:07:26|00:07:30|gonna say that's high is three plus a|NA
+00:07:28|00:07:31|bit I don't think that's controversial|NA
+00:07:30|00:07:33|but what I'm interested in is writing|NA
+00:07:31|00:07:35|this number pi which I can never really|NA
+00:07:33|00:07:36|write down a full which is why we have|NA
+00:07:35|00:07:38|the symbol for it can I write it in a|NA
+00:07:36|00:07:40|way which looks more like a fraction|NA
+00:07:38|00:07:41|instead of like a decimal so 3 plus a|NA
+00:07:40|00:07:43|bit isn't very helpful but I could sage|NA
+00:07:41|00:07:45|since this bit is less than 1 otherwise|NA
+00:07:43|00:07:47|it could be 4 plus a bit right then I|NA
+00:07:45|00:07:49|could say this is 3 plus 1 over|NA
+00:07:47|00:07:51|something and I could find out what that|NA
+00:07:49|00:07:52|something is on a calculator I could|NA
+00:07:51|00:07:54|take away the 3 and I get into something|NA
+00:07:52|00:07:56|and then I could do 1 over there or X to|NA
+00:07:54|00:07:58|the minus 1 to find out what it is and|NA
+00:07:56|00:08:00|it actually is seven point something so|NA
+00:07:58|00:08:01|I'm gonna write this 1 over 7 plus a bit|NA
+00:08:00|00:08:03|the words a bit are not sort of|NA
+00:08:01|00:08:04|mathematically recognised terminology|NA
+00:08:03|00:08:07|but you get the idea so I could carry on|NA
+00:08:04|00:08:08|I know this 3 plus 1 over 7 plus a bit|NA
+00:08:07|00:08:10|and I could write that as 1 over|NA
+00:08:08|00:08:11|something and that's on my screen now so|NA
+00:08:10|00:08:15|I could take away the the 7 and get the|NA
+00:08:11|00:08:17|bit and do 1 over that and I get 15 and|NA
+00:08:15|00:08:18|a bit I can start writing 15 plus a bit|NA
+00:08:17|00:08:19|instead of doing me a bit now I'm just|NA
+00:08:18|00:08:24|gonna go straight in with 1 over|NA
+00:08:19|00:08:25|something take away 15 get the bit X to|NA
+00:08:24|00:08:29|the minus 1 do 1 over it and they get|NA
+00:08:25|00:08:31|one and a bit take away 1 through the|NA
+00:08:29|00:08:33|bits a very small bit this time and I|NA
+00:08:31|00:08:35|get to 9 2 and you can see that if this|NA
+00:08:33|00:08:37|number is truly irrational I could just|NA
+00:08:35|00:08:39|keep going and actually this thing here|NA
+00:08:37|00:08:40|is called the continued fraction for pi|NA
+00:08:39|00:08:42|and something very obvious happens with|NA
+00:08:40|00:08:43|the PI is that you get a very small|NA
+00:08:42|00:08:44|number here then you get a very large|NA
+00:08:43|00:08:46|number here in the trade they call it|NA
+00:08:44|00:08:47|truncating but if you chop the continued|NA
+00:08:46|00:08:49|fraction its own|NA
+00:08:47|00:08:51|you'll get an approximation so three and|NA
+00:08:49|00:08:53|a seventh is 22 over 7 it's a good|NA
+00:08:51|00:08:54|approximation for pi if you're talking|NA
+00:08:53|00:08:57|there you get a approximation if you|NA
+00:08:54|00:08:58|chop it there I'll chop it there but|NA
+00:08:57|00:09:00|because this number is massive|NA
+00:08:58|00:09:06|and it's one over that number this|NA
+00:09:00|00:09:07|additional bit is tiny well actually|NA
+00:09:06|00:09:09|after that goes back to being someone's|NA
+00:09:07|00:09:11|in the continued fraction but that|NA
+00:09:09|00:09:12|particular point it means that you don't|NA
+00:09:11|00:09:14|add very much accuracy at those two|NA
+00:09:12|00:09:15|levels truncation which means it was|NA
+00:09:14|00:09:17|really accurate before which means the|NA
+00:09:15|00:09:21|step before that was ridiculously good|NA
+00:09:17|00:09:22|which means pi is well approximated|NA
+00:09:21|00:09:24|quite early on by a rational number|NA
+00:09:22|00:09:25|which is why I'm gonna claim it's not|NA
+00:09:24|00:09:27|very irrational and why when you saw the|NA
+00:09:25|00:09:29|diagram of it looks like ants pokes so|NA
+00:09:27|00:09:30|looking in the continued fraction the|NA
+00:09:29|00:09:31|question is what would the most|NA
+00:09:30|00:09:33|irrational number look like it would be|NA
+00:09:31|00:09:35|the one with a continued fraction that|NA
+00:09:33|00:09:36|doesn't have any large numbers in it so|NA
+00:09:35|00:09:38|I'm gonna claim that this is a pretty|NA
+00:09:36|00:09:39|good candidate I'm gonna call it X so|NA
+00:09:38|00:09:40|the continued fraction would be let's|NA
+00:09:39|00:09:41|just start with one|NA
+00:09:40|00:09:44|but then the continued fraction would go|NA
+00:09:41|00:09:46|one over the smallest whole number one I|NA
+00:09:44|00:09:48|know have one here I don't have a one|NA
+00:09:46|00:09:49|here I have a one here and this is|NA
+00:09:48|00:09:51|something that a lot of people do|NA
+00:09:49|00:09:53|recognize it's an odd thing to ask what|NA
+00:09:51|00:09:54|it is but whatever it is it will be|NA
+00:09:53|00:09:56|badly approximated anytime you truncate|NA
+00:09:54|00:09:58|it because these numbers are small now|NA
+00:09:56|00:10:00|just as a little heads up I'm just gonna|NA
+00:09:58|00:10:02|tell you the root two has a continued|NA
+00:10:00|00:10:06|fraction as well one plus one over two|NA
+00:10:02|00:10:07|plus tonight with two two two and it|NA
+00:10:06|00:10:09|carries on like that which is|NA
+00:10:07|00:10:10|incidentally why root two looked pretty|NA
+00:10:09|00:10:12|good on our diagram because although|NA
+00:10:10|00:10:13|these are not the smallest numbers this|NA
+00:10:12|00:10:14|they're consistent and they stay small|NA
+00:10:13|00:10:16|what I want to get through with this|NA
+00:10:14|00:10:18|video you might know the answer but I|NA
+00:10:16|00:10:20|want to prove it is what is this number|NA
+00:10:18|00:10:21|I'm gonna solve this this is an infinite|NA
+00:10:20|00:10:24|thing but we can solve this surprisingly|NA
+00:10:21|00:10:25|easy because it carries on forever let|NA
+00:10:24|00:10:27|me point out something which i think is|NA
+00:10:25|00:10:29|obvious when someone points it out which|NA
+00:10:27|00:10:30|is that this thing is the same as the|NA
+00:10:29|00:10:32|whole thing it is X which means I can|NA
+00:10:30|00:10:34|sort of grab that thing and call it X I|NA
+00:10:32|00:10:38|can rewrite equation as x equals 1 plus|NA
+00:10:34|00:10:40|1 over X and that looks much less scary|NA
+00:10:38|00:10:42|in fact it's a quadratic equation which|NA
+00:10:40|00:10:43|I'm gonna solve I'm sure people watching|NA
+00:10:42|00:10:45|this video would have their favorite way|NA
+00:10:43|00:10:47|of solving quadratics I'm gonna do maybe|NA
+00:10:45|00:10:49|not quite the quadratic formula I've|NA
+00:10:47|00:10:50|seen a friend of mine called Matt Parker|NA
+00:10:49|00:10:52|try this with a quadratic formula|NA
+00:10:50|00:10:55|there's a better way I'm multiplying by|NA
+00:10:52|00:10:57|X to get x squared equals x plus 1 I'm|NA
+00:10:55|00:10:59|gonna rearrange it onto one side over x|NA
+00:10:57|00:11:01|squared minus X minus|NA
+00:10:59|00:11:02|one equals zero at this point a lot of|NA
+00:11:01|00:11:04|people reach for the quadratic formula|NA
+00:11:02|00:11:05|that minus B plus or minus the square|NA
+00:11:04|00:11:08|root I'm gonna complete this square|NA
+00:11:05|00:11:10|which is where the formula comes from so|NA
+00:11:08|00:11:13|I'm gonna realize that if I write X|NA
+00:11:10|00:11:15|minus 1/2 squared that would square to|NA
+00:11:13|00:11:17|give me an x squared it would also give|NA
+00:11:15|00:11:19|me the minus X I need try if you don't|NA
+00:11:17|00:11:20|believe it but it'll create a quarter|NA
+00:11:19|00:11:24|which I don't want from the 1/2 squared|NA
+00:11:20|00:11:26|and I still got a minus 1 here I'm just|NA
+00:11:24|00:11:29|gonna carry on putting this stuff on the|NA
+00:11:26|00:11:31|other side I get X minus 1/2 squared|NA
+00:11:29|00:11:34|equals combined in these I'm gonna get 5|NA
+00:11:31|00:11:35|over 4 and now I can square root it this|NA
+00:11:34|00:11:38|is the whole point of completing the|NA
+00:11:35|00:11:41|square X minus 1/2 equals plus or minus|NA
+00:11:38|00:11:43|the square root of 5 good at square root|NA
+00:11:41|00:11:45|of 5 over 2 because that's the square|NA
+00:11:43|00:11:48|root 4 and I'm gonna do one more step|NA
+00:11:45|00:11:56|and this needs a box because x equals|NA
+00:11:48|00:11:59|put this half on the other side that's|NA
+00:11:56|00:12:01|the same thing and this is equal to Phi|NA
+00:11:59|00:12:02|which is the golden ratio and it is the|NA
+00:12:01|00:12:04|most irrational number because of the|NA
+00:12:02|00:12:07|way it builds as a continued fraction|NA
+00:12:04|00:12:09|which is why it looks so nice when you|NA
+00:12:07|00:12:10|stack it around a sunflower and why it|NA
+00:12:09|00:12:11|carves a path through an infinite|NA
+00:12:10|00:12:13|orchard if anyone ever talked to you|NA
+00:12:11|00:12:14|about that that is farthest away from|NA
+00:12:13|00:12:16|all the other points and that's why Phi|NA
+00:12:14|00:12:17|is a cool number it's not because the|NA
+00:12:16|00:12:21|Greeks designed the Parthenon to look|NA
+00:12:17|00:12:24|like it because that was not true I|NA
+00:12:21|00:12:25|haven't done the job so which one is it|NA
+00:12:24|00:12:27|let me show you on a calculator if you|NA
+00:12:25|00:12:29|if you tap this in obviously this is|NA
+00:12:27|00:12:31|gonna give us an approximation but if I|NA
+00:12:29|00:12:32|do 1 plus the square root of 5 and|NA
+00:12:31|00:12:35|divide it by 2|NA
+00:12:32|00:12:38|I'll get a familiar number which is one|NA
+00:12:35|00:12:41|point four six one eight oh three 3 9|NA
+00:12:38|00:12:43|and so on now that is a familiar number|NA
+00:12:41|00:12:45|the golden ratio but if I did 1 minus it|NA
+00:12:43|00:12:46|and 1 minus the square root of 5 which|NA
+00:12:45|00:12:51|is the other option I had and divided by|NA
+00:12:46|00:12:54|2 I get negative zero point six one|NA
+00:12:51|00:12:55|eight four zero three three nine and|NA
+00:12:54|00:12:57|actually get the same decimal expansion|NA
+00:12:55|00:12:58|it just happens to be negative and this|NA
+00:12:57|00:13:00|is all because of the property of the|NA
+00:12:58|00:13:02|golden ratio that if you take away one|NA
+00:13:00|00:13:04|from it you get 1 over itself and that's|NA
+00:13:02|00:13:06|actually built into this equation and if|NA
+00:13:04|00:13:09|you make it negative you can get|NA
+00:13:06|00:13:10|reciprocals of itself so either of those|NA
+00:13:09|00:13:12|numbers are Leia claimed to be the|NA
+00:13:10|00:13:12|golden ratio and when I did it on the|NA
+00:13:12|00:13:16|sunflower|NA
+00:13:12|00:13:19|I actually used 0.618 0 339 because that|NA
+00:13:16|00:13:21|gave me a fraction between 0 and 1 but|NA
+00:13:19|00:13:24|they kind of all gone ratio or directly|NA
+00:13:21|00:13:24|we've evolved from it|NA
+00:13:31|00:13:37|[Music]|NA
+00:13:47|00:13:53|[Music]|NA
+00:14:02|00:14:06|how about we check in on brilliance|A
+00:14:04|00:14:08|problem of the week so the basic level a|A
+00:14:06|00:14:10|vertex of one square is pegged to the|A
+00:14:08|00:14:13|center of an identical square the|A
+00:14:10|00:14:15|overlapping area is blue one of the|A
+00:14:13|00:14:17|squares is then rotated about the vertex|A
+00:14:15|00:14:20|and the resulting overlap is red which|A
+00:14:17|00:14:23|area is greater what do you reckon fancy|A
+00:14:20|00:14:25|edge answers over on intermediate or a|A
+00:14:23|00:14:28|chess problem they're about promoting a|A
+00:14:25|00:14:30|pawn or the advance problem if you're|A
+00:14:28|00:14:32|feeling a little bit dangerous the|A
+00:14:30|00:14:35|Centers of three identical coins form|A
+00:14:32|00:14:37|the angle that's colored green what|A
+00:14:35|00:14:39|angle maximizes the area of the blue|A
+00:14:37|00:14:42|convex hull and you've got a whole range|A
+00:14:39|00:14:44|of options you really have to check out|A
+00:14:42|00:14:46|brilliant go to brilliant org slash|A
+00:14:44|00:14:49|numberphile and check out their huge|A
+00:14:46|00:14:51|range of courses and quizzes all sorts|A
+00:14:49|00:14:53|of great stuff this is really gonna get|A
+00:14:51|00:14:56|your brain working this is like kind of|A
+00:14:53|00:14:58|going to the gym to make you smarter go|A
+00:14:56|00:15:01|to brilliant org slash numberphile and|A
+00:14:58|00:15:03|you can actually get 20% off a premium|A
+00:15:01|00:15:06|membership go and check them out|A
+00:15:03|00:15:07|brilliant org slash numberphile and our|A
+00:15:06|00:15:09|thanks to them for supporting this|A
+00:15:07|00:15:11|episode|A
+00:15:09|00:15:11|you|NA

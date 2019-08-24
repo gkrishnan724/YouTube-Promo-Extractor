@@ -1,0 +1,221 @@
+sub_begin_time|sub_end_time|text|class
+00:00:00|00:00:02|- It is Laminar Flow day and you know this about me,|NA
+00:00:02|00:00:04|I love Laminar Flow.|NA
+00:00:04|00:00:06|There's a cool video on Smarter Every Day|NA
+00:00:06|00:00:07|that talks about how Laminar Flow works|NA
+00:00:07|00:00:12|but we're doing what I call today, Ultra Laminar Flow!|NA
+00:00:12|00:00:13|It's not really called that, I just made this sign|NA
+00:00:13|00:00:14|to try to make it a thing.|NA
+00:00:14|00:00:15|But, check this out!|NA
+00:00:15|00:00:18|We're gonna look at something called Taylor-Couette Flow.|NA
+00:00:18|00:00:20|My man here, Maurice Couette, French guy.|NA
+00:00:20|00:00:22|He came up with a device,|NA
+00:00:22|00:00:24|so you could quantify the viscosity|NA
+00:00:24|00:00:26|of a fluid, by a cylinder rotating|NA
+00:00:26|00:00:29|on the inside of another cylinder, it's really cool work.|NA
+00:00:29|00:00:33|My dude here, Sir Taylor, he expanded on Couette's work|NA
+00:00:33|00:00:36|and he measured stability inside Couette Flow.|NA
+00:00:36|00:00:39|So you combine the two, you get Taylor-Couette Flow.|NA
+00:00:39|00:00:42|What we're gonna look at today, if it works,|NA
+00:00:42|00:00:43|I really want this to work, I've been wanting to do|NA
+00:00:43|00:00:45|this experiment for a long time, we're gonna look at|NA
+00:00:45|00:00:50|ultra low Reynolds Number's Flow, and hopefully, hopefully,|NA
+00:00:50|00:00:52|we get reversible flow.|NA
+00:00:52|00:00:53|Let's do this.|NA
+00:00:53|00:00:55|First things first, we've gotta fill up the tank.|NA
+00:00:55|00:00:59|This is corn syrup, which is a very viscous fluid.|NA
+00:00:59|00:01:01|Here we go, it's gonna take quite a while,|NA
+00:01:01|00:01:02|this is a lot of corn syrup.|NA
+00:01:02|00:01:04|Liquid rope coiling effect.|NA
+00:01:04|00:01:06|We should revisit that.|NA
+00:01:06|00:01:07|That's a topic for another video.|NA
+00:01:07|00:01:09|Okay, here's the magic of Taylor-Couette Flow.|NA
+00:01:09|00:01:12|You have something called a no slip boundary condition.|NA
+00:01:12|00:01:14|So on this inner cylinder here,|NA
+00:01:14|00:01:16|the corn syrup wants to stick to it,|NA
+00:01:16|00:01:18|and on the outer cylinder, it also wants to stick there.|NA
+00:01:18|00:01:21|So, if I'm rotating that inner cylinder,|NA
+00:01:21|00:01:24|what's happening is it will try to move along with it.|NA
+00:01:24|00:01:28|So if we were to draw a line across the gap there|NA
+00:01:28|00:01:29|and we were to rotate it,|NA
+00:01:29|00:01:31|the inner cylinder would pull (bright guitar music)|NA
+00:01:31|00:01:33|along the inner corn syrup,|NA
+00:01:33|00:01:34|and the outer corn syrup would stay there.|NA
+00:01:34|00:01:37|And so what would happen is, you would create|NA
+00:01:37|00:01:38|this spiral pattern.|NA
+00:01:38|00:01:39|In fact, if you look down through there,|NA
+00:01:39|00:01:42|you can kinda see it happening in the clear fluid.|NA
+00:01:42|00:01:44|So what we're gonna do is, we're gonna put|NA
+00:01:44|00:01:46|this colored corn syrup in there,|NA
+00:01:46|00:01:49|and because we have so such a low Reynolds Number here,|NA
+00:01:49|00:01:53|that's Laminar Flow, and it should, should, be reversible.|NA
+00:01:53|00:01:55|Okay, so as I put this color in here,|NA
+00:01:55|00:01:56|I wanna recommend something.|NA
+00:01:56|00:02:00|What you're about to see is absolutely incredible|NA
+00:02:00|00:02:03|and you're only gonna get to unwrap this present once.|NA
+00:02:03|00:02:05|So if you would, please trust me|NA
+00:02:05|00:02:07|and don't fast forward this video.|NA
+00:02:07|00:02:10|In order to fully appreciate what you're about to see,|NA
+00:02:10|00:02:14|you need to watch it unfold in real time.|NA
+00:02:14|00:02:15|Okay, here we go.|NA
+00:02:15|00:02:17|We're gonna go for seven rotations,|NA
+00:02:17|00:02:19|everything I've seen on the internet does five.|NA
+00:02:19|00:02:20|And, go.|NA
+00:02:27|00:02:31|So you should see the spiral start to happen.|NA
+00:02:31|00:02:34|(bright guitar music)|NA
+00:02:38|00:02:39|One.|NA
+00:02:55|00:02:56|Two.|NA
+00:03:00|00:03:02|I see the spirals.|NA
+00:03:12|00:03:13|Three.|NA
+00:03:17|00:03:18|Is your heart pounding?|NA
+00:03:20|00:03:21|- [Trent] That is amazing.|NA
+00:03:21|00:03:22|- Can you see the spirals in there?|NA
+00:03:22|00:03:23|- [Trent] Yeah.|NA
+00:03:28|00:03:31|Four, it's like making candy cane lookin' things.|NA
+00:03:34|00:03:36|I don't think it's linear.|NA
+00:03:36|00:03:39|Like, I think the gradient of the flow|NA
+00:03:39|00:03:42|across the entire thing.|NA
+00:03:42|00:03:44|- [Trent] Dude, that is beautiful man.|NA
+00:03:44|00:03:45|- Is this six?|NA
+00:03:46|00:03:47|- I think it's seven. - I think it's six,|NA
+00:03:47|00:03:49|I don't know. (laughs)|NA
+00:03:49|00:03:50|Got so excited!|NA
+00:03:52|00:03:52|Oh dude.|NA
+00:03:56|00:03:58|Look at that.|NA
+00:03:58|00:04:00|It's like a marble.|NA
+00:04:00|00:04:00|Can you see it?|NA
+00:04:06|00:04:09|Focus further down in there, seven!|NA
+00:04:09|00:04:10|Okay, here we go.|NA
+00:04:13|00:04:18|Seven, it looks like it's completely just all mixed up.|NA
+00:04:20|00:04:22|Oh man, it looks like you could never|NA
+00:04:22|00:04:22|get that back together.|NA
+00:04:22|00:04:23|Okay, here we go.|NA
+00:04:23|00:04:24|This should work.|NA
+00:04:24|00:04:26|Reversible Flow.|NA
+00:04:26|00:04:28|Ultra Laminar Flow, Taylor-Couette.|NA
+00:04:29|00:04:30|We'll see what you got boys.|NA
+00:04:30|00:04:31|You ready?|NA
+00:04:32|00:04:35|Here we go. (upbeat music)|NA
+00:04:35|00:04:36|I'm nervous it's not gonna work.|NA
+00:04:36|00:04:37|Oh golly.|NA
+00:04:42|00:04:45|(video fast forwarding tone)|NA
+00:04:50|00:04:53|We should have four spirals after this.|NA
+00:04:53|00:04:55|(video fast forwarding tone)|NA
+00:04:55|00:04:58|I have lost count because (laughs) I'm so excited.|NA
+00:04:59|00:05:02|I think it's coming up on five.|NA
+00:05:02|00:05:03|That's five.|NA
+00:05:03|00:05:06|Get in there tight, it's about to start getting crazy.|NA
+00:05:07|00:05:08|We got two more.|NA
+00:05:09|00:05:12|Come on baby, I'm so worried that the red and the blue|NA
+00:05:12|00:05:14|are gonna mix because they were very,|NA
+00:05:14|00:05:18|very close to each other, like radially.|NA
+00:05:18|00:05:20|Six, okay.|NA
+00:05:21|00:05:21|This should be it.|NA
+00:05:22|00:05:24|Please work.|NA
+00:05:25|00:05:27|I want you to work so bad.|NA
+00:05:30|00:05:31|Is it working?|NA
+00:05:34|00:05:36|Did it work?|NA
+00:05:36|00:05:37|- [Trent] I think so.|NA
+00:05:39|00:05:39|- Yes!|NA
+00:05:39|00:05:41|(laughs)|NA
+00:05:42|00:05:44|That's awesome.|NA
+00:05:44|00:05:46|So it worked.|NA
+00:05:46|00:05:48|Oh, you can see shear thinning in there.|NA
+00:05:48|00:05:50|Okay, look, the, can I see that?|NA
+00:05:50|00:05:55|So the, the different levels of, look at that.|NA
+00:05:55|00:05:57|So if you get way down in there, look.|NA
+00:05:57|00:05:59|You see all those striations, that happens|NA
+00:05:59|00:06:01|because of the way we were mixing it.|NA
+00:06:01|00:06:05|It looks like different layers sheared at different rates.|NA
+00:06:05|00:06:09|So we had different viscosities at different times|NA
+00:06:09|00:06:11|and so we get this striated pattern.|NA
+00:06:11|00:06:12|But we did it!|NA
+00:06:12|00:06:13|My boys!|NA
+00:06:13|00:06:15|My boys, what ya got?|NA
+00:06:15|00:06:17|Taylor and Couette.|NA
+00:06:17|00:06:18|Hi-five, yeah, yeah!|NA
+00:06:18|00:06:19|What do you do when you do the thing|NA
+00:06:19|00:06:20|you've always wanted to do?|NA
+00:06:20|00:06:21|I don't know what to do.|NA
+00:06:21|00:06:23|Do we go the other way?|NA
+00:06:23|00:06:24|Let's do it. (bright guitar music)|NA
+00:06:24|00:06:28|Okay, so this is an awesome fluid mechanics demonstration.|NA
+00:06:28|00:06:31|But for me, there's a metaphor to all this.|NA
+00:06:31|00:06:34|Sometimes it feels like life is turbulent,|NA
+00:06:34|00:06:36|like everything is jumbled up and there's no way|NA
+00:06:36|00:06:38|you're ever gonna get things set straight.|NA
+00:06:38|00:06:42|But I believe, if you slowly and methodically|NA
+00:06:42|00:06:46|think about the way you got yourself into the situation|NA
+00:06:46|00:06:49|and start thinking about how to get out of that situation,|NA
+00:06:49|00:06:53|and take slow, deliberate steps, hopefully, hopefully,|NA
+00:06:53|00:06:54|I know it's not possible for everyone,|NA
+00:06:54|00:06:57|something that looks like, is a complete mess|NA
+00:06:57|00:07:00|and it'll never be set straight, hopefully, one day,|NA
+00:07:00|00:07:03|you will actually be able to get out of the situation.|NA
+00:07:03|00:07:07|But, it requires patience and deliberate thinking|NA
+00:07:07|00:07:09|to get it all straightened out.|NA
+00:07:09|00:07:11|Anyway, I wanted to tell you about a book|NA
+00:07:11|00:07:14|that makes me think about this principal for life.|NA
+00:07:14|00:07:15|I'll do that now. (beep)|NA
+00:07:15|00:07:16|Okay, this episode of Smarter Every Day,|A
+00:07:16|00:07:18|was sponsored by Audible.|A
+00:07:18|00:07:21|As you know, Audible is a great way to listen to audio books|A
+00:07:21|00:07:24|and I spend the bulk of my time on the go|A
+00:07:24|00:07:26|and it is a way for me to reclaim that time|A
+00:07:26|00:07:27|in order to learn.|A
+00:07:27|00:07:29|So you can get an audio book|A
+00:07:29|00:07:31|by going to audible.com/smarter,|A
+00:07:31|00:07:34|or texting the word, Smarter, to 500-500.|A
+00:07:34|00:07:35|The book I wanna talk to you today about|A
+00:07:35|00:07:38|is called the Sun Does Shine, by Anthony Ray Hinton,|A
+00:07:38|00:07:39|who was wrongly convicted of murder|A
+00:07:39|00:07:41|and served on death row for decades.|A
+00:07:41|00:07:44|Anthony Ray Hinton is an amazing writer|A
+00:07:44|00:07:45|and it's told from his perspective|A
+00:07:45|00:07:47|from many years living on death row.|A
+00:07:47|00:07:50|This has changed the way I look at the world|A
+00:07:50|00:07:52|and I want you to listen to this book.|A
+00:07:52|00:07:53|I gotta go to the airport.|A
+00:07:53|00:07:56|(thudding)|A
+00:07:59|00:08:00|All right, let's go.|A
+00:08:00|00:08:01|My wife books my seats.|A
+00:08:01|00:08:03|Thank you very much wife.|A
+00:08:03|00:08:06|(engine roaring)|A
+00:08:10|00:08:11|- [Anthony Ray Hinton] If I could put my heart|A
+00:08:11|00:08:15|in the judges heart, he would know I didn't do it.|A
+00:08:15|00:08:16|- So one thing I really like about the app|A
+00:08:16|00:08:18|is you can click this little Clip button right here|A
+00:08:18|00:08:20|and you can add a note in the book|A
+00:08:20|00:08:22|and you can go back and listen to it later|A
+00:08:22|00:08:24|and you can bring back all those thoughts and memories|A
+00:08:24|00:08:27|and think more deeply about the subject at hand.|A
+00:08:27|00:08:28|It's a really cool feature.|A
+00:08:28|00:08:30|(engine humming)|A
+00:08:32|00:08:35|You can get a free audio book and two Audible originals|A
+00:08:35|00:08:37|by going to audible.com/smarter|A
+00:08:37|00:08:41|or texting the word, Smarter, to 500-500.|A
+00:08:41|00:08:43|You're gonna enjoy audio books.|A
+00:08:43|00:08:44|I get smarter when I travel.|A
+00:08:44|00:08:47|This is time that feels that I'm kinda wasting it,|A
+00:08:47|00:08:49|but when you're listening to audio books, you get smarter.|A
+00:08:49|00:08:51|So, again, text Smarter to 500-500|A
+00:08:51|00:08:54|or go to audible.com/smarter. (beep)|A
+00:08:54|00:08:57|If you wanna see just the tripod shot,|NA
+00:08:57|00:08:59|and that being sped up, go check out that video|NA
+00:08:59|00:09:01|I'm putting over on the second channel.|NA
+00:09:01|00:09:02|I think you'll like that.|NA
+00:09:02|00:09:05|Thank you if you decided to actually watch this video|NA
+00:09:05|00:09:07|and learn about these principals with me,|NA
+00:09:07|00:09:08|instead of just watching a GIF on the internet|NA
+00:09:08|00:09:11|and not, like, diving into the science of what's going on.|NA
+00:09:11|00:09:12|So thank you.|NA
+00:09:12|00:09:14|If you're interested in subscribing to Smarter Every Day,|NA
+00:09:14|00:09:16|like if you feel like this kinda content earns it,|NA
+00:09:16|00:09:17|then thanks, that'd be awesome.|NA
+00:09:17|00:09:19|Feel free to ring the bell, if that's what you're into.|NA
+00:09:19|00:09:21|If you're not into that, no big deal,|NA
+00:09:21|00:09:22|but I'm just happy that you're here.|NA
+00:09:22|00:09:24|Thanks for doing this with me.|NA
+00:09:24|00:09:25|Let's do it one more time, and,|NA
+00:09:27|00:09:30|boom, (laughs) that's awesome.|NA
+00:09:31|00:09:32|Dude, that works well!|NA

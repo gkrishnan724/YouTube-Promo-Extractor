@@ -1,0 +1,349 @@
+sub_begin_time|sub_end_time|text|class
+00:00:00|00:00:04|hey you there well come on over here and|NA
+00:00:02|00:00:06|sit down welcome back to another episode|NA
+00:00:04|00:00:08|of the tech lead this is the second part|NA
+00:00:06|00:00:13|of coffee time that's why the coffee has|NA
+00:00:08|00:00:15|been watered down oh that's gross I|NA
+00:00:13|00:00:17|might try opening up a coffee shop to|NA
+00:00:15|00:00:19|sell this stuff the profit margins must|NA
+00:00:17|00:00:22|be quite good I wanted to talk to you|NA
+00:00:19|00:00:25|guys about seven basic resume tips for|NA
+00:00:22|00:00:26|the technical coding interview it's come|NA
+00:00:25|00:00:29|to my attention that some of you guys|NA
+00:00:26|00:00:30|out there you've been sending me resumes|NA
+00:00:29|00:00:33|to critique to take a look at and|NA
+00:00:30|00:00:35|they're extraordinarily bad hideous I|NA
+00:00:33|00:00:37|wanted to make a video just so that in|NA
+00:00:35|00:00:40|one shot I could give you guys all a few|NA
+00:00:37|00:00:43|basic tips to up your game one thing to|NA
+00:00:40|00:00:45|know is that the technical resume is|NA
+00:00:43|00:00:46|very different than the normal resume|NA
+00:00:45|00:00:47|there are few things are different that|NA
+00:00:46|00:00:49|if you're new to the game you're not|NA
+00:00:47|00:00:52|going to know about so I've seen|NA
+00:00:49|00:00:53|hundreds of resumes myself and I feel|NA
+00:00:52|00:00:55|that I can just give you a few basic|NA
+00:00:53|00:00:56|pointers to help you guys get going now|A
+00:00:55|00:00:59|the first thing to know is that this|A
+00:00:56|00:01:01|video is sponsored by brilliant org so|A
+00:00:59|00:01:03|check them out they're an educational|A
+00:01:01|00:01:05|website they make learning fun with very|A
+00:01:03|00:01:07|experienced educators check out their|A
+00:01:05|00:01:09|website I brilliant that org slash tech|A
+00:01:07|00:01:10|lead okay so the other thing I want to|NA
+00:01:09|00:01:13|know is that I'm not a recruiter|NA
+00:01:10|00:01:15|okay so recruiters are often the|NA
+00:01:13|00:01:16|gatekeepers into a company they're|NA
+00:01:15|00:01:18|perhaps the number one audience for your|NA
+00:01:16|00:01:20|resume since I'm not a recruiter|NA
+00:01:18|00:01:22|I don't really know necessarily what|NA
+00:01:20|00:01:24|they're looking for what their sides if|NA
+00:01:22|00:01:25|the picture is but there are a number of|NA
+00:01:24|00:01:27|people who view your resume I would say|NA
+00:01:25|00:01:29|about three different people the first|NA
+00:01:27|00:01:31|group are the recruiters after that the|NA
+00:01:29|00:01:33|resume goes into the hiring manager|NA
+00:01:31|00:01:34|sometimes the hiring manager has a lot|NA
+00:01:33|00:01:35|of experience might take a look at your|NA
+00:01:34|00:01:37|resume and decide whether to bring you|NA
+00:01:35|00:01:39|on site then there's a third group the|NA
+00:01:37|00:01:41|group I belong to I'm just another|NA
+00:01:39|00:01:43|interviewer I'm the engineer that|NA
+00:01:41|00:01:44|developer your colleague I conduct the|NA
+00:01:43|00:01:45|interview everyone's looking for|NA
+00:01:44|00:01:47|different things so you need to craft|NA
+00:01:45|00:01:49|your resume kind of for three different|NA
+00:01:47|00:01:51|audiences and you need to be able to hit|NA
+00:01:49|00:01:53|all of them one key thing to note is|NA
+00:01:51|00:01:55|that in tech there's so many resumes|NA
+00:01:53|00:01:57|hundreds of millions of resumes actually|NA
+00:01:55|00:01:59|in order to really process them people|NA
+00:01:57|00:02:01|use filters so that's the number one|NA
+00:01:59|00:02:02|make sure that your resume is easily|NA
+00:02:01|00:02:04|searchable you're hitting those keywords|NA
+00:02:02|00:02:06|a lot of people will be doing this the|NA
+00:02:04|00:02:08|tech resume often has the skills and|NA
+00:02:06|00:02:11|languages section that just lists a|NA
+00:02:08|00:02:13|bunch of keywords like C++ Java|NA
+00:02:11|00:02:16|JavaScript my sequel Python|NA
+00:02:13|00:02:18|PHP objective-c swith Android iOS|NA
+00:02:16|00:02:20|angular Kotlin just a whole bunch of|NA
+00:02:18|00:02:22|different technologies that you think a|NA
+00:02:20|00:02:24|recruiter may be looking for as they're|NA
+00:02:22|00:02:26|trying to filter for a candidate for|NA
+00:02:24|00:02:28|specific role the section is generally|NA
+00:02:26|00:02:29|prioritized from the most experienced to|NA
+00:02:28|00:02:31|the least experienced and this is|NA
+00:02:29|00:02:33|something that I used to include in my|NA
+00:02:31|00:02:36|resume as well but we'll see in a moment|NA
+00:02:33|00:02:37|why I actually decided to remove the|NA
+00:02:36|00:02:39|skills and languages section from my|NA
+00:02:37|00:02:43|resume and I'll tell you why in a moment|NA
+00:02:39|00:02:45|the second tip is remember that less is|NA
+00:02:43|00:02:47|more I strongly recommend that you keep|NA
+00:02:45|00:02:49|your resume to just one page the reason|NA
+00:02:47|00:02:51|is that when I'm sitting across from you|NA
+00:02:49|00:02:53|interviewing I have your resume either|NA
+00:02:51|00:02:55|in front of me that's one page and I'm|NA
+00:02:53|00:02:57|not going to be flipping through all the|NA
+00:02:55|00:02:59|time I mean sometimes I will be but it's|NA
+00:02:57|00:03:01|better if there's just one page with a|NA
+00:02:59|00:03:03|concise list of things that we can talk|NA
+00:03:01|00:03:04|about that presents the best version of|NA
+00:03:03|00:03:07|you it's just your highlights and you'll|NA
+00:03:04|00:03:09|find that I think like even Steve Jobs|NA
+00:03:07|00:03:11|just had a one-page resume you know like|NA
+00:03:09|00:03:13|how many pages do you really need take|NA
+00:03:11|00:03:15|just the best highlights and just show|NA
+00:03:13|00:03:17|that be concise and cut out anything|NA
+00:03:15|00:03:19|that you think doesn't really help your|NA
+00:03:17|00:03:21|case many things can actually make you|NA
+00:03:19|00:03:23|look worse like listing things like you|NA
+00:03:21|00:03:26|got certification level two in Microsoft|NA
+00:03:23|00:03:28|Excel may actually show that your lower|NA
+00:03:26|00:03:29|level than what you should be at because|NA
+00:03:28|00:03:32|you had to actually go through all the|NA
+00:03:29|00:03:33|steps to get that certification I would|NA
+00:03:32|00:03:35|say it's also okay to leave out certain|NA
+00:03:33|00:03:37|positions certain projects that you feel|NA
+00:03:35|00:03:39|don't really add to your case you know|NA
+00:03:37|00:03:41|like if you're an uber driver it's a lot|NA
+00:03:39|00:03:43|like photography everyone can take a|NA
+00:03:41|00:03:45|good picture but the good photographers|NA
+00:03:43|00:03:48|know which picture is good and they only|NA
+00:03:45|00:03:50|show that tip number three is in my|NA
+00:03:48|00:03:52|opinion the less formatting the better a|NA
+00:03:50|00:03:54|lot of really good tech resumes that|NA
+00:03:52|00:03:56|I've seen look very similar to my resume|NA
+00:03:54|00:03:58|I'll show my resume later on and you can|NA
+00:03:56|00:04:00|just copy that format but once you start|NA
+00:03:58|00:04:02|getting really creative and doing a|NA
+00:04:00|00:04:04|bunch of different stuff like putting|NA
+00:04:02|00:04:06|your photo on there using multi-column|NA
+00:04:04|00:04:08|layouts you see italics crazy fonts|NA
+00:04:06|00:04:10|charts pictures you know just starts|NA
+00:04:08|00:04:12|looking like amateur hour and it starts|NA
+00:04:10|00:04:13|showing that maybe you're an insecure|NA
+00:04:12|00:04:15|person you're trying to hide something|NA
+00:04:13|00:04:18|maybe you're trying to distract me|NA
+00:04:15|00:04:20|without those flashy colors people who|NA
+00:04:18|00:04:22|review resumes review hundreds of|NA
+00:04:20|00:04:24|millions of them per hour and they've|NA
+00:04:22|00:04:26|developed a high sense of cynicism so|NA
+00:04:24|00:04:27|just show the facts also I would say|NA
+00:04:26|00:04:29|that a lot of these resumes gets|NA
+00:04:27|00:04:32|anyway and you want your resume to be|NA
+00:04:29|00:04:34|scanner friendly so for me I limit|NA
+00:04:32|00:04:35|myself to just using both phones to|NA
+00:04:34|00:04:38|highlight a few things that I think are|NA
+00:04:35|00:04:39|worthy italics are here don't stand very|NA
+00:04:38|00:04:42|well I would also recommend that you|NA
+00:04:39|00:04:44|export your resume in PDF format|NA
+00:04:42|00:04:47|a lot of people send me their resume in|NA
+00:04:44|00:04:48|Microsoft words dot docx format and|NA
+00:04:47|00:04:50|that's struggle to try to open that and|NA
+00:04:48|00:04:52|right off the bat my first impression is|NA
+00:04:50|00:04:54|you don't really know what you're doing|NA
+00:04:52|00:04:55|you don't understand your audience you|NA
+00:04:54|00:04:57|know you've delivered the format to me|NA
+00:04:55|00:04:59|that is just not really widely used one|NA
+00:04:57|00:05:02|easy way to do this is you go into|NA
+00:04:59|00:05:05|Google Docs write your document export|NA
+00:05:02|00:05:07|as PDF and that's what I do tip number|NA
+00:05:05|00:05:08|four is to try to avoid exaggerating too|NA
+00:05:07|00:05:09|much|NA
+00:05:08|00:05:10|it is a real turnoff when I'm|NA
+00:05:09|00:05:13|interviewing somebody and I can tell|NA
+00:05:10|00:05:14|that they're just fronting themselves if|NA
+00:05:13|00:05:16|they're doing that I'm going to try and|NA
+00:05:14|00:05:18|challenge them I'm going to see if I can|NA
+00:05:16|00:05:19|trick them see if I can get them in|NA
+00:05:18|00:05:21|their own trap that they've set up for|NA
+00:05:19|00:05:23|themselves I want to make them prove|NA
+00:05:21|00:05:24|themselves show me that they're really|NA
+00:05:23|00:05:26|that good it becomes very clear if|NA
+00:05:24|00:05:28|they're just exaggerating they say they|NA
+00:05:26|00:05:30|led some project but then when I hear|NA
+00:05:28|00:05:32|them talk about it it's not quite like|NA
+00:05:30|00:05:34|that you know not every role is looking|NA
+00:05:32|00:05:35|for a senior lead you know if you're|NA
+00:05:34|00:05:37|fresh out of the college people are|NA
+00:05:35|00:05:39|expecting that they know that and the|NA
+00:05:37|00:05:40|role is crafted for somebody of that|NA
+00:05:39|00:05:42|caliber|NA
+00:05:40|00:05:44|that's entry level and that's fine and|NA
+00:05:42|00:05:46|for somebody like that it's far better|NA
+00:05:44|00:05:48|to look like somebody who is just eager|NA
+00:05:46|00:05:49|excited really passionate about learning|NA
+00:05:48|00:05:51|they know that they don't know|NA
+00:05:49|00:05:53|everything yet they're humble and|NA
+00:05:51|00:05:54|they're just really ready to learn|NA
+00:05:53|00:05:56|that's great that's somebody that I'm|NA
+00:05:54|00:05:58|looking for and stuff somebody who's|NA
+00:05:56|00:06:00|coming here trying to act like they're|NA
+00:05:58|00:06:02|really smart like they're arrogant like|NA
+00:06:00|00:06:04|they know more than they are and it|NA
+00:06:02|00:06:05|seems kind of dissing you in' along with|NA
+00:06:04|00:06:06|that though i might mention that you|NA
+00:06:05|00:06:09|want to generally highlight your|NA
+00:06:06|00:06:11|strengths not your weaknesses for myself|NA
+00:06:09|00:06:13|for a long time my resume was not|NA
+00:06:11|00:06:15|actually in chronological order|NA
+00:06:13|00:06:17|I put the projects that I was most proud|NA
+00:06:15|00:06:18|of the ones I wanted to talk about the|NA
+00:06:17|00:06:21|most the ones that were most technically|NA
+00:06:18|00:06:23|interesting at the top of my resume and|NA
+00:06:21|00:06:24|I think that's fine you know it doesn't|NA
+00:06:23|00:06:27|necessarily have to be in chronological|NA
+00:06:24|00:06:29|order tip number five is make sure that|NA
+00:06:27|00:06:31|the first two to three items on your|NA
+00:06:29|00:06:33|resume are ones that you can talk about|NA
+00:06:31|00:06:35|at length for me when I sit down in|NA
+00:06:33|00:06:36|front of a candidate I want to talk to|NA
+00:06:35|00:06:38|them a little bit and usually I only|NA
+00:06:36|00:06:40|read the first say two to three items on|NA
+00:06:38|00:06:41|your resume anything after that seems|NA
+00:06:40|00:06:43|like old news|NA
+00:06:41|00:06:45|and I might just pick the first item on|NA
+00:06:43|00:06:46|the resume and ask you to tell me about|NA
+00:06:45|00:06:48|it you want to make sure that it's|NA
+00:06:46|00:06:51|understandable and doesn't contain too|NA
+00:06:48|00:06:53|much crazy technical jargon time after|NA
+00:06:51|00:06:55|time I've seen resumes and it's using so|NA
+00:06:53|00:06:58|many crazy words like set up the orbits|NA
+00:06:55|00:07:00|no decks engine in order to prevent|NA
+00:06:58|00:07:02|thruster failure I don't even know what|NA
+00:07:00|00:07:03|that means I'm the type of person who|NA
+00:07:02|00:07:05|would just say well if I didn't|NA
+00:07:03|00:07:06|understand it was your fault you know|NA
+00:07:05|00:07:08|you weren't clear enough after it's time|NA
+00:07:06|00:07:10|I'm going to try to get you to help|NA
+00:07:08|00:07:12|clarify some of this technical garbage|NA
+00:07:10|00:07:13|that you've put on your resume but if|NA
+00:07:12|00:07:16|there's just too much of it then I just|NA
+00:07:13|00:07:17|can't make any sense of it at all one|NA
+00:07:16|00:07:21|key thing that everybody is looking for|NA
+00:07:17|00:07:23|here is what did you do specifically you|NA
+00:07:21|00:07:24|want to make sure that that's clear it's|NA
+00:07:23|00:07:26|not about what your team did it's not|NA
+00:07:24|00:07:28|about what your company is doing it's|NA
+00:07:26|00:07:29|not about what that product is that's|NA
+00:07:28|00:07:31|really irrelevant it's about what you|NA
+00:07:29|00:07:33|did and resumes contain so much fluff|NA
+00:07:31|00:07:36|everyone's always trying to sort through|NA
+00:07:33|00:07:39|it to try to figure out ok this project|NA
+00:07:36|00:07:41|was cool the team was cool but were you|NA
+00:07:39|00:07:43|cool what did you contribute what role|NA
+00:07:41|00:07:45|did you play you want to make sure|NA
+00:07:43|00:07:49|you're not using really weak verbs like|NA
+00:07:45|00:07:51|participated in X helped work on Y took|NA
+00:07:49|00:07:53|part in Z you want to use words like|NA
+00:07:51|00:07:56|implemented developed launched|NA
+00:07:53|00:08:00|architected led designed things like|NA
+00:07:56|00:08:03|that tip number six is get some feedback|NA
+00:08:00|00:08:05|for your resume it's funny that in my|NA
+00:08:03|00:08:07|first few years I didn't let anybody see|NA
+00:08:05|00:08:08|my resume that was private I didn't want|NA
+00:08:07|00:08:10|my friends seeing it I didn't want my|NA
+00:08:08|00:08:12|family seeing it you know this was|NA
+00:08:10|00:08:12|something that was too close to who I|NA
+00:08:12|00:08:15|was|NA
+00:08:12|00:08:17|show my weaknesses my vulnerabilities|NA
+00:08:15|00:08:19|and even to this day it's funny that I|NA
+00:08:17|00:08:21|don't see the resumes of my family very|NA
+00:08:19|00:08:22|often I think that it's just such a|NA
+00:08:21|00:08:24|shame that with a little bit of|NA
+00:08:22|00:08:26|proofreading you can really up your|NA
+00:08:24|00:08:28|resume game you can get a lot of|NA
+00:08:26|00:08:30|feedback if people can point out things|NA
+00:08:28|00:08:31|that make you look silly you really want|NA
+00:08:30|00:08:32|to make sure you get a spelling check|NA
+00:08:31|00:08:34|and a grammar check on this stuff I|NA
+00:08:32|00:08:36|would encourage you to make it kind of|NA
+00:08:34|00:08:38|like a competitive game like let's see|NA
+00:08:36|00:08:39|what my resume looks like let's see if|NA
+00:08:38|00:08:41|we can give each other tips who has the|NA
+00:08:39|00:08:43|best resume let's let's try and see who|NA
+00:08:41|00:08:45|can make the best one tip number seven|NA
+00:08:43|00:08:47|is to do what I do so check out my|NA
+00:08:45|00:08:49|resume you can check out the way I|NA
+00:08:47|00:08:51|format it for each position I list the|NA
+00:08:49|00:08:53|title the company the dates the location|NA
+00:08:51|00:08:55|and then the short paragraph explaining|NA
+00:08:53|00:08:57|what I did not the way I do it next|NA
+00:08:55|00:08:59|each project at least the languages that|NA
+00:08:57|00:09:01|I had used and I think that this gives a|NA
+00:08:59|00:09:03|clearer picture about how well I know|NA
+00:09:01|00:09:05|the languages that I'm using because if|NA
+00:09:03|00:09:07|all you do is have a section that just|NA
+00:09:05|00:09:11|lists the languages you know you may|NA
+00:09:07|00:09:13|list that you know Java but the funny|NA
+00:09:11|00:09:15|thing is everybody knows Java right the|NA
+00:09:13|00:09:17|difference is how well do you know it|NA
+00:09:15|00:09:19|and if you can show that you're using it|NA
+00:09:17|00:09:21|extensively time after time over|NA
+00:09:19|00:09:23|multiple years well then yeah that's|NA
+00:09:21|00:09:25|going to show that your knowledge of|NA
+00:09:23|00:09:27|Java is actually really good I|NA
+00:09:25|00:09:29|personally hate reading these sections|NA
+00:09:27|00:09:31|on the languages and technologies that|NA
+00:09:29|00:09:34|you know because then when I meet the|NA
+00:09:31|00:09:35|candidate I have to ask okay so how well|NA
+00:09:34|00:09:37|do you really know this stuff and you|NA
+00:09:35|00:09:40|know the answer at some point invariably|NA
+00:09:37|00:09:42|comes - yeah I didn't know this one|NA
+00:09:40|00:09:44|really well I just used it you know|NA
+00:09:42|00:09:45|three times or something like that and|NA
+00:09:44|00:09:47|you know that's fine but just doesn't|NA
+00:09:45|00:09:49|paint as clear of a picture as it should|NA
+00:09:47|00:09:51|be I like to list my interests and|NA
+00:09:49|00:09:54|hobbies it's not really relevant but I|NA
+00:09:51|00:09:56|find it sometimes helps spark a little|NA
+00:09:54|00:09:58|topic of conversation just for fun and I|NA
+00:09:56|00:09:59|might also recommend that you think|NA
+00:09:58|00:10:01|about the cover letter that you might|NA
+00:09:59|00:10:03|write when you send in the resume you|NA
+00:10:01|00:10:04|usually have a chance to introduce|NA
+00:10:03|00:10:07|yourself a little bit talk about|NA
+00:10:04|00:10:09|something that you've done that I think|NA
+00:10:07|00:10:11|helps grab attentions and helps the|NA
+00:10:09|00:10:12|recruiter understand whether they should|NA
+00:10:11|00:10:14|get to you immediately or not if you're|NA
+00:10:12|00:10:16|able to explain why you should be|NA
+00:10:14|00:10:18|prioritised why you may be a good fit|NA
+00:10:16|00:10:20|for this road and definitely include|NA
+00:10:18|00:10:22|that in their cover letter it doesn't|NA
+00:10:20|00:10:24|really have to be formal it can be|NA
+00:10:22|00:10:27|pretty casual I would say actually and|NA
+00:10:24|00:10:29|then my last bonus tip is it's really|NA
+00:10:27|00:10:30|about the content work on building up|A
+00:10:29|00:10:33|your content and you can do that using|A
+00:10:30|00:10:35|brilliant org a fun educational website|A
+00:10:33|00:10:36|I mentioned it earlier I think this is a|A
+00:10:35|00:10:39|great place where you can start building|A
+00:10:36|00:10:40|up your additional skills it's a great|A
+00:10:39|00:10:42|thing to mention to employers that|A
+00:10:40|00:10:44|you're interested in learning about|A
+00:10:42|00:10:46|things like math probability statistics|A
+00:10:44|00:10:48|expanding your knowledge to all these|A
+00:10:46|00:10:49|different areas and brilliant that org|A
+00:10:48|00:10:52|also has courses on computer science|A
+00:10:49|00:10:54|algorithms you know you can format your|A
+00:10:52|00:10:56|resume all you want and all the colors|A
+00:10:54|00:10:58|and pictures you want but in the end|A
+00:10:56|00:11:00|what people are really looking for is|A
+00:10:58|00:11:02|that content is whether you have that|A
+00:11:00|00:11:03|fundamental knowledge one of the best|A
+00:11:02|00:11:06|ways to build this up is through|A
+00:11:03|00:11:08|continued learning brilliant org offers|A
+00:11:06|00:11:08|you a way to do that so check out their|A
+00:11:08|00:11:09|website|A
+00:11:08|00:11:11|tons of|A
+00:11:09|00:11:13|free content I managed to get you guys|A
+00:11:11|00:11:15|20% off for the first 200 people to|A
+00:11:13|00:11:17|subscribe to premium they'll do for me|NA
+00:11:15|00:11:19|if you have any resume tips make sure to|NA
+00:11:17|00:11:21|post them below in the comments I read|NA
+00:11:19|00:11:22|all comments if you liked the video give|NA
+00:11:21|00:11:25|it a like and subscribe and I'll see you|NA
+00:11:22|00:11:25|next time|NA

@@ -1,0 +1,591 @@
+sub_begin_time|sub_end_time|text|class
+00:00:00|00:00:03|a couple of months ago I made a Twitter|NA
+00:00:01|00:00:05|thread about some weird activity I saw|NA
+00:00:03|00:00:07|online and after I posted that thread|NA
+00:00:05|00:00:08|tons of engineers from many different|NA
+00:00:07|00:00:10|tech companies reached out to me|NA
+00:00:08|00:00:12|privately to tell me their stories my|NA
+00:00:10|00:00:14|interest in all this started one day|NA
+00:00:12|00:00:15|when I was scrolling on YouTube and the|NA
+00:00:14|00:00:17|algorithm served up a pretty weird video|NA
+00:00:15|00:00:19|for me to watch you know how the|NA
+00:00:17|00:00:20|algorithm works right it looks at your|NA
+00:00:19|00:00:22|past activity and tries to figure out|NA
+00:00:20|00:00:24|what you could watch in the future that|NA
+00:00:22|00:00:26|would keep you on the platform the|NA
+00:00:24|00:00:28|longest it optimizes watch time the|NA
+00:00:26|00:00:30|algorithm suggested I watched this video|NA
+00:00:28|00:00:32|now I'm not a super political guy but I|NA
+00:00:30|00:00:34|know those are important topics and it|NA
+00:00:32|00:00:36|had 138 thousand views and it was only|NA
+00:00:34|00:00:38|one day old so to me this looked like it|NA
+00:00:36|00:00:41|was a real news story so when I clicked|NA
+00:00:38|00:00:43|on the video it got weird fast strange|NA
+00:00:41|00:00:46|music starts playing and a robot voice|NA
+00:00:43|00:00:49|comes on and clearly starts reading me a|NA
+00:00:46|00:00:52|script after Trump sins no to Ginsburg|NA
+00:00:49|00:00:55|he breaks silence on plan for Supreme|NA
+00:00:52|00:00:58|Court Democrats didn't think Donald|NA
+00:00:55|00:01:00|would dare get ready America Ruth Bader|NA
+00:00:58|00:01:03|Ginsburg hasn't been seen in public in|NA
+00:01:00|00:01:05|457 days there were red flags all over|NA
+00:01:03|00:01:07|the place the robot voice was reading|NA
+00:01:05|00:01:09|typos the name of the channel itself was|NA
+00:01:07|00:01:11|some generic faking news site there's no|NA
+00:01:09|00:01:14|way this is legitimate news but the|NA
+00:01:11|00:01:17|problem is it had engagement levels that|NA
+00:01:14|00:01:19|were off the chart 94% liked to dislike|NA
+00:01:17|00:01:21|ratio look at all these comments how can|NA
+00:01:19|00:01:23|this be happening on a video of such low|NA
+00:01:21|00:01:25|quality I started digging a little bit|NA
+00:01:23|00:01:28|deeper so I searched YouTube for the|NA
+00:01:25|00:01:31|exact same title to see what came up and|NA
+00:01:28|00:01:34|whoa look at this all these videos are|NA
+00:01:31|00:01:36|exactly the same title exactly the same|NA
+00:01:34|00:01:39|script but they're all just a little bit|NA
+00:01:36|00:01:41|different if you play the videos you get|NA
+00:01:39|00:01:43|different graphics scrolling across the|NA
+00:01:41|00:01:45|scene you might get a different robot|NA
+00:01:43|00:01:48|voice breaking news mate goes after|NA
+00:01:45|00:01:52|Trump sins no to Ginsburg he breaks|NA
+00:01:48|00:01:54|silence on plan for Supreme Court after|NA
+00:01:52|00:01:57|Trump's son's message to RBG he breaks|NA
+00:01:54|00:01:59|silence on big plans for Supreme Court|NA
+00:01:57|00:02:03|after Trump sends note to Ginsberg he|NA
+00:01:59|00:02:03|breaks silence on plan for Supreme Court|NA
+00:02:04|00:02:09|after Trump sends note to Ginsburg he|NA
+00:02:07|00:02:12|breaks silence on plan for Supreme Court|NA
+00:02:09|00:02:14|the content was essentially the same it|NA
+00:02:12|00:02:16|was just arranged in a different way|NA
+00:02:14|00:02:18|different photos different b-roll|NA
+00:02:16|00:02:20|different title screens I'm a youtuber|NA
+00:02:18|00:02:22|and I spend some time thinking about|NA
+00:02:20|00:02:24|content ID systems and things like that|NA
+00:02:22|00:02:26|and it's clear to me that these|NA
+00:02:24|00:02:28|manipulations of the video and even the|NA
+00:02:26|00:02:31|audio are attempts to get around|NA
+00:02:28|00:02:33|YouTube's automated recognition systems|NA
+00:02:31|00:02:34|let me explain how this works YouTube's|NA
+00:02:33|00:02:37|engineers look at the individual pixels|NA
+00:02:34|00:02:38|on a video and then they use the values|NA
+00:02:37|00:02:40|of these pixels to perform some type of|NA
+00:02:38|00:02:43|mathematical function which gives you a|NA
+00:02:40|00:02:44|number called a hash you then compare|NA
+00:02:43|00:02:46|hashes to other videos that have been|NA
+00:02:44|00:02:48|uploaded and try to figure out if the|NA
+00:02:46|00:02:50|same content has been uploaded by|NA
+00:02:48|00:02:52|someone else in the past the challenging|NA
+00:02:50|00:02:54|task here is to make a system that's|NA
+00:02:52|00:02:56|fast enough to find exact copies of|NA
+00:02:54|00:02:58|specific frames of video across the|NA
+00:02:56|00:03:00|entire YouTube library while at the same|NA
+00:02:58|00:03:01|time making it smart enough to not be|NA
+00:03:00|00:03:04|tricked how would you do that with math|NA
+00:03:01|00:03:05|instead of sampling every pixel what|NA
+00:03:04|00:03:07|have they sampled specific spots on|NA
+00:03:05|00:03:10|every video and measured the color|NA
+00:03:07|00:03:11|values at those specific locations they|NA
+00:03:10|00:03:13|could then compare those spots with|NA
+00:03:11|00:03:15|every other video uploaded to YouTube|NA
+00:03:13|00:03:18|but think about what happens if a sneaky|NA
+00:03:15|00:03:20|person resizes those images the colors|NA
+00:03:18|00:03:22|would change at those locations the same|NA
+00:03:20|00:03:24|thing would happen if you rotate the|NA
+00:03:22|00:03:26|image or flip it or even apply a filter|NA
+00:03:24|00:03:28|of some kind now I don't know how|NA
+00:03:26|00:03:30|YouTube samples these pixels or the|NA
+00:03:28|00:03:31|audio from the video or what|NA
+00:03:30|00:03:33|mathematical functions they use but I|NA
+00:03:31|00:03:35|know that's like a company secret|NA
+00:03:33|00:03:37|because that's how they defend the|NA
+00:03:35|00:03:40|platform if the bad guys were to figure|NA
+00:03:37|00:03:42|out how these detection algorithms work|NA
+00:03:40|00:03:44|then they could get around them and they|NA
+00:03:42|00:03:45|could beat the defense's if you look at|NA
+00:03:44|00:03:47|these crazy videos like a software|NA
+00:03:45|00:03:49|engineer you can start to see some|NA
+00:03:47|00:03:51|really interesting details for example|NA
+00:03:49|00:03:53|why would there be a globe spinning in|NA
+00:03:51|00:03:55|this image well if you think about it|NA
+00:03:53|00:03:57|that's going to change the hash what if|NA
+00:03:55|00:03:58|the YouTube engineers figured the globe|NA
+00:03:57|00:04:01|trick out and then they shut that|NA
+00:03:58|00:04:03|technique down well in this video the|NA
+00:04:01|00:04:05|globe is mirrored that's going to change|NA
+00:04:03|00:04:08|the hash in a different way this|NA
+00:04:05|00:04:11|specific instance is a counter counter|NA
+00:04:08|00:04:12|countermeasure which is fascinating this|NA
+00:04:11|00:04:15|one is probably my favorite why on earth|NA
+00:04:12|00:04:16|would they put virtual snow falling over|NA
+00:04:15|00:04:18|the top of a video of the road|NA
+00:04:16|00:04:21|family if you think about it this|NA
+00:04:18|00:04:23|changes the math in a kind of random way|NA
+00:04:21|00:04:25|and therefore YouTube's ability to|NA
+00:04:23|00:04:27|detect it this is like a new form of|NA
+00:04:25|00:04:30|camouflage that's using math instead of|NA
+00:04:27|00:04:32|colors on this new bot battlefield where|NA
+00:04:30|00:04:34|daily fights take place by opposing|NA
+00:04:32|00:04:36|forces of software engineers but instead|NA
+00:04:34|00:04:37|of fighting over hills or pieces of land|NA
+00:04:36|00:04:40|the winner of these individual|NA
+00:04:37|00:04:42|skirmishes gets a few moments of your|NA
+00:04:40|00:04:44|time which in today's attention economy|NA
+00:04:42|00:04:46|is super valuable because of the|NA
+00:04:44|00:04:47|original video I found I assumed most of|NA
+00:04:46|00:04:49|this activity was on the right but I|NA
+00:04:47|00:04:52|found these videos just two clicks away|NA
+00:04:49|00:04:55|from a mainstream channel on the Left|NA
+00:04:52|00:04:59|Speaker of the House Nancy Pelosi just|NA
+00:04:55|00:05:01|keeps racking up wins over Donald Trump|NA
+00:04:59|00:05:04|Speaker of the House Nancy Pelosi just|NA
+00:05:01|00:05:06|keeps racking up wins over Donald Trump|NA
+00:05:04|00:05:08|it's the exact same stuff just trying to|NA
+00:05:06|00:05:10|manipulate things in the other direction|NA
+00:05:08|00:05:11|if you look at this channel specifically|NA
+00:05:10|00:05:13|it was started over 10 years ago about|NA
+00:05:11|00:05:15|what appears to be an actual human it|NA
+00:05:13|00:05:17|uploaded a bunch of gaming content and|NA
+00:05:15|00:05:19|then at this moment right here it|NA
+00:05:17|00:05:21|started uploading videos about politics|NA
+00:05:19|00:05:23|at this point it's clear to me this is|NA
+00:05:21|00:05:25|not just low-quality content this is a|NA
+00:05:23|00:05:26|coordinated attack against the YouTube|NA
+00:05:25|00:05:28|algorithm a complete with|NA
+00:05:26|00:05:31|countermeasures this is a serious|NA
+00:05:28|00:05:33|well-funded activity done by people|NA
+00:05:31|00:05:35|meant to do harm if you're a teen or|NA
+00:05:33|00:05:36|20-something you probably think these|NA
+00:05:35|00:05:38|old people are getting duped into voting|NA
+00:05:36|00:05:39|for someone that doesn't make sense and|NA
+00:05:38|00:05:41|if you've got a few more miles on the|NA
+00:05:39|00:05:42|tires you might be looking at the|NA
+00:05:41|00:05:44|younger generation and thinking man how|NA
+00:05:42|00:05:46|are all these manipulative people able|NA
+00:05:44|00:05:48|to whip them up into a frenzy so easily|NA
+00:05:46|00:05:50|so is the internet getting worse because|NA
+00:05:48|00:05:51|we're getting worse and this is just a|NA
+00:05:50|00:05:53|reflection of us or is there actually|NA
+00:05:51|00:05:54|someone playing with the dials and|NA
+00:05:53|00:05:56|pitting us against each other|NA
+00:05:54|00:05:59|today's social discourse takes place on|NA
+00:05:56|00:06:01|the public forum of the Internet in|NA
+00:05:59|00:06:04|front and center in that forum are three|NA
+00:06:01|00:06:06|primary platforms YouTube Twitter and|NA
+00:06:04|00:06:09|Facebook this video is the first in a|NA
+00:06:06|00:06:11|three-part series on what exactly these|NA
+00:06:09|00:06:13|external forces are doing to manipulate|NA
+00:06:11|00:06:15|our social media platforms and how|NA
+00:06:13|00:06:17|they're doing it now the key to a good|NA
+00:06:15|00:06:18|lie is to convince you that there is no|NA
+00:06:17|00:06:20|deception when I started trying to|NA
+00:06:18|00:06:21|research this stuff there's all kinds of|NA
+00:06:20|00:06:23|information on the internet but it's|NA
+00:06:21|00:06:25|very difficult to cut through all the|NA
+00:06:23|00:06:27|falsehood so my approach is pretty|NA
+00:06:25|00:06:29|simple I'm literally going to get on|NA
+00:06:27|00:06:31|airplanes and fly to the engine|NA
+00:06:29|00:06:33|we're trying to beat this stuff and have|NA
+00:06:31|00:06:34|a straight-up conversation with them|NA
+00:06:33|00:06:36|we're gonna get to Twitter and Facebook|NA
+00:06:34|00:06:38|later but for the purposes of this video|NA
+00:06:36|00:06:40|let's look at specific active attempts|NA
+00:06:38|00:06:42|to manipulate the YouTube algorithm okay|NA
+00:06:40|00:06:44|it's time to move past the speculation|NA
+00:06:42|00:06:46|stage to the actual engineering data|NA
+00:06:44|00:06:48|stage so I'm here at this building in|NA
+00:06:46|00:06:50|California the person I'm gonna talk to|NA
+00:06:48|00:06:51|does not want to be on camera so we're|NA
+00:06:50|00:06:53|gonna respect that but I'm gonna go find|NA
+00:06:51|00:06:55|out exactly what went down with these|NA
+00:06:53|00:06:57|specific videos and report back I was|NA
+00:06:55|00:06:59|just gonna stand in front of the Sun and|NA
+00:06:57|00:07:00|tell you what happened but I have to|NA
+00:06:59|00:07:03|think about how I'm gonna say this this|NA
+00:07:00|00:07:04|is complicated I don't want to attribute|NA
+00:07:03|00:07:06|any words to YouTube here so let's just|NA
+00:07:04|00:07:08|assume these are my words but there|NA
+00:07:06|00:07:10|seems to be two types of attack against|NA
+00:07:08|00:07:12|the YouTube algorithm number one there|NA
+00:07:10|00:07:15|seems to be a financial motivation|NA
+00:07:12|00:07:17|people are trying to create videos to|NA
+00:07:15|00:07:19|extract ad revenue from YouTube and so|NA
+00:07:17|00:07:20|this is legitimate content there's|NA
+00:07:19|00:07:23|nothing outside of the Terms of Service|NA
+00:07:20|00:07:25|here except maybe the fake engagement|NA
+00:07:23|00:07:27|policies that YouTube has but for the|NA
+00:07:25|00:07:29|most part it's legitimate content|NA
+00:07:27|00:07:32|uploaded and meant to extract money from|NA
+00:07:29|00:07:34|YouTube number two are the ideological|NA
+00:07:32|00:07:36|attacks these are attacks meant to sway|NA
+00:07:34|00:07:37|public opinion and make people think of|NA
+00:07:36|00:07:39|certain things and perhaps even make|NA
+00:07:37|00:07:40|people fight with each other to|NA
+00:07:39|00:07:42|understand this better I rented an|NA
+00:07:40|00:07:44|office in San Francisco to interview|NA
+00:07:42|00:07:46|Renee de Resta she's an expert in|NA
+00:07:44|00:07:49|malicious propaganda online|NA
+00:07:46|00:07:52|okay guys Renee de Resta she is super|NA
+00:07:49|00:07:53|smart on I guess you'd say coordinated|NA
+00:07:52|00:07:55|and authentic behavior incentivized|NA
+00:07:53|00:07:58|content on social media and how to beat|NA
+00:07:55|00:08:00|it right yep I look at how different|NA
+00:07:58|00:08:02|types of actors manipulate the social|NA
+00:08:00|00:08:03|ecosystem across platforms awesome I|NA
+00:08:02|00:08:05|love your stuff on Rogan and Sam Harris|NA
+00:08:03|00:08:07|podcast yeah just great if you're paying|NA
+00:08:05|00:08:09|attention you've seen what she does I|NA
+00:08:07|00:08:12|want to talk about what's going on on|NA
+00:08:09|00:08:15|YouTube okay recently I found this|NA
+00:08:12|00:08:17|really weird video it's clearly|NA
+00:08:15|00:08:18|manufactured content and from what I can|NA
+00:08:17|00:08:21|tell there's two reasons that there's|NA
+00:08:18|00:08:23|many veteran content number one is it's|NA
+00:08:21|00:08:26|financially motivated and the second|NA
+00:08:23|00:08:28|thing is ideological yes right is that|NA
+00:08:26|00:08:30|correct is there a third component I'm|NA
+00:08:28|00:08:31|not seeing no that's correct and there's|NA
+00:08:30|00:08:33|a lot of there's actually some overlap|NA
+00:08:31|00:08:35|there because if you're producing really|NA
+00:08:33|00:08:37|highly partisan content particularly|NA
+00:08:35|00:08:39|sensational stuff you're able to capture|NA
+00:08:37|00:08:41|engagement get people paying attention|NA
+00:08:39|00:08:43|because particularly right now in a high|NA
+00:08:41|00:08:45|partisan polarized country people are|NA
+00:08:43|00:08:46|looking for that stuff and they're not|NA
+00:08:45|00:08:49|necessarily paying a lot of attention to|NA
+00:08:46|00:08:50|who the sources so if you make something|NA
+00:08:49|00:08:53|that looks interesting you'll be able to|NA
+00:08:50|00:08:55|theoretically attract views key people|NA
+00:08:53|00:08:57|there and then you can both monetize and|NA
+00:08:55|00:08:58|do something divisive you're going to|NA
+00:08:57|00:09:00|use fake accounts to socialize it within|NA
+00:08:58|00:09:02|groups and then you're going to try to|NA
+00:09:00|00:09:04|get a critical mass of real people to|NA
+00:09:02|00:09:05|come and amplify it in order to get|NA
+00:09:04|00:09:07|these videos in front of human eyeballs|NA
+00:09:05|00:09:09|you have the first trick a robot|NA
+00:09:07|00:09:11|algorithm type thing and the way you do|NA
+00:09:09|00:09:13|that is with artificial engagement|NA
+00:09:11|00:09:15|artificial engagement is done with fake|NA
+00:09:13|00:09:17|logins or compromised accounts they sell|NA
+00:09:15|00:09:19|them like wine on the black market a new|NA
+00:09:17|00:09:21|ones gonna set you back about a quarter|NA
+00:09:19|00:09:21|a 2014 is gonna set you back about seven|NA
+00:09:21|00:09:23|bucks|NA
+00:09:21|00:09:25|Renee showed me some footage of what she|NA
+00:09:23|00:09:26|calls a click farm they used these|NA
+00:09:25|00:09:29|devices to try to artificially inflate|NA
+00:09:26|00:09:31|engagement online you can easily find|NA
+00:09:29|00:09:33|these places online that will sell these|NA
+00:09:31|00:09:35|services to you straight up you know a|NA
+00:09:33|00:09:36|lot of us we use the number of views|NA
+00:09:35|00:09:38|number of likes number of followers is|NA
+00:09:36|00:09:41|like a heuristic for quality and so|NA
+00:09:38|00:09:42|there are hundred and hundred and|NA
+00:09:41|00:09:44|hundreds of these businesses that just|NA
+00:09:42|00:09:47|offer you things like views so these are|NA
+00:09:44|00:09:49|people who are just selling selling|NA
+00:09:47|00:09:52|likes funny enough based on the number|NA
+00:09:49|00:09:53|of likes on the ad for YouTube likes I|NA
+00:09:52|00:09:56|would bet that their gaming their|NA
+00:09:53|00:10:03|Instagram and girls went to the Internet|NA
+00:09:56|00:10:04|is faking the strategy seems to be|NA
+00:10:03|00:10:06|pretty simple you make a bunch of videos|NA
+00:10:04|00:10:08|on one particular topic you put them|NA
+00:10:06|00:10:09|online and then the metadata points to|NA
+00:10:08|00:10:11|each other right|NA
+00:10:09|00:10:13|at this point the artificial compromised|NA
+00:10:11|00:10:15|accounts are used to give them|NA
+00:10:13|00:10:17|artificial lift and at some point one of|NA
+00:10:15|00:10:18|these videos will creep up above the|NA
+00:10:17|00:10:21|noise and the algorithm and it will|NA
+00:10:18|00:10:22|start to get shown to actual humans it's|NA
+00:10:21|00:10:24|really easy to get mad at YouTube at|NA
+00:10:22|00:10:25|this point right look at all this stuff|NA
+00:10:24|00:10:27|that's happening on the platform but|NA
+00:10:25|00:10:29|listen let's step back think about it if|NA
+00:10:27|00:10:32|you were a software engineer how would|NA
+00:10:29|00:10:34|you use math and algorithms to detect|NA
+00:10:32|00:10:37|this activity I would argue that this is|NA
+00:10:34|00:10:38|very very clever and it's very hard to|NA
+00:10:37|00:10:40|detect this in an automated way if you|NA
+00:10:38|00:10:42|look at the engagement on these videos|NA
+00:10:40|00:10:44|the majority of these comments are|NA
+00:10:42|00:10:47|actual humans discussing the videos|NA
+00:10:44|00:10:49|these are real people engaging with this|NA
+00:10:47|00:10:52|content from an engineering perspective|NA
+00:10:49|00:10:53|this is extremely difficult to detect|NA
+00:10:52|00:10:55|especially at any kind of meaningful|NA
+00:10:53|00:10:56|scale so|NA
+00:10:55|00:10:57|understand the fake engagement piece|NA
+00:10:56|00:11:00|right but think about the content|NA
+00:10:57|00:11:02|creation itself for a video that I'm|NA
+00:11:00|00:11:03|proud of for example it will take dozens|NA
+00:11:02|00:11:05|of hours for me to make this thing right|NA
+00:11:03|00:11:06|in this one particular case we're|NA
+00:11:05|00:11:08|talking about we saw dozens of videos|NA
+00:11:06|00:11:11|uploaded in the same day so clearly|NA
+00:11:08|00:11:12|computers are involved but how are they|NA
+00:11:11|00:11:14|doing it believe it or not there's|NA
+00:11:12|00:11:16|already an entire industry built around|NA
+00:11:14|00:11:18|this technology it's a great way to get|NA
+00:11:16|00:11:20|these small stories out whatever website|NA
+00:11:18|00:11:21|you go to to get your news you've|NA
+00:11:20|00:11:23|probably seen these things automatically|NA
+00:11:21|00:11:25|generated videos several companies offer|NA
+00:11:23|00:11:27|these types of services one is called|NA
+00:11:25|00:11:29|watch it if you go to the watch it|NA
+00:11:27|00:11:31|website they boast over 1.5 million|NA
+00:11:29|00:11:33|videos were created on behalf of their|NA
+00:11:31|00:11:35|customers last month these are videos|NA
+00:11:33|00:11:37|created for businesses you recognize on|NA
+00:11:35|00:11:39|their website they show how the system|NA
+00:11:37|00:11:41|works you type in the topic you want to|NA
+00:11:39|00:11:42|make a video about they ingest millions|NA
+00:11:41|00:11:44|of pieces of licensed content from|NA
+00:11:42|00:11:46|different sources you slap in a script|NA
+00:11:44|00:11:48|and you have a video within minutes this|NA
+00:11:46|00:11:50|is a very expensive business-to-business|NA
+00:11:48|00:11:52|service but for these businesses trying|NA
+00:11:50|00:11:54|to make it in the attention economy it's|NA
+00:11:52|00:11:57|totally worth it now let's think about|NA
+00:11:54|00:12:00|YouTube the watchit news YouTube channel|NA
+00:11:57|00:12:01|has uploaded over 3,000 videos in the|NA
+00:12:00|00:12:03|last two months|NA
+00:12:01|00:12:05|most of these use actual voice actors|NA
+00:12:03|00:12:08|reading a script this is an incredible|NA
+00:12:05|00:12:09|amount of content stop and think about|NA
+00:12:08|00:12:11|what that could mean for the future of|NA
+00:12:09|00:12:14|YouTube it works like this you have all|NA
+00:12:11|00:12:15|this content like b-roll photos audio|NA
+00:12:14|00:12:18|things of that nature and it goes into|NA
+00:12:15|00:12:20|this machine and out pops these videos|NA
+00:12:18|00:12:21|which is cool if you're a newsroom and|NA
+00:12:20|00:12:24|you're using a service like watch it to|NA
+00:12:21|00:12:26|try to create content for legit users|NA
+00:12:24|00:12:28|online but the problem is this is just|NA
+00:12:26|00:12:30|technology think about what would happen|NA
+00:12:28|00:12:32|if this was developed by people of ill|NA
+00:12:30|00:12:34|intent if you're clever you can change|NA
+00:12:32|00:12:35|the content that you're putting into the|NA
+00:12:34|00:12:37|machine and the machine can start|NA
+00:12:35|00:12:39|creating videos each video with its own|NA
+00:12:37|00:12:40|special Flair so it can get around the|NA
+00:12:39|00:12:42|counter measures built into YouTube's|NA
+00:12:40|00:12:43|system and you simply upload all these|NA
+00:12:42|00:12:45|to different YouTube channels that|NA
+00:12:43|00:12:47|you've created with a fake email|NA
+00:12:45|00:12:49|accounts and there you go you're|NA
+00:12:47|00:12:51|suddenly flooding YouTube with|NA
+00:12:49|00:12:53|automatically created content that has|NA
+00:12:51|00:12:55|the incentives of making you money or|NA
+00:12:53|00:12:57|changing the way people think it's|NA
+00:12:55|00:12:59|probably mostly financially motivated I|NA
+00:12:57|00:13:01|think it's mostly financially motivated|NA
+00:12:59|00:13:03|yeah I think I think Facebook has said|NA
+00:13:01|00:13:04|the same thing about kind of propaganda|NA
+00:13:03|00:13:07|you know a lot of the stuff on their|NA
+00:13:04|00:13:08|site coordinated an authentic activity|NA
+00:13:07|00:13:10|most|NA
+00:13:08|00:13:13|economically motivated even during 2016|NA
+00:13:10|00:13:15|you know now the notion of fake news is|NA
+00:13:13|00:13:17|so tied to Russia but fake news wasn't|NA
+00:13:15|00:13:20|actually about Russia if you remember|NA
+00:13:17|00:13:23|back in 2016 during the campaign it was|NA
+00:13:20|00:13:26|about people just creating these|NA
+00:13:23|00:13:28|hyper-partisan sites that were literally|NA
+00:13:26|00:13:30|fake news to monster they faked open|NA
+00:13:28|00:13:31|endorses Donald Trump and this kind of|NA
+00:13:30|00:13:33|stuff and it was just pushing people to|NA
+00:13:31|00:13:36|the sites to try to make money on the|NA
+00:13:33|00:13:38|ads and so that's what I think a lot of|NA
+00:13:36|00:13:42|a lot of the challenge here is the|NA
+00:13:38|00:13:44|really strong actors the nation states|NA
+00:13:42|00:13:46|that are trying to to do this kind of|NA
+00:13:44|00:13:48|stuff will spend the years to build up|NA
+00:13:46|00:13:49|the audiences over time and then you|NA
+00:13:48|00:13:52|have these kind of more fly-by-night|NA
+00:13:49|00:13:52|operations where a blog you know blog|NA
+00:13:52|00:13:54|spins up overnight|NA
+00:13:52|00:13:56|they game their way into distribution|NA
+00:13:54|00:13:59|and then they just make money on the ads|NA
+00:13:56|00:14:01|someone that's doing this this|NA
+00:13:59|00:14:03|subversive activity if they're doing it|NA
+00:14:01|00:14:05|well we're not going to know right for a|NA
+00:14:03|00:14:08|long time for a long time so it's and I|NA
+00:14:05|00:14:10|make a mistake yeah it's happening right|NA
+00:14:08|00:14:12|now probably in the sidebar of this|NA
+00:14:10|00:14:16|video people are watching right now we|NA
+00:14:12|00:14:19|just may not know that it's it's a|NA
+00:14:16|00:14:22|inauthentic behavior I think it's really|NA
+00:14:19|00:14:23|hard to find the stuff it gets better|NA
+00:14:22|00:14:26|and better that's the other thing I|NA
+00:14:23|00:14:30|think people assume that it's obviously|NA
+00:14:26|00:14:32|obviously fake or obviously you know|NA
+00:14:30|00:14:34|obviously incorrect English or obviously|NA
+00:14:32|00:14:36|sensationalist memes or something like|NA
+00:14:34|00:14:37|that no they actually just started|NA
+00:14:36|00:14:42|repurposing their content from our own|NA
+00:14:37|00:14:44|real authentic hyper-partisan pages can|NA
+00:14:42|00:14:46|we just stop and be disturbed that this|NA
+00:14:44|00:14:48|is the kind of content that's getting|NA
+00:14:46|00:14:50|real eyeballs and I know what you might|NA
+00:14:48|00:14:52|be thinking well it's clearly different|NA
+00:14:50|00:14:54|I could tell the difference in that but|NA
+00:14:52|00:14:56|think about Who I am right I'm an|NA
+00:14:54|00:14:58|engineer who understands countermeasures|NA
+00:14:56|00:15:00|I think through strategy I spend|NA
+00:14:58|00:15:02|hundreds of hours a month thinking about|NA
+00:15:00|00:15:04|the YouTube algorithm I tailor my|NA
+00:15:02|00:15:08|thumbnails I understand how titles work|NA
+00:15:04|00:15:10|all of this to say I still got tricked|NA
+00:15:08|00:15:11|and so it's a cat-and-mouse game well|NA
+00:15:10|00:15:13|basically you have offensive content|NA
+00:15:11|00:15:14|then you have a countermeasure and then|NA
+00:15:13|00:15:16|you have a counter countermeasure yes|NA
+00:15:14|00:15:17|and then the YouTube engineers have to|NA
+00:15:16|00:15:19|develop a counter counter|NA
+00:15:17|00:15:21|countermeasure and so this just|NA
+00:15:19|00:15:24|continuously ratchets up and I don't see|NA
+00:15:21|00:15:26|a way to win you're not gonna win this|NA
+00:15:24|00:15:29|no you're never gonna win there's no|NA
+00:15:26|00:15:32|winning do managing increase the costs|NA
+00:15:29|00:15:32|for the adversary to influence society|NA
+00:15:32|00:15:34|yes|NA
+00:15:32|00:15:35|regardless of whether this material is|NA
+00:15:34|00:15:37|made in some far-off land to make a|NA
+00:15:35|00:15:39|quick buck or if it's from a malicious|NA
+00:15:37|00:15:42|nation trying to influence a foreign|NA
+00:15:39|00:15:46|election it's all taking advantage of|NA
+00:15:42|00:15:49|this flaw in your heart the desire to|NA
+00:15:46|00:15:51|fight with your neighbor these people|NA
+00:15:49|00:15:53|literally make us hate each other and|NA
+00:15:51|00:15:55|then we turn around and give them our|NA
+00:15:53|00:15:57|money if your first inclination is to be|NA
+00:15:55|00:15:59|mad at YouTube right now and some kind|NA
+00:15:57|00:16:01|of outrage then you don't get it like|NA
+00:15:59|00:16:03|you don't see what's happening here I|NA
+00:16:01|00:16:05|know these engineers they're using all|NA
+00:16:03|00:16:07|the math at their disposal to try to fix|NA
+00:16:05|00:16:09|this as desperately as they can but|NA
+00:16:07|00:16:11|until our hearts changed towards|NA
+00:16:09|00:16:13|political grace these people are going|NA
+00:16:11|00:16:14|to keep taking advantage of us I don't|NA
+00:16:13|00:16:17|care what kind of laws we make to try to|NA
+00:16:14|00:16:19|get around this they're going to make us|NA
+00:16:17|00:16:21|fight and we're gonna sit there and do|NA
+00:16:19|00:16:23|it and then close our eyes and give them|NA
+00:16:21|00:16:25|our money we've got to be smarter than|NA
+00:16:23|00:16:26|this I think a lot of the countering has|NA
+00:16:25|00:16:30|to be done in the real world right it's|NA
+00:16:26|00:16:31|the I think you had said this in a turn|NA
+00:16:30|00:16:36|of 30 years I'd read where you talked|NA
+00:16:31|00:16:38|about the need to actively practice love|NA
+00:16:36|00:16:41|that neighborhoods right right I think|NA
+00:16:38|00:16:44|that that's unfortunately it is a|NA
+00:16:41|00:16:45|they're preying on human biases this is|NA
+00:16:44|00:16:47|the thing we have a brand-new|NA
+00:16:45|00:16:49|information ecosystem right we have|NA
+00:16:47|00:16:51|democratized creation of content we have|NA
+00:16:49|00:16:53|no more gatekeepers anyone can say what|NA
+00:16:51|00:16:55|they want do what they want and maximize|NA
+00:16:53|00:16:57|expression algorithms to help you find|NA
+00:16:55|00:17:01|people but ultimately like human nature|NA
+00:16:57|00:17:03|like the people have not changed so it's|NA
+00:17:01|00:17:04|this fascinating new information|NA
+00:17:03|00:17:08|environment and ecosystem but with a|NA
+00:17:04|00:17:10|very old set of biases and and ways of|NA
+00:17:08|00:17:11|being that are just kind of part of the|NA
+00:17:10|00:17:15|human experience and I don't think we're|NA
+00:17:11|00:17:17|necessarily adept at recognizing what|NA
+00:17:15|00:17:19|social media has done to us as|NA
+00:17:17|00:17:21|individuals and as members of society|NA
+00:17:19|00:17:25|and that I think is one of the the key|NA
+00:17:21|00:17:27|challenges where no amount of regulating|NA
+00:17:25|00:17:30|of algorithms or catching of bad guys|NA
+00:17:27|00:17:31|changes that kind of fundamental truth|NA
+00:17:30|00:17:35|trying|NA
+00:17:31|00:17:39|use real community to kind of return|NA
+00:17:35|00:17:40|people to that human connection is the|NA
+00:17:39|00:17:43|the thing that we're missing right now|NA
+00:17:40|00:17:45|that's because it's much harder to to do|NA
+00:17:43|00:17:47|that to create the kind of act of unity|NA
+00:17:45|00:17:49|that you're talking about because like|NA
+00:17:47|00:17:51|who's in charge of doing that normally|NA
+00:17:49|00:17:54|that would have been like your churches|NA
+00:17:51|00:17:56|or neighborhood your community I think I|NA
+00:17:54|00:17:58|don't know what that looks like|NA
+00:17:56|00:18:00|ported online where everybody spending|NA
+00:17:58|00:18:02|their time I'm not trying to scare you|NA
+00:18:00|00:18:04|by showing you all this stuff obviously|NA
+00:18:02|00:18:06|there's a lot of hard core engineering|NA
+00:18:04|00:18:08|thought that goes into everything I just|NA
+00:18:06|00:18:10|showed you but it's happening there are|NA
+00:18:08|00:18:13|bad actors trying to manipulate people|NA
+00:18:10|00:18:14|online for financial gain and I don't|NA
+00:18:13|00:18:16|think it's YouTube's fault when somebody|NA
+00:18:14|00:18:18|wants to do bad things to you they're|NA
+00:18:16|00:18:21|gonna do whatever they can to get your|A
+00:18:18|00:18:22|data and exploit it what I realized this|A
+00:18:21|00:18:24|series was going to help educate people|A
+00:18:22|00:18:26|I reached out to a company that takes|A
+00:18:24|00:18:29|online internet security seriously and|A
+00:18:26|00:18:31|that is expressvpn they were all in they|A
+00:18:29|00:18:32|decided to sponsor this video series and|A
+00:18:31|00:18:34|helped make it happen if you're not|A
+00:18:32|00:18:36|using a VPN you seriously need to|A
+00:18:34|00:18:38|consider it your internet connection|A
+00:18:36|00:18:40|right now is broadcasting your IP|A
+00:18:38|00:18:42|address which is the way people track|A
+00:18:40|00:18:44|you online check this out when I go to|A
+00:18:42|00:18:45|this website it tests everything that my|A
+00:18:44|00:18:47|internet connection is leaking and you|A
+00:18:45|00:18:48|can see my IP address which I've masked|A
+00:18:47|00:18:51|here because I don't want you to see it|A
+00:18:48|00:18:53|but you can also see where I'm at your|A
+00:18:51|00:18:55|internet connection is doing this right|A
+00:18:53|00:18:57|now here's how expressvpn works it's a|A
+00:18:55|00:18:59|Virtual Private Network you just turn it|A
+00:18:57|00:19:01|on with one click my internet traffic is|A
+00:18:59|00:19:02|now encrypted in going through one of|A
+00:19:01|00:19:04|the expressvpn servers located|A
+00:19:02|00:19:06|throughout the world so people can no|A
+00:19:04|00:19:08|longer figure out where I'm located I|A
+00:19:06|00:19:10|protect myself online with expressvpn|A
+00:19:08|00:19:12|and if you want that same protection you|A
+00:19:10|00:19:14|can get that by going to expressvpn comm|A
+00:19:12|00:19:16|slash smarter you can download|A
+00:19:14|00:19:17|expressvpn today if you get 12 months|A
+00:19:16|00:19:19|you get an additional three months for|A
+00:19:17|00:19:21|free that brings the cost down to less|A
+00:19:19|00:19:22|than seven bucks a month if you're super|A
+00:19:21|00:19:24|smart and you understand that like|A
+00:19:22|00:19:27|technical stuff behind all this go do a|A
+00:19:24|00:19:28|DNS leak test it's gonna pass it's the|A
+00:19:27|00:19:31|fastest one I've ever tested the tech|A
+00:19:28|00:19:32|radar said this is the number one VPN|A
+00:19:31|00:19:34|there's a 30-day money-back guarantee|A
+00:19:32|00:19:35|which I'm confident you're not going to|A
+00:19:34|00:19:37|use because I feel comforted knowing|A
+00:19:35|00:19:39|that my personal information is|A
+00:19:37|00:19:42|protected on the Internet expressvpn|A
+00:19:39|00:19:43|dot-com / smarter you can protect your|A
+00:19:42|00:19:45|internet connection|A
+00:19:43|00:19:47|right now next up Twitter and Facebook|A
+00:19:45|00:19:48|they were awesome they let me set up|NA
+00:19:47|00:19:50|cameras in the building they also let me|NA
+00:19:48|00:19:52|talk to some of the engineers in charge|NA
+00:19:50|00:19:54|of building these countermeasures it is|NA
+00:19:52|00:19:56|a fascinating discussion I hope you'll|NA
+00:19:54|00:19:59|join me as we continue this algorithm|NA
+00:19:56|00:20:00|manipulation series I think this is|NA
+00:19:59|00:20:01|super important stuff if there's someone|NA
+00:20:00|00:20:03|that you think could benefit from|NA
+00:20:01|00:20:05|knowing that this is how the internet|NA
+00:20:03|00:20:07|actually works please pass this video|NA
+00:20:05|00:20:09|along to them also consider subscribing|NA
+00:20:07|00:20:11|if you feel like this earned it this is|NA
+00:20:09|00:20:13|a ton of work and I hope it brings value|NA
+00:20:11|00:20:15|to your life that's it|NA
+00:20:13|00:20:18|I'm Destin you're getting smarter every|NA
+00:20:15|00:20:18|day have a good one|NA

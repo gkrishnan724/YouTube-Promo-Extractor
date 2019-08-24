@@ -1,0 +1,422 @@
+sub_begin_time|sub_end_time|text|class
+00:00:00|00:00:04|this episode is made possible by Robo|A
+00:00:02|00:00:06|race the first electric racing series to|A
+00:00:04|00:00:09|combine human and machine intelligence|A
+00:00:06|00:00:10|hi everyone Jade here would you like to|A
+00:00:09|00:00:13|hear a story|NA
+00:00:10|00:00:15|in 1968 the city of Seoul in South Korea|NA
+00:00:13|00:00:18|built a six-lane highway above the|NA
+00:00:15|00:00:22|chun-yin River in an effort to improve|NA
+00:00:18|00:00:24|traffic flow it worked at first but as|NA
+00:00:22|00:00:27|the years passed more and more cars|NA
+00:00:24|00:00:28|began to appear until finally if one|NA
+00:00:27|00:00:30|looked over at the highway from their|NA
+00:00:28|00:00:32|balcony all they would see what caused|NA
+00:00:30|00:00:37|jammed back to back and the honking of|NA
+00:00:32|00:00:39|disgruntled drivers in 2005 the mayor of|NA
+00:00:37|00:00:41|Seoul initiated a project to tear down|NA
+00:00:39|00:00:44|the highway and revitalize the river|NA
+00:00:41|00:00:46|this was met with much controversy as if|NA
+00:00:44|00:00:49|this major road was already jammed up|NA
+00:00:46|00:00:51|with cars removing it would surely make|NA
+00:00:49|00:00:54|traffic worse all around the city but to|NA
+00:00:51|00:00:56|everyone's surprise when the road was|NA
+00:00:54|00:00:58|torn down travel flow improved in the|NA
+00:00:56|00:01:04|city of Seoul with travel times for its|NA
+00:00:58|00:01:05|citizens actually decreasing hello this|NA
+00:01:04|00:01:08|video is about a phenomenon called|NA
+00:01:05|00:01:10|braces paradox discovered by a German|NA
+00:01:08|00:01:13|mathematician dear trick of brace as he|NA
+00:01:10|00:01:15|was working on modeling traffic he|NA
+00:01:13|00:01:17|noticed that contrary to intuition|NA
+00:01:15|00:01:19|adding an extra Road to a traffic|NA
+00:01:17|00:01:22|network could actually make travel times|NA
+00:01:19|00:01:25|longer he is how imagine there are two|NA
+00:01:22|00:01:28|cities origin and destination two roads|NA
+00:01:25|00:01:30|connect these cities upper road and a|NA
+00:01:28|00:01:32|lower road there is a point halfway|NA
+00:01:30|00:01:35|through each road called halfway point|NA
+00:01:32|00:01:37|where the road changes slightly from the|NA
+00:01:35|00:01:39|start of upper road to the halfway point|NA
+00:01:37|00:01:41|of upper road the road is quite narrow|NA
+00:01:39|00:01:44|and travel time depends on the number of|NA
+00:01:41|00:01:46|cars on the road the exact time works|NA
+00:01:44|00:01:49|out to be the number of cars divided by|NA
+00:01:46|00:01:50|100 for example if there are 1000 cars|NA
+00:01:49|00:01:52|on the road|NA
+00:01:50|00:01:54|it'll take each car 10 minutes to get|NA
+00:01:52|00:01:57|from the city of origin to the halfway|NA
+00:01:54|00:02:00|point there the road changes and becomes|NA
+00:01:57|00:02:02|a six-lane highway now it doesn't matter|NA
+00:02:00|00:02:04|how many cars are on this highway it|NA
+00:02:02|00:02:08|always takes the same amount of time|NA
+00:02:04|00:02:11|45 minutes lower Road has the same setup|NA
+00:02:08|00:02:14|except reversed|NA
+00:02:11|00:02:15|now let's say there are 4,000 drivers|NA
+00:02:14|00:02:17|who want to get from origin to|NA
+00:02:15|00:02:20|destination if they all take up a road|NA
+00:02:17|00:02:23|it'll take each driver 4000 divided by|NA
+00:02:20|00:02:26|100 minutes which is 40 minutes plus the|NA
+00:02:23|00:02:29|fixed 45 minutes of the highway making|NA
+00:02:26|00:02:32|the total commute time 85 minutes this|NA
+00:02:29|00:02:34|is obviously a silly strategy a rational|NA
+00:02:32|00:02:36|driver has incentive to switch to lower|NA
+00:02:34|00:02:39|road because that would only take them|NA
+00:02:36|00:02:41|45 minutes plus one divided by 100|NA
+00:02:39|00:02:45|minutes which is roughly 45 minutes a|NA
+00:02:41|00:02:47|saving of 40 whole minutes other drivers|NA
+00:02:45|00:02:48|on upper road would also want to change|NA
+00:02:47|00:02:50|to lower road this pattern would|NA
+00:02:48|00:02:53|continue until half the drivers take|NA
+00:02:50|00:02:55|upper road and half take lower road with|NA
+00:02:53|00:02:58|both roads taking the exact same time of|NA
+00:02:55|00:03:01|65 minutes this is a natural equilibrium|NA
+00:02:58|00:03:03|a driver on upper road has no incentive|NA
+00:03:01|00:03:06|to switch to lower road as it will only|NA
+00:03:03|00:03:08|take them longer and a driver on lower|NA
+00:03:06|00:03:11|road has no incentive to switch to upper|NA
+00:03:08|00:03:13|road for the same reason this situation|NA
+00:03:11|00:03:14|where no one has any incentive to change|NA
+00:03:13|00:03:17|their behavior is called|NA
+00:03:14|00:03:20|the Nash equilibrium in game theory the|NA
+00:03:17|00:03:21|key word here is equilibrium which can|NA
+00:03:20|00:03:24|be thought of as another way of saying|NA
+00:03:21|00:03:26|when the system is stable opposing|NA
+00:03:24|00:03:28|forces are equally balanced and the|NA
+00:03:26|00:03:31|system will not change unless acted upon|NA
+00:03:28|00:03:33|for example this balancing stick is in|NA
+00:03:31|00:03:35|equilibrium it won't falter unless|NA
+00:03:33|00:03:39|there's an outside force like wind or a|NA
+00:03:35|00:03:41|monkey with half the drivers split|NA
+00:03:39|00:03:43|evenly between roads no one has any|NA
+00:03:41|00:03:46|incentive to move so the system will|NA
+00:03:43|00:03:49|continue going on this way each driver|NA
+00:03:46|00:03:52|with a total travel time of 65 minutes|NA
+00:03:49|00:03:54|now let's spice things up let's add a|NA
+00:03:52|00:03:56|new highway connecting the halfway|NA
+00:03:54|00:03:59|points of the two roads will call it|NA
+00:03:56|00:04:01|brace road it's a very wide highway and|NA
+00:03:59|00:04:03|it takes virtually no time at all to get|NA
+00:04:01|00:04:05|from one end to the other so for|NA
+00:04:03|00:04:07|simplicity we're going to say it takes|NA
+00:04:05|00:04:09|zero minutes Blanche|NA
+00:04:07|00:04:11|a regular upper road commuter longs for|NA
+00:04:09|00:04:14|more adventure in life and decides to|NA
+00:04:11|00:04:17|try out this new highway|NA
+00:04:14|00:04:20|to her surprise it only takes her 2000 /|NA
+00:04:17|00:04:23|100 minutes Plus 2001 / 100 minutes|NA
+00:04:20|00:04:26|which is roughly 40 minutes to arrive at|NA
+00:04:23|00:04:30|destination this is a saving of 25|NA
+00:04:26|00:04:32|minutes from her usual route more upper|NA
+00:04:30|00:04:34|road regulars catch on to Blanche's|NA
+00:04:32|00:04:36|shenanigans and start to use this new|NA
+00:04:34|00:04:40|route too soon the number of drivers|NA
+00:04:36|00:04:42|trying this new route reaches 2500 so|NA
+00:04:40|00:04:44|their travel time is 65 minutes which is|NA
+00:04:42|00:04:46|now the same total time as the original|NA
+00:04:44|00:04:49|other Road route they all started on|NA
+00:04:46|00:04:52|meanwhile the regular lower road drivers|NA
+00:04:49|00:04:54|are slowed to 85 minutes which is a 20|NA
+00:04:52|00:04:56|minute increase before these pesky upper|NA
+00:04:54|00:04:59|road drivers decided to invade their|NA
+00:04:56|00:05:02|turf so now they have incentive to|NA
+00:04:59|00:05:04|change to the new route - with everyone|NA
+00:05:02|00:05:08|taking this new route it takes each|NA
+00:05:04|00:05:12|driver 4,000 / 100 minutes plus another|NA
+00:05:08|00:05:15|4,000 / 100 minutes 18 minutes to drive|NA
+00:05:12|00:05:18|from origin to destination a 15 minute|NA
+00:05:15|00:05:21|increase from their old route so why|NA
+00:05:18|00:05:23|don't they change back well no one has|NA
+00:05:21|00:05:24|any incentive - if people made an|NA
+00:05:23|00:05:27|agreement to go back to their original|NA
+00:05:24|00:05:29|routes there would always be that|NA
+00:05:27|00:05:31|annoying driver who selfishly uses the|NA
+00:05:29|00:05:33|new brace highway to cut down their own|NA
+00:05:31|00:05:36|travel time soon other drivers will see|NA
+00:05:33|00:05:39|what he's doing and feel ripped off so|NA
+00:05:36|00:05:40|they'll do it - before we know it we'll|NA
+00:05:39|00:05:43|be right back to where we started|NA
+00:05:40|00:05:45|systems tend to move toward their|NA
+00:05:43|00:05:47|natural equilibrium just try and stop|NA
+00:05:45|00:05:50|hot and cold water from mixing into warm|NA
+00:05:47|00:05:52|water with the introduction of the new|NA
+00:05:50|00:05:55|road the system's equilibrium has|NA
+00:05:52|00:05:58|changed and become less efficient|NA
+00:05:55|00:06:00|this is braces paradox and when we|NA
+00:05:58|00:06:03|analyze it we see that it isn't really a|NA
+00:06:00|00:06:06|paradox at all but follows from one very|NA
+00:06:03|00:06:08|simple fact people are selfish what's|NA
+00:06:06|00:06:10|best for the individual often isn't|NA
+00:06:08|00:06:12|what's best for everyone this same|NA
+00:06:10|00:06:15|behavior has been seen in other parts of|NA
+00:06:12|00:06:17|life - one study showed that removing|NA
+00:06:15|00:06:18|the star player from a basketball team|NA
+00:06:17|00:06:21|can actually improve the team's|NA
+00:06:18|00:06:22|performance adding extra products to the|NA
+00:06:21|00:06:25|marketplace can often lead to worse|NA
+00:06:22|00:06:26|choices made by the consumers the effect|NA
+00:06:25|00:06:27|has even been seen in medicine where the|NA
+00:06:26|00:06:29|removal of|NA
+00:06:27|00:06:31|certain enzymes can lead to an overall|NA
+00:06:29|00:06:33|improvement in the metabolism the|NA
+00:06:31|00:06:35|message of this video isn't people as|NA
+00:06:33|00:06:38|selfish and stop being so selfish the|NA
+00:06:35|00:06:40|message is actually it's not your fault|NA
+00:06:38|00:06:42|see this counterintuitive behavior isn't|NA
+00:06:40|00:06:44|just caused by people's decisions it's|NA
+00:06:42|00:06:47|to do with something much deeper about|NA
+00:06:44|00:06:49|the nature of natural equilibrium just|NA
+00:06:47|00:06:51|so we don't have to feel bad about our|NA
+00:06:49|00:06:53|selfish human nature I'm going to show|NA
+00:06:51|00:06:55|you how braces paradox affects even a|NA
+00:06:53|00:06:58|physical nonliving system like this|NA
+00:06:55|00:06:59|setup we have here where I'm pretty sure|NA
+00:06:58|00:07:02|nothing is a conscious decision maker|NA
+00:06:59|00:07:04|capable of being selfish here we have a|NA
+00:07:02|00:07:07|water bottle filled with water which is|NA
+00:07:04|00:07:09|acting as a weight it's hanging from a|NA
+00:07:07|00:07:12|bar connected to two springs and two|NA
+00:07:09|00:07:13|strings now the way that the springs and|NA
+00:07:12|00:07:16|strings are connected is a bit hard to|NA
+00:07:13|00:07:19|see and it's very important so listen|NA
+00:07:16|00:07:21|carefully tied to the bar is a regular|NA
+00:07:19|00:07:22|piece of string which doesn't stretch or|NA
+00:07:21|00:07:25|anything fancy like that|NA
+00:07:22|00:07:28|it's then tied to the lower spring which|NA
+00:07:25|00:07:30|is connected to the wait another spring|NA
+00:07:28|00:07:33|is also tied to the bar and then tied to|NA
+00:07:30|00:07:36|the lower string which is connected to|NA
+00:07:33|00:07:38|the wait to however and this part is|NA
+00:07:36|00:07:43|very important the two springs are|NA
+00:07:38|00:07:45|linked together you'll see that both the|NA
+00:07:43|00:07:48|strings are actually slack at the moment|NA
+00:07:45|00:07:50|there's no tension pulling on them this|NA
+00:07:48|00:07:52|is because they're both longer than the|NA
+00:07:50|00:07:54|springs right now and as the springs are|NA
+00:07:52|00:07:57|linked together the strings are kind of|NA
+00:07:54|00:07:59|just hanging there at the moment our|NA
+00:07:57|00:08:03|spring strings set up has a total length|NA
+00:07:59|00:08:07|of about 795 millimeters from the bar to|NA
+00:08:03|00:08:10|the pencil now if I unlink the springs|NA
+00:08:07|00:08:17|what do you think will happen will the|NA
+00:08:10|00:08:20|wait a full B rise or C stay the same|NA
+00:08:17|00:08:22|pause the video now and try to figure it|NA
+00:08:20|00:08:26|out for yourself go back and listen to|NA
+00:08:22|00:08:26|the explanation again if you have to|NA
+00:08:26|00:08:36|alright let's take a look|NA
+00:08:29|00:08:36|[Music]|NA
+00:08:42|00:08:47|congratulations to those of you who|NA
+00:08:44|00:08:49|chose be the weight rose if you didn't|NA
+00:08:47|00:08:52|get it don't worry you're not alone|NA
+00:08:49|00:08:55|my intuition tells me that the weight|NA
+00:08:52|00:08:58|will fall the strings were slack so if|NA
+00:08:55|00:09:00|we unlink the springs the string should|NA
+00:08:58|00:09:04|stretch to full length making this setup|NA
+00:09:00|00:09:06|longer and so lowering the weight but|NA
+00:09:04|00:09:08|that's not what happened see when the|NA
+00:09:06|00:09:10|springs were linked they alone were|NA
+00:09:08|00:09:12|bearing the entire weight of the water|NA
+00:09:10|00:09:15|bottle there was more tension pulling on|NA
+00:09:12|00:09:17|them making them stretch more when|NA
+00:09:15|00:09:19|they're unlinked the wave divides|NA
+00:09:17|00:09:22|equally between each pair of string and|NA
+00:09:19|00:09:24|spring link so now each one only bears|NA
+00:09:22|00:09:26|half the weight of the bottle so even|NA
+00:09:24|00:09:28|though there was a lengthening in the|NA
+00:09:26|00:09:30|system here the reduced weight on the|NA
+00:09:28|00:09:32|springs cause them to compress and|NA
+00:09:30|00:09:34|therefore become shorter making the|NA
+00:09:32|00:09:38|total effect an overall shortening of|NA
+00:09:34|00:09:40|the system and the weight rising if|NA
+00:09:38|00:09:42|you're into circuits you can think of|NA
+00:09:40|00:09:47|the before setup as being in series and|NA
+00:09:42|00:09:49|the after setup as being in parallel for|NA
+00:09:47|00:09:51|clarity let's compare this setup to the|NA
+00:09:49|00:09:54|traffic scenario so we can see that it|NA
+00:09:51|00:09:57|is in fact braces paradox at play the|NA
+00:09:54|00:09:59|length of the strings and Springs or the|NA
+00:09:57|00:10:01|height of the weight can be thought of|NA
+00:09:59|00:10:03|as the travel time of the cause it's the|NA
+00:10:01|00:10:06|cost or the thing that we're trying to|NA
+00:10:03|00:10:08|reduce the weight is analogous to the|NA
+00:10:06|00:10:10|number of cars on the road it can be|NA
+00:10:08|00:10:12|thought of as the load that we're trying|NA
+00:10:10|00:10:15|to handle most efficiently the strings|NA
+00:10:12|00:10:16|are analogous to the 45 minute highways|NA
+00:10:15|00:10:19|as their length that doesn't change|NA
+00:10:16|00:10:20|depending on the conditions just as the|NA
+00:10:19|00:10:22|travel time on the highway didn't change|NA
+00:10:20|00:10:25|depending on how many cars were on it|NA
+00:10:22|00:10:27|the springs are analogous to the narrow|NA
+00:10:25|00:10:29|roads as the length of them does depend|NA
+00:10:27|00:10:31|on the load just as the narrow roads|NA
+00:10:29|00:10:32|travel time depends on the amount of|NA
+00:10:31|00:10:35|cars on them|NA
+00:10:32|00:10:37|and finally the linking of the springs|NA
+00:10:35|00:10:39|is analogous to the new brace highway|NA
+00:10:37|00:10:41|just as the removal of the brace highway|NA
+00:10:39|00:10:43|from the road network changed the|NA
+00:10:41|00:10:45|equilibrium of the traffic network to a|NA
+00:10:43|00:10:47|more efficient one so to the unlinking|NA
+00:10:45|00:10:51|of the springs changed the equilibrium|NA
+00:10:47|00:10:54|of the set up to a more efficient one|NA
+00:10:51|00:10:56|this same behavior has been seen in|NA
+00:10:54|00:10:58|other physical systems too like|NA
+00:10:56|00:11:00|electrical circuits water pipes the|NA
+00:10:58|00:11:02|internet anything to do with heat flow|NA
+00:11:00|00:11:04|basically anything that can be thought|NA
+00:11:02|00:11:09|of as a network can fall victim to brace|NA
+00:11:04|00:11:11|this paradox so even though in some|NA
+00:11:09|00:11:13|cases your selfishness makes conditions|NA
+00:11:11|00:11:15|worse for everyone it's not your fault|NA
+00:11:13|00:11:18|it's a fundamental phenomenon of nature|NA
+00:11:15|00:11:19|and you can't be blamed for that but|NA
+00:11:18|00:11:21|seriously I think it's pretty cool that|NA
+00:11:19|00:11:24|equilibrium points can have such strange|NA
+00:11:21|00:11:26|behavior we usually think of them as|NA
+00:11:24|00:11:28|pretty boring lukewarm areas where|NA
+00:11:26|00:11:30|nothing that interesting happens|NA
+00:11:28|00:11:32|scientists tend to be more fascinated|NA
+00:11:30|00:11:34|with behavior that happens at extremes|NA
+00:11:32|00:11:36|far away from equilibrium points like|NA
+00:11:34|00:11:39|hurricanes and earthquakes and galaxy|NA
+00:11:36|00:11:41|formation and the creation of life so I|NA
+00:11:39|00:11:43|think it's pretty fascinating that even|NA
+00:11:41|00:11:45|areas we think of mundane and normal can|NA
+00:11:43|00:11:48|exhibit such counterintuitive behavior|NA
+00:11:45|00:11:50|it really goes to show that there's no|NA
+00:11:48|00:11:52|part of science that isn't interesting|NA
+00:11:50|00:11:55|fascinating as it may be in most cases|NA
+00:11:52|00:11:57|bracers paradox is an annoying problem|NA
+00:11:55|00:11:59|that we want to get rid of it could be|NA
+00:11:57|00:12:01|costing billions of dollars per year in|NA
+00:11:59|00:12:04|inefficient road networks and slow|NA
+00:12:01|00:12:07|internet and low-pressure water pipes so|NA
+00:12:04|00:12:09|can we do anything about it well like|NA
+00:12:07|00:12:11|most things in life if you want to fix|NA
+00:12:09|00:12:13|something you first need to identify it|NA
+00:12:11|00:12:16|the first question we should be asking|NA
+00:12:13|00:12:18|is is there a way to identify when|NA
+00:12:16|00:12:20|braces paradox is slowing down a network|NA
+00:12:18|00:12:22|well the thing about networks is that|NA
+00:12:20|00:12:24|it's hard to change a part of a network|NA
+00:12:22|00:12:26|without affecting the whole thing what's|NA
+00:12:24|00:12:28|more is that it's hard to see how|NA
+00:12:26|00:12:31|changing part of a network will affect|NA
+00:12:28|00:12:33|the whole thing if we remove this piece|NA
+00:12:31|00:12:35|of road it could improve traffic in its|NA
+00:12:33|00:12:38|local region but how do we know it's not|NA
+00:12:35|00:12:40|making traffic worse over here there's a|NA
+00:12:38|00:12:42|common engineering folklore that a local|NA
+00:12:40|00:12:43|improvement may only transfer the|NA
+00:12:42|00:12:44|problem somewhere else|NA
+00:12:43|00:12:46|the way the system is|NA
+00:12:44|00:12:48|connected and how different parts affect|NA
+00:12:46|00:12:50|each other isn't obvious and the only|NA
+00:12:48|00:12:51|way we've figured out how to analyze it|NA
+00:12:50|00:12:53|so far is by running computer|NA
+00:12:51|00:12:55|simulations removing a road here|NA
+00:12:53|00:12:57|plugging it into a computer and seeing|NA
+00:12:55|00:13:00|how it affects the overall traffic then|NA
+00:12:57|00:13:01|maybe removing a road here and running|NA
+00:13:00|00:13:04|the simulation again to see if it's more|NA
+00:13:01|00:13:07|efficient rinse and repeat the number of|NA
+00:13:04|00:13:10|possible variations is given by 2 ^ the|NA
+00:13:07|00:13:12|number of roads so in a small traffic|NA
+00:13:10|00:13:12|network of about 10 roads this would be|NA
+00:13:12|00:13:16|fine|NA
+00:13:12|00:13:17|they'd be just over 1,000 variations so|NA
+00:13:16|00:13:19|we could just plug them all into a|NA
+00:13:17|00:13:21|computer simulation and see which one is|NA
+00:13:19|00:13:23|the most efficient a pretty ordinary|NA
+00:13:21|00:13:26|computer could manage this calculation|NA
+00:13:23|00:13:28|pretty quickly however if we take a city|NA
+00:13:26|00:13:33|with 100 roads things get complicated|NA
+00:13:28|00:13:35|fast - to the 100th power is this|NA
+00:13:33|00:13:38|gigantic number it would take the|NA
+00:13:35|00:13:40|fastest computer in existence today 3|NA
+00:13:38|00:13:42|billion years to run all the possible|NA
+00:13:40|00:13:45|simulations and see which one works best|NA
+00:13:42|00:13:47|in reality there are a lot more than 100|NA
+00:13:45|00:13:49|roads in any major city so the only|NA
+00:13:47|00:13:51|method we've figured out so far to|NA
+00:13:49|00:13:55|detect bracers paradox isn't practical|NA
+00:13:51|00:13:57|with today's computing power this sounds|NA
+00:13:55|00:13:59|like pretty bad news but not all hope is|NA
+00:13:57|00:14:02|lost most approaches to solving the|NA
+00:13:59|00:14:05|paradox so far have focused on figuring|NA
+00:14:02|00:14:07|out the best network structure but what|NA
+00:14:05|00:14:10|if instead we focused on changing the|NA
+00:14:07|00:14:11|way that the cars interact one|NA
+00:14:10|00:14:14|interesting Avenue researchers are|NA
+00:14:11|00:14:16|exploring to reduce braces paradox is|NA
+00:14:14|00:14:18|the idea of collective intelligence|NA
+00:14:16|00:14:21|basically meaning that instead of each|NA
+00:14:18|00:14:23|person acting as an individual everyone|NA
+00:14:21|00:14:26|acts together as a whole to try and|NA
+00:14:23|00:14:28|reach the optimal state this solution|NA
+00:14:26|00:14:30|may be close to becoming a reality with|NA
+00:14:28|00:14:33|the recent progress in self-driving cars|NA
+00:14:30|00:14:35|self-driving cars would act more like a|NA
+00:14:33|00:14:36|hive mind with each car being|NA
+00:14:35|00:14:38|electronically connected to all the|NA
+00:14:36|00:14:40|others they could be controlled by some|NA
+00:14:38|00:14:42|kind of central intelligence whose aim|NA
+00:14:40|00:14:44|is to optimize traffic flow for the|NA
+00:14:42|00:14:46|system as a whole getting rid of the|NA
+00:14:44|00:14:48|whole game theoretic aspect of the|NA
+00:14:46|00:14:50|problem what causes the paradox in the|NA
+00:14:48|00:14:54|first place is people acting selfishly|NA
+00:14:50|00:14:56|or at least acting as individuals with|NA
+00:14:54|00:14:58|the cars acting as a single mind there|NA
+00:14:56|00:15:00|are no longer individual in|NA
+00:14:58|00:15:03|to consider so in theory this should|NA
+00:15:00|00:15:04|sidestep the paradox altogether we're|NA
+00:15:03|00:15:06|actually beginning to see the first|NA
+00:15:04|00:15:08|application of swarm intelligence in|NA
+00:15:06|00:15:11|autonomous car racing at the beginning|NA
+00:15:08|00:15:14|of May Robo race the world's first AI|NA
+00:15:11|00:15:16|driverless electric racing series|NA
+00:15:14|00:15:18|competition saw two of its autonomous|NA
+00:15:16|00:15:20|cars complete the world's first|NA
+00:15:18|00:15:22|self-driving car race in Monte Blanco|NA
+00:15:20|00:15:25|their self-driving cars which they call|NA
+00:15:22|00:15:26|Robo cars are able to communicate with|NA
+00:15:25|00:15:28|each other through the use of various|NA
+00:15:26|00:15:31|sensors installed to maintain awareness|NA
+00:15:28|00:15:32|of their surroundings car to car|NA
+00:15:31|00:15:34|communication could be used to find the|NA
+00:15:32|00:15:37|most efficient route for all cars on a|NA
+00:15:34|00:15:40|road making braces paradox and traffic|NA
+00:15:37|00:15:42|networks a problem of the past racing|NA
+00:15:40|00:15:44|has a history of using competition to|NA
+00:15:42|00:15:45|encourage technological development|NA
+00:15:44|00:15:46|before rolling these developments out|NA
+00:15:45|00:15:48|for mass production|NA
+00:15:46|00:15:50|Robo race aims to accelerate the|NA
+00:15:48|00:15:51|development of autonomous vehicle|NA
+00:15:50|00:15:53|technology through the use of|NA
+00:15:51|00:15:55|competitions and challenges which are|NA
+00:15:53|00:15:58|part of the Robo race entertainment|NA
+00:15:55|00:16:01|platform the game is simple the team|NA
+00:15:58|00:16:03|with the best a AI wins if you'd like to|NA
+00:16:01|00:16:05|learn more about what Robo race is doing|NA
+00:16:03|00:16:07|you can see the videos in there show me|NA
+00:16:05|00:16:09|how it works playlist join their mailing|NA
+00:16:07|00:16:11|list for updates on upcoming races or|NA
+00:16:09|00:16:13|follow them on Instagram to check out|NA
+00:16:11|00:16:16|their latest models links to all of|NA
+00:16:13|00:16:18|these are in the description I think|NA
+00:16:16|00:16:20|braces paradox can teach us a lot of|NA
+00:16:18|00:16:23|important life lessons sometimes less|NA
+00:16:20|00:16:24|really is more acting selfishly usually|NA
+00:16:23|00:16:26|makes things worse for everyone|NA
+00:16:24|00:16:28|including yourself your natural state|NA
+00:16:26|00:16:30|often isn't your most efficient state|NA
+00:16:28|00:16:32|and sometimes the solution you think is|NA
+00:16:30|00:16:35|best can have catastrophic ly terrible|NA
+00:16:32|00:16:37|consequences but I want to know what you|NA
+00:16:35|00:16:40|think what important life lessons can we|NA
+00:16:37|00:16:44|learn from braces paradox let me know|NA
+00:16:40|00:16:44|your thoughts in the comments below|NA
+00:16:44|00:17:04|[Music]|NA
