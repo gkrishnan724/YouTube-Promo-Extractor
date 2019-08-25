@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:04|hey you there well come on over here and|NA
+00:00:00|00:00:04|<st> hey you there well come on over here and|NA
 00:00:02|00:00:06|sit down welcome back to another episode|NA
 00:00:04|00:00:08|of the tech lead this is the second part|NA
 00:00:06|00:00:13|of coffee time that's why the coffee has|NA
@@ -346,4 +346,4 @@ sub_begin_time|sub_end_time|text|class
 00:11:17|00:11:21|post them below in the comments I read|NA
 00:11:19|00:11:22|all comments if you liked the video give|NA
 00:11:21|00:11:25|it a like and subscribe and I'll see you|NA
-00:11:22|00:11:25|next time|NA
+00:11:22|00:11:25|next time </st>|NA

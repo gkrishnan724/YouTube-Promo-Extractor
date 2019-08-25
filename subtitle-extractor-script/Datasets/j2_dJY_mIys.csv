@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:02|- It is Laminar Flow day and you know this about me,|NA
+00:00:00|00:00:02|<st> - It is Laminar Flow day and you know this about me,|NA
 00:00:02|00:00:04|I love Laminar Flow.|NA
 00:00:04|00:00:06|There's a cool video on Smarter Every Day|NA
 00:00:06|00:00:07|that talks about how Laminar Flow works|NA
@@ -218,4 +218,4 @@ sub_begin_time|sub_end_time|text|class
 00:09:22|00:09:24|Thanks for doing this with me.|NA
 00:09:24|00:09:25|Let's do it one more time, and,|NA
 00:09:27|00:09:30|boom, (laughs) that's awesome.|NA
-00:09:31|00:09:32|Dude, that works well!|NA
+00:09:31|00:09:32|Dude, that works well! </st>|NA

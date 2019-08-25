@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:02|I want to tell you about a very famous|NA
+00:00:00|00:00:02|<st> I want to tell you about a very famous|NA
 00:00:00|00:00:04|number that you've heard about before|NA
 00:00:02|00:00:06|but I'll tell you why it is what it is|NA
 00:00:04|00:00:07|and it's the golden ratio a lot of|NA
@@ -465,4 +465,4 @@ sub_begin_time|sub_end_time|text|class
 00:15:03|00:15:07|brilliant org slash numberphile and our|A
 00:15:06|00:15:09|thanks to them for supporting this|A
 00:15:07|00:15:11|episode|A
-00:15:09|00:15:11|you|NA
+00:15:09|00:15:11|you </st>|NA

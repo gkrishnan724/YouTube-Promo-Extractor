@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:09|[Music]|A
+00:00:00|00:00:09|<st> [Music]|A
 00:00:06|00:00:11|this video is sponsored by Squarespace|A
 00:00:09|00:00:13|whether you need a domain website or|A
 00:00:11|00:00:15|online store make it with Squarespace I|A
@@ -292,4 +292,4 @@ sub_begin_time|sub_end_time|text|class
 00:11:24|00:11:28|enjoyed this video if you did don't|NA
 00:11:26|00:11:28|forget to hit subscribe and I'll see you|NA
 00:11:28|00:11:49|next time|NA
-00:11:28|00:11:49|[Music]|NA
+00:11:28|00:11:49|[Music] </st>|NA

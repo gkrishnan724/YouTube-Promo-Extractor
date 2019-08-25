@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:03|[Music]|NA
+00:00:00|00:00:03|<st> [Music]|NA
 00:00:11|00:00:16|in our universe when you change from a|NA
 00:00:14|00:00:18|non-moving perspective to a moving one|NA
 00:00:16|00:00:20|or vice versa that change of perspective|NA
@@ -155,4 +155,4 @@ sub_begin_time|sub_end_time|text|class
 00:04:56|00:04:59|gets you 20% off premium access to all|A
 00:04:58|00:05:02|of brilliance courses and puzzles and|NA
 00:04:59|00:05:07|lets brilliant know you came from here|NA
-00:05:02|00:05:07|[Music]|NA
+00:05:02|00:05:07|[Music] </st>|NA

@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:08|[Music]|A
+00:00:00|00:00:08|<st> [Music]|A
 00:00:06|00:00:10|this video is sponsored by dev Mountain|A
 00:00:08|00:00:13|if you're interested in learning web|A
 00:00:10|00:00:14|development iOS or UX design dev|A
@@ -562,4 +562,4 @@ sub_begin_time|sub_end_time|text|class
 00:28:07|00:28:13|is this is not much code at all or much|NA
 00:28:10|00:28:14|CSS so that's it thanks for watching if|NA
 00:28:13|00:28:18|you like this please leave a like and|NA
-00:28:14|00:28:18|I'll see you next time|NA
+00:28:14|00:28:18|I'll see you next time </st>|NA

@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:05|"well hello there<font color=""#CCCCCC""> we're gonna</font><font color=""#E5E5E5""> talk</font><font color=""#CCCCCC""> about</font>"|NA
+00:00:00|00:00:05|"<st> well hello there<font color=""#CCCCCC""> we're gonna</font><font color=""#E5E5E5""> talk</font><font color=""#CCCCCC""> about</font>"|NA
 00:00:02|00:00:06|"abortion<font color=""#E5E5E5""> and sex in Hollywood and lots</font>"|NA
 00:00:05|00:00:08|"of things having<font color=""#CCCCCC""> to do with Trump and</font>"|NA
 00:00:06|00:00:11|"<font color=""#E5E5E5"">dead soldiers and</font><font color=""#CCCCCC""> all sorts of stupid</font>"|NA
@@ -1573,4 +1573,4 @@ sub_begin_time|sub_end_time|text|class
 00:49:44|00:49:46|"forward<font color=""#E5E5E5""> to seeing</font><font color=""#CCCCCC""> all you there and</font>"|NA
 00:49:45|00:49:49|"seeing<font color=""#E5E5E5""> you then I'm Ben Shapiro this is</font>"|NA
 00:49:46|00:49:49|the Ben Shapiro show|NA
-00:49:49|00:49:54|[Music]|NA
+00:49:49|00:49:54|[Music] </st>|NA

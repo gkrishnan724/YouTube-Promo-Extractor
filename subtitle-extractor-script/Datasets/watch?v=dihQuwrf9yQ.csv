@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:03|00:00:10|this video is sponsored by the great|NA
+00:00:03|00:00:10|<st> this video is sponsored by the great|NA
 00:00:06|00:00:11|courses class I made a video a while|NA
 00:00:10|00:00:14|back and called a better description of|NA
 00:00:11|00:00:16|entropy because I felt that the bug|NA
@@ -241,4 +241,4 @@ sub_begin_time|sub_end_time|text|class
 00:12:24|00:12:30|you next time check out these other|NA
 00:12:28|00:12:32|videos that feature resonant and the|NA
 00:12:30|00:12:35|original better description video about|NA
-00:12:32|00:12:35|entropy|NA
+00:12:32|00:12:35|entropy </st>|NA

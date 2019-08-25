@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:01|00:00:10|I'll do the trick|NA
+00:00:01|00:00:10|<st> I'll do the trick|NA
 00:00:03|00:00:12|get him drinking that a couple of months|NA
 00:00:10|00:00:15|back nvidia published the data from a|NA
 00:00:12|00:00:17|study showing that gamers running on|NA
@@ -459,4 +459,4 @@ sub_begin_time|sub_end_time|text|class
 00:21:33|00:21:37|down there also down there is our merch|NA
 00:21:35|00:21:39|store which has cool shirts like this|NA
 00:21:37|00:21:41|one and our community forum which you|NA
-00:21:39|00:21:41|should totally join|NA
+00:21:39|00:21:41|should totally join </st>|NA

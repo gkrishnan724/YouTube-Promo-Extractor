@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:03|this video is sponsored by Dollar Shave|A
+00:00:00|00:00:03|<st> this video is sponsored by Dollar Shave|A
 00:00:01|00:00:05|Club use the link in the description for|A
 00:00:03|00:00:08|a special five dollar starter set On|NA
 00:00:05|00:00:11|February 28th 2017 you might have|NA
@@ -274,4 +274,4 @@ sub_begin_time|sub_end_time|text|class
 00:10:18|00:10:22|link in the description|A
 00:10:19|00:10:24|dollarshaveclub.com slash poly matter|A
 00:10:22|00:10:26|thanks to Dollar Shave Club and to you|NA
-00:10:24|00:10:26|for trying it out|NA
+00:10:24|00:10:26|for trying it out </st>|NA

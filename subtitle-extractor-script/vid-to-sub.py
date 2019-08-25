@@ -41,8 +41,13 @@ def parse_subtitles(srt,ad_times):
                 
         
         if (i+1)%4 == 3:
-            data.append((begin.strftime('%H:%M:%S'),end.strftime('%H:%M:%S'),lines[i],tag))
-
+            if (i+1 == 3):
+                data.append((begin.strftime('%H:%M:%S'),end.strftime('%H:%M:%S'),'<st> '+lines[i],tag))
+            elif (i == len(lines)-1):
+                data.append((begin.strftime('%H:%M:%S'),end.strftime('%H:%M:%S'),lines[i]+ ' </st>',tag))
+            else:
+                data.append((begin.strftime('%H:%M:%S'),end.strftime('%H:%M:%S'),lines[i],tag))
+        
     return data
         
 def create_csv_dataset(filename,data):
@@ -55,6 +60,17 @@ def create_csv_dataset(filename,data):
         for row in data:
             csv_out.writerow(row)
 
+def complete_csv_dataset(dataset):
+    if os.path.exists('Datasets/subs.csv'):
+        mode = 'a'
+    else:
+        mode = 'w'
+    with open('Datasets/subs.csv',mode) as out:
+        csv_writer = csv.writer(out,delimiter='|')
+        if mode == 'w':
+            csv_writer.writerow(['sub_begin_time','sub_end_time','text','class'])
+        for data in dataset:
+            csv_writer.writerow(data)
 
 
 def check_creds():
@@ -111,6 +127,7 @@ def extract_subs_from_sheets(SAMPLE_SPREADSHEET_ID,SAMPLE_RANGE_NAME,creds):
             srt = (en_caption.generate_srt_captions())
             dataset = parse_subtitles(srt,ad_times)
             create_csv_dataset(url.split('//')[1].split('/')[-1]+'.csv',dataset)
+            complete_csv_dataset(dataset)
             
             
 

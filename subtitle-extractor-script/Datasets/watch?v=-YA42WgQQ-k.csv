@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:03|if you'd like to learn more about|A
+00:00:00|00:00:03|<st> if you'd like to learn more about|A
 00:00:01|00:00:04|running wild conservation and their|A
 00:00:03|00:00:09|great efforts in saving the cheetah|A
 00:00:04|00:00:13|check out their web page at WWE evasion|A
@@ -111,4 +111,4 @@ sub_begin_time|sub_end_time|text|class
 00:06:42|00:06:49|share it and give a thumbs up and|NA
 00:06:44|00:06:51|consider joining my channel join our|NA
 00:06:49|00:06:55|coalition|NA
-00:06:51|00:06:55|[Music]|NA
+00:06:51|00:06:55|[Music] </st>|NA

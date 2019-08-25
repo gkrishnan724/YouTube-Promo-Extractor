@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:03|a couple of months ago I made a Twitter|NA
+00:00:00|00:00:03|<st> a couple of months ago I made a Twitter|NA
 00:00:01|00:00:05|thread about some weird activity I saw|NA
 00:00:03|00:00:07|online and after I posted that thread|NA
 00:00:05|00:00:08|tons of engineers from many different|NA
@@ -588,4 +588,4 @@ sub_begin_time|sub_end_time|text|class
 00:20:09|00:20:13|a ton of work and I hope it brings value|NA
 00:20:11|00:20:15|to your life that's it|NA
 00:20:13|00:20:18|I'm Destin you're getting smarter every|NA
-00:20:15|00:20:18|day have a good one|NA
+00:20:15|00:20:18|day have a good one </st>|NA

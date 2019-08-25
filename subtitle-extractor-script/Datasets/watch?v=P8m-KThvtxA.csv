@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:01|00:00:02|-Robert Irwin. How you doing, buddy?|NA
+00:00:01|00:00:02|<st> -Robert Irwin. How you doing, buddy?|NA
 00:00:02|00:00:04|-Oh, I am beaut bonza. Thank you. How are you?|NA
 00:00:04|00:00:06|-I'm good. Are you -- What? You're a beaut bonza?|NA
 00:00:06|00:00:07|-I'm beaut bonza, yeah.|NA
@@ -373,4 +373,4 @@ sub_begin_time|sub_end_time|text|class
 00:11:18|00:11:20|-That is Robert Irwin, everybody.|NA
 00:11:20|00:11:21|Give it up for this guy. [ Cheers and applause ]|NA
 00:11:21|00:11:23|Thank you so much for coming on.|NA
-00:11:23|00:11:24|-Thank you so much. -I really appreciate it.|NA
+00:11:23|00:11:24|-Thank you so much. -I really appreciate it. </st>|NA

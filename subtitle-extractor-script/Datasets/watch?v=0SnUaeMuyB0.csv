@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:01:32|00:01:37|Since the early 1970s conspiracy theorists have created ever more elaborate stories about|A
+00:01:32|00:01:37|<st> Since the early 1970s conspiracy theorists have created ever more elaborate stories about|A
 00:01:37|00:01:43|how NASA faked the moon landings, much to the annoyance of the literal hundreds of thousands|NA
 00:01:43|00:01:49|of people who worked in some capacity to make these missions a reality, and even more so|NA
 00:01:49|00:01:53|to the men who were brave enough to sit in front of a massive controlled explosion, take|NA
@@ -275,4 +275,4 @@ sub_begin_time|sub_end_time|text|class
 00:19:13|00:19:16|of their own verifying the moon landings is anybody's guess.|NA
 00:19:16|00:19:20|We'll have much, much more on all this in an upcoming article on How Do We Know Man|NA
 00:19:20|00:19:32|Really Walked on|NA
-00:19:32|00:19:33|the Moon?|NA
+00:19:32|00:19:33|the Moon? </st>|NA

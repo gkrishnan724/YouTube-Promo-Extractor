@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:04|this episode is made possible by Robo|A
+00:00:00|00:00:04|<st> this episode is made possible by Robo|A
 00:00:02|00:00:06|race the first electric racing series to|A
 00:00:04|00:00:09|combine human and machine intelligence|A
 00:00:06|00:00:10|hi everyone Jade here would you like to|A
@@ -419,4 +419,4 @@ sub_begin_time|sub_end_time|text|class
 00:16:35|00:16:40|think what important life lessons can we|NA
 00:16:37|00:16:44|learn from braces paradox let me know|NA
 00:16:40|00:16:44|your thoughts in the comments below|NA
-00:16:44|00:17:04|[Music]|NA
+00:16:44|00:17:04|[Music] </st>|NA

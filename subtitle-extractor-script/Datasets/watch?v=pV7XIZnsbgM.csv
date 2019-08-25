@@ -1,5 +1,5 @@
 sub_begin_time|sub_end_time|text|class
-00:00:00|00:00:03|hey tech late here welcome back to|NA
+00:00:00|00:00:03|<st> hey tech late here welcome back to|NA
 00:00:01|00:00:05|another episode of tech lead today I'll|NA
 00:00:03|00:00:08|be your tech lead at the tech lead and|NA
 00:00:05|00:00:10|this is coffee time with the tech lead|NA
@@ -488,4 +488,4 @@ sub_begin_time|sub_end_time|text|class
 00:16:36|00:16:41|me know if you have any tips for common|NA
 00:16:39|00:16:42|mistakes people make in interviews if|NA
 00:16:41|00:16:47|you liked the video give it a like and|NA
-00:16:42|00:16:47|subscribe and I'll see you next time bye|NA
+00:16:42|00:16:47|subscribe and I'll see you next time bye </st>|NA
